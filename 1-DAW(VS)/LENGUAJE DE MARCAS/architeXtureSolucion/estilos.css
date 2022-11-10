@@ -1,0 +1,243 @@
+/*
+    FALTA
+    - altura del aside
+    - borde del main
+    
+*/
+
+
+/**  Reseteo  **/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** LAYOUT **/
+
+/*** display/position/float ***/
+
+nav li{
+
+    display: inline-block;
+}
+
+header{
+
+        position: relative;
+}
+
+header img{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside{
+
+    float: left;
+}
+
+#articulos{
+
+    float: left;
+}
+
+footer section{
+
+    float: left;
+}
+/*** height/width/padding/border/margin ***/
+
+body{
+
+    margin: 5px 3%;
+}
+
+nav{
+
+    height: 60px;
+    padding: 2% 5% 1% 5%;
+    margin-bottom: 10px;
+}
+
+nav li{
+
+    width: 16%;
+}
+
+header{
+
+    padding: 20px 2%;
+}
+
+header p{
+
+    height: 125px;
+    width: 50%;
+    padding-top: 30px;
+}
+
+
+aside{
+
+    width: 26%;
+    padding: 10px 2%;
+}
+
+aside section{
+
+    padding-bottom: 15px;
+}
+
+aside h3{
+
+    padding-bottom: 10px;
+}
+
+aside ul{
+
+    padding-left: 7%;
+}
+
+#articulos{
+
+    width: 74%;
+    padding: 10px 3%;
+    border-left: 4px solid #1f4677;
+
+}
+
+#articulos article{
+
+    padding-bottom: 30px;
+
+}
+
+#articulos h2{
+
+    padding-bottom: 30px;
+}
+
+#articulo2{
+
+    height: 363.5px;
+}
+
+
+
+footer{
+
+    clear: left;
+    padding: 20px 2%;
+    height: 120px;
+}
+
+footer section{
+
+    width: 24%;
+}
+
+footer h4{
+
+    padding-bottom: 10px;
+    font-size: 110%;
+}
+
+footer ul{
+
+    padding-left: 8%;
+}
+
+/** propiedades en comun **/
+
+a{
+
+    text-decoration: none;
+    color: #4b7fc4;
+}
+
+/** BODY **/
+
+body{
+
+    background-color: #1f4677;
+}
+
+/** NAVEGACION **/
+
+nav{
+
+    background-image: url("images/bluePrintPaper.png");
+    font-weight: bold;
+    font-size: 150%;
+}
+
+nav a{
+
+    color: #1f4677;
+}
+
+
+/** HEADER **/
+
+header{
+
+    background-color: #d2e1f6;
+}
+
+header p{
+
+    font-style: oblique;
+}
+
+/** ASIDE **/
+
+aside{
+
+    background-color: white;
+
+}
+
+/** main **/
+
+/** ARTICULOS **/
+
+#articulos{
+
+    background-color: white;
+}
+
+#articulos h2{
+
+    color: #2f4f79;
+}
+
+
+/** FOOTER **/
+
+footer{
+
+    background-color: #d2e1f6;
+}
+
+
+
+
+/** colores
+
+fondo body #1f4677
+
+fondo header #d2e1f6
+
+fuente nav #1f467a
+
+fuente enlaces #4b7fc4
+
+fuente articulos texto #8e8e8e
+
+fuente titulo articulos #2f4f79
+
+**/

@@ -1,0 +1,174 @@
+/**  BODY  **/
+
+body{
+
+    background-color: #1f4677;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/** NAVEGACION **/
+
+nav{
+
+    background-image: url(images/bluePrintPaper.png);
+    height: 100%;
+    width: 100%;
+    font-size: 150%;
+    position: relative;
+    
+}
+
+nav li{
+
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+a{
+
+    color: #1f4679;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/** HEADER **/
+
+header{
+
+    background-color: #d2e1f6;
+    margin-top: 2%;
+    position: relative;
+    height: 180px;
+    padding-top: 2%;
+    padding-left: 2%;
+
+
+    
+}
+
+header p{
+
+    color: #8e8e8e;
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    left: 2%;
+    top: 37%;
+}
+
+header img{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header h1{
+
+    display: inline;
+
+}
+
+/** ASIDE **/
+
+aside{
+
+    background-color: white;
+    width: 21.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    border-right: #1f4677 solid 4px;
+}
+
+aside h3{
+
+    font-weight: bold;
+}
+
+aside ul{
+
+    padding-left: 7%;
+}
+
+/** MAIN **/
+
+#main{
+
+    background-color: white;
+    color: #8e8e8e;
+    width: 70.15%;
+    height: 595.5px;
+    position: relative;
+    left: 25.51%;
+    bottom: 597px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.1%;
+    border-left: #1f4677 solid 4px;
+
+}
+
+#main h2{
+
+    color: #2f4f79;
+}
+/** FOOTER **/
+
+footer{
+
+    background-color: #d2e1f6;
+}
+
+footer section{
+
+    display: inline-block;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 7%;
+    padding-bottom: 2.5%;
+    width: 15%;
+}
+footer h4{
+
+    font-size: 120%;
+}
+
+#blabla{
+
+    width: 15%;
+    text-align: justify;
+    float: right;
+    padding-left: 0;
+
+}
+
+footer ul{
+
+    padding-left: 7%;
+}
+
+
+/** colores
+
+fondo body #1f4677
+
+fondo header #d2e1f6
+
+fuente nav #1f467a
+
+fuente enlaces #4b7fc4
+
+fuente articulos texto #8e8e8e
+
+fuente titulo articulos #2f4f79
+
+**/

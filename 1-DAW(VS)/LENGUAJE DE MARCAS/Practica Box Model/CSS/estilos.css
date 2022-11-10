@@ -1,0 +1,122 @@
+/*** RESETEO DE PROPIEDADES ***/
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* no incluye ni los bordes ni el padding en el ancho */
+}
+
+/*** LAYOUT ***/
+
+/*** display/position/float ***/
+
+nav li{
+
+    display: inline-block ;
+}
+
+header{
+
+    position: relative;
+}
+
+header img{
+
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+main{
+
+    position: relative;
+}
+
+main section{
+
+    float: left;
+}
+
+footer{
+
+    clear: left;
+}
+
+footer section{
+
+    float: left;
+    
+}
+/*** height/width/padding/border/margin ***/
+
+nav{
+
+}
+
+nav li{
+
+    width: 33%;
+    padding: 15px 0;
+}
+
+header{
+
+
+}
+
+header p{
+
+    width: 90%;
+    height: 100px;
+}
+
+main section{
+
+    width: 50%;
+    padding-left: 1%;
+}
+
+footer section{
+
+    width: 25%;
+    padding-left: 1%;
+    margin-top: 5px;
+}
+/*** propiedades generales ***/
+
+a {
+
+    text-decoration: none;
+}
+
+ul{
+
+    list-style: none;
+}
+
+/*** NAV ***/
+
+nav{
+
+    text-align: center;
+    background-color: #ff6309;
+}
+
+nav a{
+
+    color: #c90016;
+}
+
+nav li:hover{ /* :hover para efectos con el raton sobre el elemento */
+
+    background-color: white;
+    font-weight: bold;
+}
+
+/*** FOOTER ***/
+
+footer{
+
+    text-align: center;
+}
