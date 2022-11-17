@@ -29,7 +29,8 @@ public class MenuFrase_GuillermoRodriguez {
 
         //variables
 
-        char opcion =' ';
+        String opcionLeida = "";
+        char opcion = ' ';
         String frase = "";
 
         //bucle do while para el menu
@@ -48,9 +49,19 @@ public class MenuFrase_GuillermoRodriguez {
             System.out.println("Opción e - Limpiar frase");
             System.out.println("Opción s - Salir");
 
-            //Scanner de la opcion
+            //control de que la opcion no este vacia y sea un solo caracter
+                
+            opcionLeida = sc.nextLine();
+        
+            while (opcionLeida.isEmpty() || opcionLeida.length() > 1){
 
-            opcion = sc.nextLine().toLowerCase().charAt(0);
+                System.out.println("introduce un caracter correcto");
+
+                opcionLeida = sc.nextLine();
+
+            }
+
+            opcion = opcionLeida.toLowerCase().charAt(0);
 
             //condiciones de la opcion
             
@@ -61,6 +72,7 @@ public class MenuFrase_GuillermoRodriguez {
                     System.out.println("introduce lo que quieres añadir");
 
                     frase = frase.concat(sc.nextLine()) + " "; // concateno un espacio para que al introducir palabras salgan separadas
+                    frase = frase.trim(); // para eliminar espacios al princio y al final
 
                     break;
 
@@ -87,7 +99,17 @@ public class MenuFrase_GuillermoRodriguez {
                 
                     System.out.println("introduce un caracter");
 
-                    char caracter = sc.nextLine().toLowerCase().charAt(0); //escaneo el caracter en minusculas
+                    String caracterLeido = sc.nextLine(); //leo entrada
+
+                    while (caracterLeido.isEmpty() || caracterLeido.length() > 1){ //control de que entrada sea un solo caracter y sea valido
+
+                        System.out.println("introduce un caracter correcto");
+        
+                        caracterLeido = sc.nextLine();
+        
+                    }
+
+                    char caracter = caracterLeido.toLowerCase().charAt(0); //obtengo el caracter en minusculas
 
                     String fraseMinus = frase.toLowerCase(); //vierto la frase en minusculas en otro String
 
@@ -157,8 +179,6 @@ public class MenuFrase_GuillermoRodriguez {
         /*
          * solucionar:
          * - al añadir espacios, en la opcion de numero de palabras no salen las correctas
-         * - al pulsar enter a la hora de elegir opcion el programa falla
-         * - preguntar si al limpiar frase, la opcion b tiene que indicar la frase anterior
          * - en la opcion d si elijo como caracter espacio siempre lo encuentra ya que al concatenar siempre lleva un espacio
          */
 
