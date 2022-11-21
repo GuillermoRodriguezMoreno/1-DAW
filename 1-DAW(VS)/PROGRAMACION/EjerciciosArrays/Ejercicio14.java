@@ -9,7 +9,7 @@ public class Ejercicio14 {
 
         String []palabras = new String[8];
         String []colores = new String[9];
-        colores = {verde, rojo, azul, amarillo, naranja, rosa, negro, blanco, morado};
+        //colores = {verde, rojo, azul, amarillo, naranja, rosa, negro, blanco, morado};
 
     }
 
