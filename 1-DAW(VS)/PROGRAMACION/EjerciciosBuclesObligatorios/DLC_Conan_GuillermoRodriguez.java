@@ -3,13 +3,16 @@
  * Este es un DLC del juego de Conan en el cual añado algunas caracteristicas extras, las cuales detallo a continuacion.
  *  
  * EL CODIGO ESTA BASTANTE SUCIO Y ES MUY MUY REDUNDANTE, declaro demasiadas variables que podria ahorrarmelas reutilizando otras.
- * he intentado usar funciones pero aun no tengo mucha practica con ellas.
+ * he intentado usar funciones pero aun no tengo mucha practica con ellas. Ademas he ido añadiendo codigo mientras encontraba errores,
+ * ensuciando aun mas el código
  * 
  * He hecho varias pruebas y mas o menos funciona. pero claro no he barajado todas las opciones y seguramente alguna vaya mal.
  * Seguro que lo que queria hacer se podria hacer de manera mas limpia y funcional, pero empece hacerlo asi y mas o menos
  * funcionaba y no queria tocarlo demasiado, ya no sabia donde tenia la cabeza!, me ha costado su tiempo.
  * 
- * Me falta añadir las entradas por teclado para que sea mas interactivo y no salga todo el texto de golpe.
+ * Me falta añadir control de lectura por teclado sea un caracter correcto.
+ * Me falta añadir que pelea fue mas larga.
+ * 
  * 
  *  // DOCUMENTACION //
  * 
@@ -54,11 +57,19 @@
  * 
  * - Añado una segunda fase a la pela con el Jefe, en la cual tiene las dos habilidades anteriores juntas.
  * 
+ * - Añado estadisticas de la partida como muertes de enemigos totales, etc...
+ * 
  * Finalmente me gustaria retocar la salida por pantalla, añadiendo color al texto para destacar cuando Conan recibe daño,
  * se cura, mata a un enemigo, etc... tambien me gustaria añadir una barra de vida y de habilidad, representar las monedas, etc...
  * todo usando unicamente caracteres.
  * 
+ * // Observaciones
+ * 
+ *  - toda la rama de hacha creo que funciona
+ * 
 */
+
+// EL MAIN EMPIEZA EN LA LINEA 662 -------------------------------------------
 
 package EjerciciosBuclesObligatorios;
 
@@ -66,7 +77,7 @@ import java.util.Scanner;
 
 public class DLC_Conan_GuillermoRodriguez {
 
-    //FUNCIONES
+    //----------------- FUNCIONES ---------------------------------------------
 
     // Mostrar menu
 
@@ -641,7 +652,9 @@ public class DLC_Conan_GuillermoRodriguez {
 
     }
 
-    /* FIN FUNCIONES */
+    /* ------------------------- FIN FUNCIONES ------------------------------ */
+
+    // --------------------- INICIO MAIN ---------------------------------
 
 
     public static void main(String[] args) {
@@ -674,7 +687,7 @@ public class DLC_Conan_GuillermoRodriguez {
         final int PRECIO_POCION_HABILIDAD = 10;
         final int PRECIO_ARMA = 15;
 
-        final int PUNTOS_HABILIDAD = 10;
+        final int PUNTOS_HABILIDAD = 20;
 
         final int VIDA_BOSS = 2;
 
@@ -742,6 +755,8 @@ public class DLC_Conan_GuillermoRodriguez {
         boolean dormir = false;
         boolean instakillBoss = false;
 
+        boolean conanUsaInstakill = false;
+
         // contadores
 
         int contadorDueloInicial = 0;
@@ -759,7 +774,12 @@ public class DLC_Conan_GuillermoRodriguez {
 
             contadorPartida ++;
 
-            contadorEnemigo = 1; // reset
+            // reset
+
+            contadorEnemigo = 1; 
+            contadorHabilidad = 0;
+            proteccion = false;
+            
 
             mostrarMenu(); // Muestro menu
 
@@ -770,6 +790,8 @@ public class DLC_Conan_GuillermoRodriguez {
             mostrarArma(idArma); // Muestro arma elegida
 
             System.out.println("Ahora que has elegido arma, es hora de comenzar tu aventura...");
+
+            sc.nextLine(); // pausa
 
             /* GENERACION ENEMIGOS */
 
@@ -788,6 +810,10 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 contadorDuelo ++; // Incremento contador de duelo
                 contadorDueloInicial ++;
+
+                fatality = false; // reset
+                proteccion = false;
+                if (conanUsaInstakill) instakill = false;
 
                 // No se como hacer este control antes del bucle
 
@@ -810,6 +836,8 @@ public class DLC_Conan_GuillermoRodriguez {
                     System.out.println("Oh no!, Ha aparecido una horda furiosa de " + numeroEnemigos + " " + nombreEnemigo);
                     System.out.println("Preparate para la batalla!");
                 }
+
+                sc.nextLine(); // pausa
 
                 /* COMIENZO DEL SISTEMA DE CONBATE */
 
@@ -835,8 +863,6 @@ public class DLC_Conan_GuillermoRodriguez {
                     //Pregunto si quieres usar item
 
                     usarItem = sc.nextLine().charAt(0);
-
-                    sc.nextLine(); //Limpiar buffer
 
                     if (usarItem == 's'){ // Si se usa el item
 
@@ -871,6 +897,8 @@ public class DLC_Conan_GuillermoRodriguez {
                     }
 
                 }
+
+                sc.nextLine(); // pausa
 
                 /* FIN TENER UN ITEM */
 
@@ -917,6 +945,7 @@ public class DLC_Conan_GuillermoRodriguez {
                             case 1: // Hacha -> Instakill ese turno
 
                                 instakill = true; // Para hacer instakill le doy un valor muy alto al ATQ de conan, seguro que hay otra forma de hacerlo
+                                conanUsaInstakill = true;
 
                                 System.out.println("Has usado la habilidad INSTAKILL del arma Hacha!, mataras a tu enemigo instantaneamente");
 
@@ -944,6 +973,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 }
 
+                sc.nextLine(); // pausa
+
                 /* FIN TENER HABILIDAD CARGADA */
 
                 /* MOSTRAR ESTADISTICAS */
@@ -956,12 +987,19 @@ public class DLC_Conan_GuillermoRodriguez {
 
                     System.out.println("Conan ataca con " + ataqueConan + " ATQ, OCURRE UN FATALITY!");
 
+                    sc.nextLine(); // pausa
+
                 } else {
 
                     System.out.println("Conan ataca con " + ataqueConan + " ATQ");
+
+                    sc.nextLine(); // pausa
+
                     System.out.println("Enemigo " + nombreEnemigo + " " + contadorEnemigo + " defiende con " + defensaEnemigo + " DEF");
 
                 }
+
+                sc.nextLine(); // pausa
 
                 /* FIN MOSTRAR ESTADISTICAS */
 
@@ -969,18 +1007,21 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 // si ocurre pifia
 
-                if (ataqueConan <= 5 && !fatality){
+                if (ataqueConan <= 5 && fatality == false && instakill == false){
 
                     vidaActualConan --;
 
                     System.out.println("Conan es un manco y ha sufrido una PIFIA, por lo cual se autolesiona perdiendo una vida");
                     System.out.println("Conan tiene " + vidaActualConan + " vidas");
 
+                    sc.nextLine(); // pausa
+
                 }
+
 
                 // Si conan gana o ocurre fatality o instakill
 
-                else if (ataqueConan > defensaEnemigo || fatality == true || instakill == true && vidaActualConan > 0){
+                else if ((ataqueConan > defensaEnemigo || fatality == true || instakill == true) && vidaActualConan > 0){
 
                     /*
                      * else if porque puede ser que aun ocurriendo la pifia conan gane
@@ -1003,7 +1044,11 @@ public class DLC_Conan_GuillermoRodriguez {
                     System.out.println("Conan ha machacado al enemigo y ha ganado " + PUNTOS_HABILIDAD + " puntos de habilidad!");
                     System.out.println("Puntos de Habilidad actual: " + contadorHabilidad);
 
+                    sc.nextLine(); // pausa
+
                     System.out.println("El enemigo ha soltado " + monedasSoltadas + " monedas!");
+
+                    sc.nextLine(); // pausa
 
                     // Si tengo el arma Baston hago efecto de su habilidad pasiva
 
@@ -1016,6 +1061,8 @@ public class DLC_Conan_GuillermoRodriguez {
                         System.out.println("Por tener el baston te llevas 2 monedas extra!");
                     }
 
+                    sc.nextLine(); // pausa
+
                     System.out.println("Quedan " + numeroEnemigos + " enemigos"); // muestro enemigos restantes
 
                     /* APARICION DE TIENDA CON PROB 20% */
@@ -1026,7 +1073,11 @@ public class DLC_Conan_GuillermoRodriguez {
 
                         System.out.println("SE HA GENERADO UNA TIENDA!");
 
+                        sc.nextLine(); // pausa
+
                         mostrarEstadisticas(vidaActualConan, idArma, idItem, contadorHabilidad);
+
+                        sc.nextLine(); // pausa
 
                         idArmaTienda = generarArmaAleatoria(idArma); // Genero arma aleatoria de la tienda sin contar la actual
 
@@ -1059,6 +1110,8 @@ public class DLC_Conan_GuillermoRodriguez {
                             System.out.println("Enhora buena, has hecho al comerciante feliz!");
                             System.out.println("Te quedan " + monedasTotales + " monedas");
 
+                            sc.nextLine(); // pausa
+
                         }
 
                     }
@@ -1071,12 +1124,17 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 // Si enemigo defiende
 
-                if (ataqueConan <= defensaEnemigo && vidaActualConan > 0){
+                if (ataqueConan <= defensaEnemigo && vidaActualConan > 0 && instakill == false){
 
                     // Turno del enemigo
 
                     System.out.println("El enemigo " + nombreEnemigo + " " + contadorEnemigo + " ha defendido!");
+
+                    sc.nextLine(); // pausa
+
                     System.out.println("Turno del enemigo " + nombreEnemigo + " " + contadorEnemigo + "!");
+
+                    sc.nextLine(); // pausa
 
                     // Activacion de habilidad de enemigos si se dan las condiciones
 
@@ -1084,6 +1142,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
                         System.out.println("El enemigo " + nombreEnemigo + " " + contadorEnemigo + " ha activado su habilidad especial BUFF");
                         System.out.println("Su ATQ ha incrementado en 20!");
+
+                        sc.nextLine(); // pausa
 
                         ataqueEnemigo += 20;
 
@@ -1093,20 +1153,29 @@ public class DLC_Conan_GuillermoRodriguez {
 
                             tenerItem = false;
 
-                            System.out.println("El enemigo te ha robado el item con su habilidad especial!");
+                            System.out.println("El enemigo te ha robado el item con su habilidad especial! (si tienes)");
+
+                            sc.nextLine(); // pausa
 
                         }
 
                     }
 
                     System.out.println(nombreEnemigo + " " + contadorEnemigo + " ataca con " + ataqueEnemigo + " ATQ");
+
+                    sc.nextLine(); // pausa
+
                     System.out.println("Conan defiende con " + defensaConan + " DEF");
+
+                    sc.nextLine(); // pausa
 
                     // Si conan defiende o usa proteccion
 
                     if (ataqueEnemigo <= defensaConan || proteccion == true && vidaActualConan > 0){
 
                         System.out.println("Conan ha defendido!");
+
+                        sc.nextLine(); // pausa
                     }
 
                     // Si enemigo gana
@@ -1116,7 +1185,12 @@ public class DLC_Conan_GuillermoRodriguez {
                         vidaActualConan --; // Decremento vida actual de Conan
 
                         System.out.println(nombreEnemigo + " " + contadorEnemigo + " ha ganado!");
+
+                        sc.nextLine(); // pausa
+
                         System.out.println("Conan pierde una vida, Conan tiene " + vidaActualConan + " vidas");
+
+                        sc.nextLine(); // pausa
 
                     }
 
@@ -1140,6 +1214,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 System.out.println("Conan ha muerto entre terrible sufrimiento");
 
+                sc.nextLine(); // pausa
+
             // Si conan vive le espera otro reto
 
             }else{
@@ -1151,19 +1227,34 @@ public class DLC_Conan_GuillermoRodriguez {
                 System.out.println("Conan ha acabado con la horda de enemigos!...");
                 System.out.println("De repente el cielo comienza a oscurecerse...");
 
-                mostrarPiramide(tipoBoss); // Muestro por pantalla al BOSS, tipo o -> completa, tipo 1 -> hueca
+                sc.nextLine(); // pausa
 
                 System.out.println("");
 
+                mostrarPiramide(tipoBoss); // Muestro por pantalla al BOSS, tipo o -> completa, tipo 1 -> hueca
+
+                sc.nextLine(); // pausa
+
+                System.out.println("");
+                sc.nextLine(); // pausa
                 System.out.println("oh no! ha aparecido mi archienemigo, UNA PIRAMIDE!");
                 System.out.println("Conan se prepara para su batalla final!");
 
+                sc.nextLine(); // pausa
+
                 mostrarEstadisticas(vidaActualConan, idArma, idItem, contadorHabilidad); // Muestro la informacion del personaje antes de la batalla
+
+                sc.nextLine(); // pausa
 
                 System.out.println("Conan siente algo en su interior y de repente!... Su arma se convierte en un Tenedor completamente equilibrado!");
                 //elimino la posibilidad de pifia en el combate final
                 System.out.println("Conan expresa felizmente: Oh! gracias a esta arma ya no tendre que preocuparme por autolesionarme!");
+                
+                sc.nextLine(); // pausa
+                
                 System.out.println("Comienza la batalla final!");
+
+                sc.nextLine(); // pausa
 
                 if (tenerItem == true && idItem == 3) idItem = 1; // Convierto el item arma a una pocion de salud
 
@@ -1179,11 +1270,14 @@ public class DLC_Conan_GuillermoRodriguez {
 
                     proteccion = false;
                     buffAtq = false;
+                    instakillBoss = false;
 
                     // TURNO DE CONAN
 
 
                     System.out.println("Turno de Conan!");
+
+                    sc.nextLine(); // pausa
 
                     mostrarOpcionesCombate();
 
@@ -1199,6 +1293,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
                             System.out.println("Has elegido usar el item!");
 
+                            sc.nextLine(); // pausa
+
                             break;
 
                         case 2:
@@ -1206,68 +1302,102 @@ public class DLC_Conan_GuillermoRodriguez {
                             habilidad = true;
 
                             System.out.println("Has elegido usar tu habilidad!");
+
+                            sc.nextLine(); // pausa
                     }
 
                     // si eliges usar item
 
-                    if (item == true && tenerItem == true){
+                    if (item == true){
 
-                        tenerItem = false; // Ya no tienes item
+                        if (tenerItem == true) {
 
-                        switch (idItem){ // Usar el item segun cual sea
+                            tenerItem = false; // Ya no tienes item
 
-                            case 1: // Pocion salud
+                            switch (idItem){ // Usar el item segun cual sea
 
-                                vidaActualConan = VIDA_CONAN; // Restaura completamente la salud
+                                case 1: // Pocion salud
 
-                                System.out.println("Has usado una Pocion de Salud!, tu vida actual es " + vidaActualConan);
+                                    vidaActualConan = VIDA_CONAN; // Restaura completamente la salud
 
-                                break;
+                                    System.out.println("Has usado una Pocion de Salud!, tu vida actual es " + vidaActualConan);
+                                    
 
-                            case 2: // Pocion Habilidad
+                                    break;
 
-                                tenerHabilidad = true; // Carga la habilidad de arma completamente
+                                case 2: // Pocion Habilidad
 
-                                System.out.println("Has usado una Pocion de Habilidad!, tu habilidad esta completamente cargada! ");
+                                    tenerHabilidad = true; // Carga la habilidad de arma completamente
 
-                                break;
+                                    System.out.println("Has usado una Pocion de Habilidad!, tu habilidad esta completamente cargada! ");
+
+                                    break;
+                            }
+
                         }
-                    }else if (item == true && tenerItem == false) System.out.println("No tienes items idiota!");
+
+                        else{
+
+                            System.out.println("No tienes item idiota!");
+                        }
+                    }
+
+                        sc.nextLine(); // pausa
+
+                    sc.nextLine(); // pausa
 
                     // Si eliges usar habilidad
 
-                    if (habilidad == true && tenerHabilidad == true){
+                    if (habilidad == true){
 
-                        tenerHabilidad = false; // reset
+                        if (tenerHabilidad == true) {
 
-                        mostrarHabilidadesArma();
+                            tenerHabilidad = false; // reset
 
-                        habilidadDeArma = sc.nextInt();
+                            mostrarHabilidadesArma();
 
-                        if (habilidadDeArma == 1){
+                            habilidadDeArma = sc.nextInt();
 
-                            System.out.println("Has elegido curarte!");
+                            if (habilidadDeArma == 1){
 
-                            vidaActualConan ++;
+                                System.out.println("Has elegido curarte!");
 
-                        }else if (habilidadDeArma == 2) {
+                                sc.nextLine(); // pausa
 
-                            System.out.println("Has elegido protegerte!");
+                                vidaActualConan ++;
 
-                            proteccion = true;
+                            }else if (habilidadDeArma == 2) {
 
-                        }else if (habilidadDeArma == 3) {
+                                System.out.println("Has elegido protegerte!");
 
-                            System.out.println("Has elegido un Buff de ATQ");
+                                sc.nextLine(); // pausa
 
-                            buffAtq = true;
+                                proteccion = true;
+
+                            }else if (habilidadDeArma == 3) {
+
+                                System.out.println("Has elegido un Buff de ATQ");
+
+                                sc.nextLine(); // pausa
+
+                                buffAtq = true;
+                            }
                         }
 
-                    }else if (habilidad == true && tenerHabilidad == false) System.out.println("No tienes la Habilidad cargada pelele!");
+                        else{
+
+                            System.out.println("no tienes la habilidad cargada pelele!");
+                        }
+
+                    }
+
+                    sc.nextLine(); // pausa
 
                     // INICIO ATAQUE
 
                     System.out.println("Comienza el ATAQUE!");
+
+                    sc.nextLine(); // pausa
 
                     //genero estadisticas
 
@@ -1301,12 +1431,19 @@ public class DLC_Conan_GuillermoRodriguez {
 
                         System.out.println("ZZZzzzzzz");
                         System.out.println("Conan esta dormido....");
+
+                        sc.nextLine(); // pausa
                     }
 
                     else{
 
                         System.out.println("Conan ataca con " + ataqueConan + " de ATQ");
+
+                        sc.nextLine(); // pausa
+
                         System.out.println(nombreEnemigo + " defiende con " + defensaEnemigo + " de DEF");
+
+                        sc.nextLine(); // pausa
 
                     }
 
@@ -1317,6 +1454,8 @@ public class DLC_Conan_GuillermoRodriguez {
                         vidaBoss --;
 
                         System.out.println("Conan ha dañado seriamente al enemigo!");
+
+                        sc.nextLine(); // pausa
                     }
 
                     // Si enemigo defiende
@@ -1327,6 +1466,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
                             System.out.println(nombreEnemigo + " ha conseguido defender!");
 
+                            sc.nextLine(); // pausa
+
                         }
 
                         //Turno enemigo
@@ -1335,21 +1476,35 @@ public class DLC_Conan_GuillermoRodriguez {
 
                         System.out.println("Turno de " + nombreEnemigo);
 
+                        sc.nextLine(); // pausa
+
                         if(dormir == true) {
 
                             System.out.println("La Habilidad Especial de " + nombreEnemigo + " ha dormido a Conan, en el siguiete turno estara dormido y no atacará!...");
+                        
+                            sc.nextLine(); // pausa
+
                         }
 
                         System.out.println(nombreEnemigo + " ataca con " + ataqueEnemigo + " ATQ");
 
+                        sc.nextLine(); // pausa
+
                         if(instakillBoss == true){
 
                             System.out.println("Ha ocurrido un instakill!");
+
+                            sc.nextLine(); // pausa
                         }
 
                         // Si he elegido protegerme
 
-                        if (proteccion == true) System.out.println("Conan ha defendido con PROTECCION");
+                        if (proteccion == true) {
+                            
+                            System.out.println("Conan ha defendido con PROTECCION");
+
+                            sc.nextLine(); // pausa
+                        }
 
                         else {
 
@@ -1358,11 +1513,15 @@ public class DLC_Conan_GuillermoRodriguez {
                                 vidaActualConan = 0;
 
                                 System.out.println(nombreEnemigo + "Ha conseguido un golpe certero y ha acabado completamente con Conan...");
+                            
+                                sc.nextLine(); // pausa
                             }
 
                             else {
 
                                 System.out.println("Conan defiende con " + defensaConan + " de DEF");
+
+                                sc.nextLine(); // pausa
 
                                 // si enemigo gana
 
@@ -1370,15 +1529,21 @@ public class DLC_Conan_GuillermoRodriguez {
 
                                     System.out.println(nombreEnemigo + " ha herido a conan!");
 
+                                    sc.nextLine(); // pausa
+
                                     vidaActualConan --;
 
                                     System.out.println("Ha Conan le quedan " + vidaActualConan + " vidas");
+
+                                    sc.nextLine(); // pausa
 
                                 // si conan defiende    
 
                                 }else if (ataqueEnemigo <= defensaConan){
 
                                     System.out.println("Conan ha conseguido defender!");
+
+                                    sc.nextLine(); // pausa
                                 }
 
                             }
@@ -1397,6 +1562,8 @@ public class DLC_Conan_GuillermoRodriguez {
                     
                     System.out.println("ha pesar de todos sus esfuerzos conan ha sucumbido a la oscuridad");
 
+                    sc.nextLine(); // pausa
+
                 }
 
                 // segunda fase Boss
@@ -1405,21 +1572,30 @@ public class DLC_Conan_GuillermoRodriguez {
                 else{
 
                     System.out.println("Conan sale triunfante de la batalla, mirando el cadaver de su enemigo con desprecio");
+                    sc.nextLine(); // pausa
                     System.out.println("...");
+                    sc.nextLine(); // pausa
                     System.out.println("De repente se escucha sonidos aterradores...");
+                    sc.nextLine(); // pausa
 
                     System.out.println("");
                     mostrarPiramideDoble();
                     System.out.println("");
 
+                    sc.nextLine(); // pausa
                     System.out.println(" JA JA JA creias que me habias vencido? aun te queda tarea por hacer!");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan: Oh no! otra vez no... esto parece Dark Souls...");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan se prepara para su batalla final, esta vez de verdad");
-
+                    sc.nextLine(); // pausa
                     System.out.println("Conan esta exhausto por lo que para esta batalla solo cuenta con su destreza con el arma");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan tiene " + vidaActualConan + " vidas, es todo un milagro...");
+                    sc.nextLine(); // pausa
 
                     System.out.println("Turno de Conan!");
+                    sc.nextLine(); // pausa
 
                     nombreEnemigo = "PIRAMIDE DOBLE ATERRADORA";
 
@@ -1427,7 +1603,9 @@ public class DLC_Conan_GuillermoRodriguez {
                     defensaEnemigo = obtenerValor(DEF_PIRAMIDE_DOBLE);
 
                     System.out.println("Conan ataca con " + ataqueConan + " de ATQ");
+                    sc.nextLine(); // pausa
                     System.out.println(nombreEnemigo + " defiende con " + defensaEnemigo + " de DEF");
+                    sc.nextLine(); // pausa
 
                     while(vidaActualConan > 0 && vidaBoss > 0){
 
@@ -1440,6 +1618,7 @@ public class DLC_Conan_GuillermoRodriguez {
                             vidaBoss --;
 
                             System.out.println("Conan ha dañado seriamente al enemigo!");
+                            sc.nextLine(); // pausa
 
                         }
 
@@ -1451,13 +1630,16 @@ public class DLC_Conan_GuillermoRodriguez {
                                 
                                 System.out.println("ZZZZzzzzzz");
                                 System.out.println("Conan esta dormido...");
+                                sc.nextLine(); // pausa
                             }
 
                             else  System.out.println(nombreEnemigo + " ha conseguido defender!");
+                            sc.nextLine(); // pausa
 
                             //Turno enemigo
 
                             System.out.println("Turno de " + nombreEnemigo);
+                            sc.nextLine(); // pausa
 
                             // Genero estadisticas y habilidades boss
                             
@@ -1470,7 +1652,9 @@ public class DLC_Conan_GuillermoRodriguez {
 
                                 vidaActualConan = 0;
                                 System.out.println("Ha ocurrido una INSTAKILL");
+                                sc.nextLine(); // pausa
                                 System.out.println(nombreEnemigo + " ha conseguido un golpe certero y ha acabado completamente con Conan...");
+                                sc.nextLine(); // pausa
                             }
 
                             else {
@@ -1478,26 +1662,32 @@ public class DLC_Conan_GuillermoRodriguez {
                                 if(dormir == true){ // Si boss duerme a conan
 
                                 System.out.println("La Habilidad Especial de " + nombreEnemigo +" ha conseguido dormir a Conan!, por lo que en el siguiente turno no atacará!");
+                                sc.nextLine(); // pausa
                             }
 
                             System.out.println(nombreEnemigo + " ataca con " + ataqueEnemigo + " ATQ");
+                            sc.nextLine(); // pausa
                             System.out.println("Conan defiende con " + defensaConan + " de DEF");
+                            sc.nextLine(); // pausa
 
                                 // si enemigo gana
 
                                 if (ataqueEnemigo > defensaConan && proteccion == false){
 
                                     System.out.println(nombreEnemigo + " ha herido a conan!");
+                                    sc.nextLine(); // pausa
 
                                     vidaActualConan --;
 
                                     System.out.println("Ha Conan le quedan " + vidaActualConan + " vidas");
+                                    sc.nextLine(); // pausa
 
                                 // si conan defiende    
 
                                 }else if (ataqueEnemigo <= defensaConan){
 
                                     System.out.println("Conan ha conseguido defender!");
+                                    sc.nextLine(); // pausa
                                 }
 
                             }   
@@ -1512,7 +1702,11 @@ public class DLC_Conan_GuillermoRodriguez {
 
                 // resultado batalla final
 
-                if( vidaActualConan == 0) System.out.println("ha pesar de todos sus esfuerzos conan ha sucumbido a la oscuridad");
+                if( vidaActualConan == 0) {
+                    
+                    System.out.println("ha pesar de todos sus esfuerzos conan ha sucumbido a la oscuridad");
+                    sc.nextLine(); // pausa
+                }
 
                 else{
 
@@ -1520,15 +1714,23 @@ public class DLC_Conan_GuillermoRodriguez {
                     contadorMuertesEnemigos ++;
 
                     System.out.println("Conan PORFIN ha derrotado a su enemigo!");
+                    sc.nextLine(); // pausa
                     System.out.println("despues de todo el sufrimiento pasado en incontables batallas...");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan se dirige triunfante a la sala del tesoro!...");
+                    sc.nextLine(); // pausa
                     System.out.println("En la sala del tesoro Conan se encuentra con una preciosa princesa custodiada por una turtuga...");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan se libra facilmente de la tortuga y junto a la princesa se dirigen a la salida del Castillo");
+                    sc.nextLine(); // pausa
                     System.out.println("Conan y la princesa se casan, son felices y comen perdices!");
+                    sc.nextLine(); // pausa
                     System.out.println("FIN");
                 }
 
             }
+
+            sc.nextLine(); // pausa
 
             System.out.println("-------------- Estadisticas Totales De La Partida --------------");
 
@@ -1544,6 +1746,8 @@ public class DLC_Conan_GuillermoRodriguez {
 
 
         }while(seguirPartida == 's');
+
+        sc.nextLine(); // pausa
 
         System.out.println("--------- Etadisticas Totales Del Juego --------------");
 
