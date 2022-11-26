@@ -6,12 +6,13 @@
  * he intentado usar funciones pero aun no tengo mucha practica con ellas. Ademas he ido añadiendo codigo mientras encontraba errores,
  * ensuciando aun mas el código
  * 
- * He hecho varias pruebas y mas o menos funciona. pero claro no he barajado todas las opciones y seguramente alguna vaya mal.
+ * He hecho varias pruebas y mas o menos funciona. pero claro, no he barajado todas las opciones (necesito Beta testers! xD) y seguramente alguna vaya mal.
  * Seguro que lo que queria hacer se podria hacer de manera mas limpia y funcional, pero empece hacerlo asi y mas o menos
  * funcionaba y no queria tocarlo demasiado, ya no sabia donde tenia la cabeza!, me ha costado su tiempo.
  * 
  * Me falta añadir control de lectura por teclado sea un caracter correcto.
  * Me falta añadir que pelea fue mas larga.
+ * Me falta Pausas sean mas correctas muchas veces hay que pulsar enter dos veces para continuar
  * 
  * 
  *  // DOCUMENTACION //
