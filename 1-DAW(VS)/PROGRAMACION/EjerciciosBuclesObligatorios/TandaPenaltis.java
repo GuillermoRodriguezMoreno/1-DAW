@@ -145,6 +145,16 @@ public class TandaPenaltis {
         int golesJugador = 0;
         int golesCpu = 0;
 
+        // extras
+
+        int contadorTirosJugador = 0;
+        int contadorTirosCpu = 0;
+
+        int contadorTirosFalladosJugador = 0;
+        int contadorTirosFalladosCpu = 0;
+        int contadorTirosParadosJugador = 0;
+        int contadorTirosParadosCpu = 0;
+
         System.out.println("indica tu nombre");
 
         nombreJugador = sc.nextLine();
@@ -167,13 +177,21 @@ public class TandaPenaltis {
 
             // si el numero de penaltis de la tanda supera 10 se reinicia para iniciar una nueva tanda
 
-            if (contadorPenaltiActual > 10) contadorPenaltiActual = 0;
+            if (contadorPenaltiActual > 10) {
+                
+                contadorPenaltiActual = 0;
+
+                resultadoCpu = "-----";
+                resultadoJugador= "-----";
+            }
 
             // si el penalti es impar entonces es el turno del jugador
 
             if(contadorPenaltiActual%2 != 0){
 
                 turnoJugador = true;
+
+                contadorTirosJugador ++;
 
                 System.out.println(nombreJugador + " tira (izquierda (i), derecha (d) o centro (c)):");
 
@@ -192,6 +210,8 @@ public class TandaPenaltis {
             else{
 
                 turnoJugador = false;
+
+                contadorTirosCpu ++;
 
                 System.out.println(nombreJugador + " Intenta parar (izquierda (i), derecha (d) o centro (c)):");
 
@@ -217,9 +237,23 @@ public class TandaPenaltis {
 
             if (fallo == true){
 
+                // para extra pocentaje de fallo
+
+                if (turnoJugador == true){
+
+                    contadorTirosFalladosJugador ++;
+                }
+
+                else{
+
+                    contadorTirosFalladosCpu ++;
+                }
+
+                // fin extra
+
                 gol = false;
 
-                System.out.println("Tiro afuera");
+                System.out.println("- TIRO AFUERA -");
             }
 
             // salida por pantalla si hay gol
@@ -234,6 +268,20 @@ public class TandaPenaltis {
             else{
 
                     System.out.println("- PARADA -");
+
+                    // extra porcetaje de paradas
+
+                    if (turnoJugador == true){
+
+                        contadorTirosParadosCpu ++;
+                    }
+
+                    else{
+
+                        contadorTirosParadosJugador ++;
+                    }
+
+                    // Fin extra
             }
 
             // se actualiza los resultados graficos del penalti actual
@@ -298,7 +346,21 @@ public class TandaPenaltis {
 
         System.out.println("Ha ganado " + ganador);
 
+        // salida por pantalla de extras
+
+        float porcentajeFalloJugador = ((float)contadorTirosFalladosJugador/(float)contadorTirosJugador) * 100;
+        float porcentajeFalloCpu = ((float)contadorTirosFalladosCpu/(float)contadorTirosCpu) * 100;
+
+        float porcentajeParadasJugador = ((float)contadorTirosParadosJugador/(float)contadorTirosCpu) * 100;
+        float porcentajeParadasCpu = ((float)contadorTirosParadosCpu/(float)contadorTirosJugador) * 100;
+
         System.out.println("Penaltis totales: " + contadorTotalPenalti);
+
+        System.out.println("Porcentaje de penaltis fallados por " + nombreJugador +" : " + porcentajeFalloJugador);
+        System.out.println("Porcentaje de penaltis fallados por " + nombreCpu + " : " + porcentajeFalloCpu);
+
+        System.out.println("Porcentaje de penaltis parados por " + nombreJugador + " : " + porcentajeParadasJugador);
+        System.out.println("Porcentaje de penaltis parados por " + nombreCpu + " : " + porcentajeParadasCpu);
 
         sc.close();
     }  
