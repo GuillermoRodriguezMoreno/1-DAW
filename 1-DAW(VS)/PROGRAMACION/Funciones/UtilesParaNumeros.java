@@ -4,7 +4,7 @@ public class UtilesParaNumeros {
     
     public static void main(String[] args) {
 
-        System.out.println(posicionDeDigito(1234, 2));
+        System.out.println(juntaNumeros(1234, 567));
 
     }
 
@@ -117,5 +117,87 @@ public class UtilesParaNumeros {
         }
 
         return posicion;
+    }
+
+    // quita por detras
+
+    static int quitaPorDetras (int numero, int digitos){
+
+        for (int i = 1; i <= digitos; i++){
+
+            numero = numero / 10;
+        }
+
+        return numero;
+    }
+
+    // quita por delante
+
+    static int quitaPorDelante (int numero, int digitos){
+
+        numero = voltearNumero(numero);
+
+        numero = quitaPorDetras(numero, digitos);
+
+        numero = voltearNumero(numero);
+
+        return numero;
+    }
+
+    // pega por detras
+
+    static int pegaPorDetras(int numero, int digito){
+
+        numero = numero * 10 + digito;
+
+        return numero;
+    }
+
+    // pega por delante
+
+    static int pegaPorDelante(int numero, int digito){
+
+        numero = voltearNumero(numero);
+
+        numero = pegaPorDetras(numero, digito);
+
+        numero = voltearNumero(numero);
+
+        return numero;
+    }
+
+    // trozo de numero
+
+    static int trozoDeNumero (int numero, int izq, int der){
+
+        numero = quitaPorDelante(numero, izq);
+
+        numero = quitaPorDetras(numero, der);
+
+        return numero;
+    }
+
+    // junta numeros
+
+    static int juntaNumeros(int numero1, int numero2){
+
+        int numero = 0;
+
+        int pegar = 0;
+
+        numero2 = voltearNumero(numero2);
+
+        numero = numero1;
+
+        while (numero2 > 0){
+
+            pegar = numero2%10;
+
+            numero = pegaPorDetras(numero, pegar);
+
+            numero2 = numero2/10;
+        }
+
+        return numero;
     }
 }
