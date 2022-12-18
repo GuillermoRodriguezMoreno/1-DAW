@@ -1,10 +1,3 @@
-/*
-    FALTA
-    - altura del aside
-    - borde del main
-    
-*/
-
 
 /**  Reseteo  **/
 
@@ -35,6 +28,11 @@ header img{
     right: 0;
 }
 
+main{
+
+    float: left;
+}
+
 aside{
 
     float: left;
@@ -42,7 +40,7 @@ aside{
 
 #articulos{
 
-    float: left;
+    float: right;
 }
 
 footer section{
@@ -59,14 +57,16 @@ body{
 nav{
 
     height: 60px;
-    padding: 2% 5% 1% 5%;
+    padding: 2% 5% 2% 5%;
     margin-bottom: 10px;
 }
 
 nav li{
 
     width: 16%;
+    
 }
+
 
 header{
 
@@ -80,11 +80,14 @@ header p{
     padding-top: 30px;
 }
 
-
 aside{
 
-    width: 26%;
-    padding: 10px 2%;
+    width: 20%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-right: 4px solid #1f4677;
 }
 
 aside section{
@@ -104,15 +107,9 @@ aside ul{
 
 #articulos{
 
-    width: 74%;
+    width: 80%;
+    height: 100%;
     padding: 10px 3%;
-    border-left: 4px solid #1f4677;
-
-}
-
-#articulos article{
-
-    padding-bottom: 30px;
 
 }
 
@@ -124,6 +121,11 @@ aside ul{
 #articulo2{
 
     height: 363.5px;
+}
+
+#articulos p{
+
+    margin-bottom: 30px;
 }
 
 
@@ -138,6 +140,7 @@ footer{
 footer section{
 
     width: 24%;
+    text-align: justify;
 }
 
 footer h4{
@@ -148,7 +151,7 @@ footer h4{
 
 footer ul{
 
-    padding-left: 8%;
+    padding-left: 5%;
 }
 
 /** propiedades en comun **/
@@ -195,20 +198,15 @@ header p{
 
 /** ASIDE **/
 
-aside{
-
-    background-color: white;
-
-}
-
 /** main **/
 
-/** ARTICULOS **/
-
-#articulos{
+main{
 
     background-color: white;
+    
 }
+
+/** ARTICULOS **/
 
 #articulos h2{
 
