@@ -1209,6 +1209,7 @@ public class DLC_Conan_GuillermoRodriguez {
 
             // si conan MUERE se acaba la partida
 
+
             if (vidaActualConan == 0){
 
                 contadorMuertesConan ++;
