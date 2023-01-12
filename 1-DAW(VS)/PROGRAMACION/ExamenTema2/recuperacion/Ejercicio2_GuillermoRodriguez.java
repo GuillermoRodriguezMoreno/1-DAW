@@ -1,4 +1,4 @@
-package EjerciciosArrays.recuperacion;
+package ExamenTema2.recuperacion;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

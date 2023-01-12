@@ -11,7 +11,7 @@ public class ejemploClase {
         /*
          *  Crear array de String de 10 posiciones
          *  menu:
-         *  1- limpiar (null)
+         *  1 - limpiar (null)
          *  2 - insertar en posicion
          *  3 - mostrar valor en posicion 
          *  4 - llenar todo el array con " cadena n"

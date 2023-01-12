@@ -1,8 +1,13 @@
 package Funciones;
+/*  
+ *  NO COMPILA
+ *  No consigo entender la funcion canasta(turno)
+ */
 
-import javax.lang.model.util.ElementScanner6;
 
-/*
+
+/* comentarios propios:
+
  * funcion canasta (turno), se le pasa el turno para saber que porcentaje usar
  * 1- saber que tipo de tiro va a ocurrir mediante funcion int tipoTiro = tipoTiro(turno)
  * 2- boolen hayCanasta = canasta(turno, tipoTiro) devolvera 0 si falla, 2 si mete de 2 y 3 si mete de 3
@@ -14,7 +19,7 @@ import javax.lang.model.util.ElementScanner6;
  */
 
 
-/*
+/* apuntes:
  * 
  * canasta(String equipo, int tipoTiro){
  * 
@@ -158,24 +163,6 @@ public class PartidoBaloncesto {
             int resultado = 0;
 
             int tipoTiro = tipoTiro(equipoAtaca);
-
-            if (equipoAtaca.equals("E1")){
-
-                if(canasta(equipoAtaca, resultado)){
-
-                    resultado = tipoTiro;
-
-                }else{
-
-                    rebote(equipoAtaca);
-                }
-
-
-            }else{
-
-
-            }
-            
 
             return resultado;
 

@@ -6,6 +6,7 @@ public class Ejercicio6 {
         int []numeros = new int[15];
         int []numeros2 = new int[15];
 
+        // llenar array
 
         for(int i = 0 ; i <= 14 ; i++){
 
@@ -13,8 +14,12 @@ public class Ejercicio6 {
 
             System.out.print(numeros[i] + " ");
         }
+
+        // salto linea
         
         System.out.println("");
+
+        // cambiar posiciones
 
         for( int i = 0 ; i <= 14 ; i++){
 
