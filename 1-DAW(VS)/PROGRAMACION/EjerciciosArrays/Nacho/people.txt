@@ -1,0 +1,12 @@
+ID1,1,0,0
+ID2,0,0,0
+ID3,0,1,1
+
+/* esto seria las caracteristicas de los personajes
+   el primero es la id de tipo String
+   el segundo es si es calvo de tipo boolean
+   el tercero es si es rubio de tipo boolean
+   el cuarto es si es mujer de tipo boolean
+
+   borra esto para que el programa no lea mas de lo q tiene que leer
+*/

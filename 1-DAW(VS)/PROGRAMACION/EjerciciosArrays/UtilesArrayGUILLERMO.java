@@ -1,8 +1,6 @@
 package EjerciciosArrays;
 
-import javax.swing.text.AbstractDocument.LeafElement;
-
-// falta insertarEnPosicion y InsertarOrdenado
+import java.util.Arrays;
 
 public class UtilesArrayGUILLERMO {
 
@@ -195,27 +193,54 @@ public class UtilesArrayGUILLERMO {
 
         }
 
-        int[] nuevo = new int[array.length - apariciones];
+        if (apariciones > 0){
 
-        for(int i = 0; i < array.length; i++){
-
-            if(array[i] != elemento){
-
-
-            }
+            return array;
         }
 
+        else{
 
+            int[] nuevo = new int[array.length - apariciones];
+
+            for(int i = 0; i < array.length; i++){
+
+                if(array[i] != elemento){
+
+                    nuevo[i] = array[i];
+
+                }
+
+            }
+
+            return nuevo;
+
+        }
+        
     }
 
-    static int[] ordenar(int[]array){
+    static void ordenar(int[]array){
 
-        
+        Arrays.sort(array);
 
     }
 
     static int[] desordenar(int[]array){
 
+        for(int i = 0; i < array.length; i++){
+
+            int posicionAux = 0;
+
+            int aleatorio = (int) (Math.random() * array.length);
+
+            posicionAux = array[i];
+
+            array[i] = array[aleatorio];
+
+            array[aleatorio] = posicionAux;
+            
+        }
+
+        return array;
 
     }
 
@@ -223,7 +248,7 @@ public class UtilesArrayGUILLERMO {
         
         int[]nuevo = new int[array.length];
 
-        for(int i = array.length - 1; i == 0; i --){
+        for(int i = array.length - 1; i >= 0; i --){
 
             nuevo[nuevo.length - i - 1] = array[i];
 
@@ -243,40 +268,112 @@ public class UtilesArrayGUILLERMO {
 
     static boolean estaOrdenado(int[]array){
 
-        boolean ordenado = false;
+        boolean ordenado = true;
+
+        for(int i = 0; i < array.length; i++){
+
+            if(i+1 < array.length){
+
+                if(array[i] > array[i+1]){
+
+                    ordenado = false;
+
+                    break;
+                }
+
+            }
+
+        }
 
         return ordenado;
+
     }
 
     //devuelve -1 si el elemento NO está en el array y en caso de estar DEVUELVE la posición en la que está 
 
     static int buscar(int[]array, int elemento){
 
-        int esta = 0;
+        int esta = -1;
+
+        for(int i = 0; i < array.length; i++){
+
+            if(array[i] == elemento){
+
+                esta = i;
+
+            }
+        }
 
         return esta;
+
     }
 
     // devuelve el array  resultante de partir el array original entre la posicionInical y la  posicionFinal (incluido solo el primero)
 
     static int[] partirPor(int[]array, int posicionInicial, int posicionFinal){
 
-        int[]arrayPartido = new int[];
+        // arrayPartido con tamaño del array original - el intervalo cortado
+
+        int[]arrayPartido = new int[array.length - (posicionFinal-posicionInicial)];
+
+        // relleno hasta posicion inicial
+
+        for(int i = 0; i < posicionInicial; i++){
+
+            arrayPartido[i] = array[i];
+
+        }
+
+        // relleno a partir de posicion final hasta el final del array
+
+        for(int i = posicionFinal; i < array.length; i++){
+
+            arrayPartido[i] = array[i];
+
+        }
 
         return arrayPartido;
+
     }
 
     static boolean sonIguales(int[]array1, int[]array2){
 
         boolean iguales = false;
 
+        int contador = 0;
+
+        if(array1.length == array2.length){
+
+            for(int i = 0; i < array1.length; i++){
+
+                if(array1[i] == array2[i]){
+
+                    contador++;
+
+                }
+            }
+
+            if(contador == array1.length - 1){
+
+                iguales = true;
+
+            }
+        }
+
         return iguales;
+
     }
 
     static boolean elementosIguales(int[]array1, int[]array2, int posicionAComparar){
 
         boolean iguales = false;
 
+        if(array1[posicionAComparar] == array2[posicionAComparar]){
+
+            iguales = true;
+        }
+
         return iguales;
+
     }
 }
