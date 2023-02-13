@@ -1,11 +1,9 @@
-// Vuelvo a subir la tarea porque tenia algunas funciones incompletas
-
-package EjerciciosArrays;
+package  alf.test;
 
 import java.util.Arrays;
 
-public class UtilesArrayGUILLERMO {
-
+public class BibliotecaArray {
+    
     //borra los valores del array. Deque quedar un array vacio int[]
     
     static int[] limpiar(){
@@ -378,4 +376,8 @@ public class UtilesArrayGUILLERMO {
         return iguales;
 
     }
+
+
 }
+
+
