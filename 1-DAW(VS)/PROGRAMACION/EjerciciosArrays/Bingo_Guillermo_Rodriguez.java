@@ -4,7 +4,43 @@
  * 
  *  - Control de que numeros de las columnas no se repitan
  *  - Control de numero de blancos
- *  - Arreglar el prinf de string
+ *  
+ *  He intentado hacer el control con un bucle do while y un boleean para
+ * que repita la asigancion de blancos pero no sale nunca del bucle, por lo
+ * que lo he descartartado, no consigo verlo. el metodo era el siguente:
+ * 
+ * static void ponerBlancos(int[][] carton){
+
+        int posicionAleatoria = 0;
+
+        // Recorro filas
+        for (int i = 0; i < carton[0].length; i++) {
+            
+            // Genero las posiciones de los blancos 4 veces
+            for (int nBlancos = 1; nBlancos <= 4; nBlancos++) {
+                
+                posicionAleatoria = (int) (Math.random() * 9);
+
+                boolean repetido = false;
+
+                do{
+
+                    repetido = false;
+
+                    // Recorro columnas
+                    for (int j = 0; j < carton.length; j++) {
+                        
+                        if(j == posicionAleatoria && (carton[posicionAleatoria][i] != -1)){
+
+                            carton[j][i] = -1;
+
+                        }else repetido = true;
+                    }
+
+                }while(repetido);
+            }
+        }
+    }
  */
 
 
@@ -230,14 +266,14 @@ public class Bingo_Guillermo_Rodriguez {
                 
                 posicionAleatoria = (int) (Math.random() * 9);
 
-                // Recorro columnas
+                 // Recorro columnas
                 for (int j = 0; j < carton.length; j++) {
-                    
+                        
                     if(j == posicionAleatoria){
 
-                        carton[j][i] = -1;
+                            carton[j][i] = -1;
 
-                    } 
+                    }
                 }
             }
         }

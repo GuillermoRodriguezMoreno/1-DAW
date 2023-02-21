@@ -1,3 +1,11 @@
+/*
+ * Me falta que los valores sustituidos sean los correctos
+ * para que la suma de fila sea justo 24
+ * 
+ */
+
+
+
 package EjerciciosArrays.examen;
 
 public class Ejercicio3_GuillermoRodriguezMoreno {
@@ -8,13 +16,15 @@ public class Ejercicio3_GuillermoRodriguezMoreno {
 
         rellenarMatriz(matriz);
 
+        System.out.println("\n" + "---------------------- Matriz original ----------------------" + "\n");
+
         imprimirMatriz(matriz);
 
         int[][] copiaMatriz = matriz.clone();
 
         sustituirCeros(copiaMatriz);
 
-        System.out.println("--------------------------------------------");
+        System.out.println("\n\n" + "---------------------- Matriz sustituida ----------------------" + "\n");
 
         imprimirMatriz(copiaMatriz);
 
@@ -23,6 +33,11 @@ public class Ejercicio3_GuillermoRodriguezMoreno {
 
         
     }
+
+    /**
+     * rellena la matriz con numeros aleatorios entre 0 y 4
+     * @param matriz
+     */
 
     static void rellenarMatriz(int[][] matriz){
 
@@ -37,26 +52,61 @@ public class Ejercicio3_GuillermoRodriguezMoreno {
             
         }
     }
+    
+    /**
+     * imprime la matriz sin las sumas
+     * @param matriz
+     */
 
     static void imprimirMatriz(int[][] matriz){
 
+        int sumaFila = 0;
+        int sumaCol = 0;
+
         for (int i = 0; i < matriz.length; i++) {
+
+            sumaFila = 0;
 
             System.out.print("Fila " + (i+1) + " : ");
 
             for (int j = 0; j < matriz[i].length; j++) {
-                
-                int aleatorio = (int) (Math.random() * 5);
 
-                matriz[i][j] = aleatorio;
+                System.out.printf("%4d", matriz[i][j]);
 
-                System.out.print(matriz[i][j] + "     ");
+                sumaFila = sumaFila + matriz[i][j];
+
             }
 
-            System.out.println();
+            System.out.println(" | " + sumaFila);
             
         }
+
+        System.out.println("-----------------------------------------------------------------");
+        System.out.print("         ");
+
+        // segundo for para obtener la suma de las columnas
+        for (int i = 0; i < matriz[0].length; i++) {
+
+            sumaCol = 0;
+
+            for (int j = 0; j < matriz.length; j++) {
+
+                sumaCol = sumaCol + matriz[j][i];
+
+            }
+
+            System.out.printf("%4d", sumaCol);
+            
+        }
+
+        System.out.println();// salto linea
+
     }
+
+    /**
+     * sustituye los 0 para que la fila sume 24
+     * @param matriz
+     */
 
     static void sustituirCeros(int[][] matriz){
 
@@ -71,6 +121,7 @@ public class Ejercicio3_GuillermoRodriguezMoreno {
 
             sumaFila = 0; // reseteo suma
             contadorCeros = 0; // reseteo contador
+            valorCeros = 0;
 
             // para obtener la suma de las columnas en cada fila
             for (int j = 0; j < matriz[i].length; j++) {
@@ -91,13 +142,13 @@ public class Ejercicio3_GuillermoRodriguezMoreno {
 
                     valorRestante = 24 - sumaFila; // obtengo lo que falta para 24
 
-                    valorCeros = valorRestante/contadorCeros; // divido lo que falta entre la cantidad de 0s
+                    valorCeros = (int) (valorRestante/contadorCeros); // divido lo que falta entre la cantidad de 0s
 
                 }else { //Si la suma es mayor de 24
 
                     valorRestante = sumaFila - 24;
 
-                    valorCeros = -(valorRestante/contadorCeros); // le doy valor negativo
+                    valorCeros = - (int)(valorRestante/contadorCeros); // le doy valor negativo
 
                 }
     
