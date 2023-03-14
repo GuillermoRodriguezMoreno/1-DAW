@@ -113,6 +113,7 @@ public class Ejercicio1_GuillermoRodriguez {
         // variables auxiliares
         int auxInt = 0;
         String auxString = "";
+        int[] auxTarjeta = new int[tarjetaGolpes.length];
 
         // recorro la lista de golpes totales
         for (int i = 0; i < totalGolpes.length; i++) {
@@ -133,6 +134,11 @@ public class Ejercicio1_GuillermoRodriguez {
                     auxString = jugadores[i];
                     jugadores[i] = jugadores[j];
                     jugadores[j] = auxString;
+
+                    //cambio filas de la tarjeta
+                    auxTarjeta = tarjetaGolpes[i];
+                    tarjetaGolpes[i] = tarjetaGolpes[j];
+                    tarjetaGolpes[j] = auxTarjeta;
 
                 }
             }
