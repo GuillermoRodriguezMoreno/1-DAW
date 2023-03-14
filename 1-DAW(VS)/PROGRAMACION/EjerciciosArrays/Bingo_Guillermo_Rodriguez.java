@@ -161,10 +161,6 @@ public class Bingo_Guillermo_Rodriguez {
                 System.out.println("Lista de numeros sacados " + Arrays.toString(numerosGenerados));
                 System.out.println();
 
-                //Imprimo carton
-
-                //imprimirCarton(carton);
-
                 //Convierto carton a String
                 cartonString = convertirString(carton);
 
@@ -234,6 +230,11 @@ public class Bingo_Guillermo_Rodriguez {
 
     // Limpia el carton
 
+    /**
+     * restaura el carton con valores 0
+     * @return
+     */
+
     static int[][] restaurarCarton(){
 
         int[][] cartonNuevo = new int[9][3];
@@ -242,6 +243,11 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // Limpia la lista de numeros generados
+
+    /**
+     * Restaura la lista de numeros generados
+     * @return
+     */
 
     static int[] restaurarNumerosGenerados(){
 
@@ -253,6 +259,11 @@ public class Bingo_Guillermo_Rodriguez {
     // Rellena los blancos de las columnas
 
     // Falta Control
+
+    /**
+     * Rellena los blancos del carton
+     * @param carton
+     */
 
     static void ponerBlancos(int[][] carton){
 
@@ -283,6 +294,11 @@ public class Bingo_Guillermo_Rodriguez {
 
     // Falta control de que no se repita
 
+    /**
+     * Rellena el carton con numeros aleatorios
+     * @param carton
+     */
+
     static void rellenarNumerosCarton(int[][] carton){
 
         for (int i = 0; i < carton.length; i++) {
@@ -299,6 +315,11 @@ public class Bingo_Guillermo_Rodriguez {
 
     // Ordena las columnas del carton
 
+    /**
+     * ordena los numeros del carton
+     * @param carton
+     */
+
     static void ordenarCarton(int[][] carton){
 
         for (int i = 0; i < carton[0].length; i++) {
@@ -311,6 +332,13 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // Devuelve el numero de aciertos
+
+    /**
+     * comprueba los aciertos del carton
+     * @param carton
+     * @param numerosGenerados
+     * @return
+     */
 
     static int comprobarAciertos(int[][] carton, int[] numerosGenerados){
 
@@ -344,6 +372,11 @@ public class Bingo_Guillermo_Rodriguez {
 
     // Imprime el carton
 
+    /**
+     * imprime el carton (int)
+     * @param carton
+     */
+
     static void imprimirCarton(int[][] carton){
 
         for (int i = 0; i < carton[0].length; i++) {
@@ -360,6 +393,11 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // Imprime carton de String
+
+    /**
+     * imprime el carton (String)
+     * @param carton
+     */
 
     static void imprimirCarton(String[][] carton){
 
@@ -379,6 +417,14 @@ public class Bingo_Guillermo_Rodriguez {
 
     // Actualiza la lista de numeros sacados
 
+    /**
+     * actualizo la lista con los numeros sacados
+     * @param tamaño
+     * @param numero
+     * @param lista
+     * @return
+     */
+
     static int[] actualizarNumerosGenerados(int tamaño, int numero, int[] lista){
 
         int[] nuevaLista =  new int[lista.length + 1];
@@ -395,6 +441,12 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // Convierte el carton en Array de String
+
+    /**
+     * convierte el carton (int) a carton (String)
+     * @param carton
+     * @return
+     */
 
     static String[][] convertirString(int[][] carton){
 
@@ -413,6 +465,12 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // modifica el carton de String con los aciertos
+
+    /**
+     * actualiza el carton (String) con los aciertos
+     * @param carton
+     * @param listaNumeros
+     */
 
     static void actualizarAciertos(String[][] carton, int[] listaNumeros){
 
@@ -434,6 +492,13 @@ public class Bingo_Guillermo_Rodriguez {
     }
 
     // Control de que la bola sacada no sea repetida
+
+    /**
+     * Comprueba que la bola no este repetida
+     * @param numeroGenerados
+     * @param bola
+     * @return
+     */
 
     static boolean comprobarBolaRepetida(int[] numeroGenerados, int bola){
 

@@ -4,8 +4,8 @@ public class Terminal {
 
     // Atributos
     
-    private String numero;
-    private int tiempoConversacion;
+    protected String numero;
+    protected int tiempoConversacion;
 
     // Contructores
 
