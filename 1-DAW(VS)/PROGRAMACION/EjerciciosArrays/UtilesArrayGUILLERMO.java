@@ -222,8 +222,20 @@ public class UtilesArrayGUILLERMO {
 
     static void ordenar(int[]array){
 
-        Arrays.sort(array);
+        int aux = 0;
 
+        for (int i = 0; i < array.length; i++) {
+            
+            for (int j = 0; j < array.length; j++) {
+                
+                if(array[i] < array[j]){
+
+                    aux = array[i];
+                    array[i] = array[j];
+                    array[j] = aux;
+                }
+            }
+        }
     }
 
     static int[] desordenar(int[]array){
@@ -262,7 +274,7 @@ public class UtilesArrayGUILLERMO {
 
     static void imprimir(int[]array){
 
-        System.out.println(array.toString());
+        System.out.println(Arrays.toString(array));
 
     }
 
