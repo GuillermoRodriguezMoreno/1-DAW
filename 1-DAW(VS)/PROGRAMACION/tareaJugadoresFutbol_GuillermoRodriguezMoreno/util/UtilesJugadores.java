@@ -19,66 +19,7 @@ public class UtilesJugadores {
 
     }
 
-    /**
-     * Inserta un jugador si no esta repetido en el array de Jugador
-     * @param equipo
-     * @param jugador
-     * @return
-     */
-
-    public static Jugador[] insertarJugador(Jugador[] equipo, Jugador jugador){
-
-        // si el jugador no se encuentra ya en el array
-        if(comprobarJugador(equipo, jugador) == true){
-
-            Jugador[] nuevoEquipo = new Jugador[equipo.length + 1];
-
-            for (int i = 0; i < equipo.length; i++) {
-                
-                nuevoEquipo[i] = equipo[i];
-
-            }
-
-            nuevoEquipo[nuevoEquipo.length - 1] = jugador;
-
-            System.out.println("Añadido con exito");
-
-            return nuevoEquipo;
-
-        }
-
-        // si el jugador ya se encuentra en el array
-        else{
-
-            System.out.println("no es posible añadir jugador repetido");
-
-            return equipo;
-        }
-    }
-
-    /**
-     * Comprueba que el jugador no se encuentra en el array
-     * @param equipo
-     * @param jugador
-     * @return
-     */
-
-    public static boolean comprobarJugador(Jugador[] equipo, Jugador jugador){
-
-        boolean ok = true;
-
-        for (int i = 0; i < equipo.length; i++) {
-
-            //si los nombres son iguales
-            if(equipo[i].getNombreCompleto().equals(jugador.getNombreCompleto())){
-
-                ok = false;
-            }
-        }
-
-        return ok;
-    }
-
+    
     /**
      * Genera un nombre completo aleatorio
      * @return
@@ -118,4 +59,49 @@ public class UtilesJugadores {
 
         return mote;
     }
+
+    /**
+     * Comprueba si un jugador tiene 10 o mas faltas
+     * @param equipo
+     * @param Jugador
+     * @return
+     */
+
+    public static boolean comprobarFaltas(Jugador jugador){
+
+        boolean masDiez = false;
+
+            
+        if(jugador.getNumeroFaltas() >= 10){
+
+            masDiez = true;
+
+        }
+
+        return masDiez;
+    }
+
+    /**
+     * expulsa a un jugador del equipo si tiene 10 o mas faltas
+     * @param equipo
+     * @return
+     */
+
+    
+    /*
+    public static Jugador[] expulsarJugador(Jugador[]equipo){
+
+        int contadorExpulsados = 0;
+
+        for (int i = 0; i < equipo.length; i++) {
+            
+            if(comprobarFaltas(equipo[i])){
+
+            
+            }
+        }
+
+        return nuevoEquipo;
+    }
+     */
 }

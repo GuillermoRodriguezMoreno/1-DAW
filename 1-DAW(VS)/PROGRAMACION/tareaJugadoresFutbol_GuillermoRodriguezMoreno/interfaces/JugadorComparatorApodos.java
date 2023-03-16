@@ -12,22 +12,16 @@ public class JugadorComparatorApodos implements Comparator{
         int resultado = 0;
 
         Jugador j1 = (Jugador) arg0;
-        Jugador j2 = (Jugador) arg0;
+        Jugador j2 = (Jugador) arg1;
 
-        if(j1.getApodo().compareTo(j2.getApodo()) > 0){
+        resultado = j1.getApodo().compareTo(j2.getApodo());
 
-            resultado = 1;
-        }
+        if(resultado == 0){
 
-        else if(j1.getApodo().compareTo(j2.getApodo()) < 0){
-
-            resultado = -1;
+            resultado = j1.getNombreCompleto().compareTo(j2.getNombreCompleto());
         }
 
         return resultado;
         
     }
-
-    
-    
 }

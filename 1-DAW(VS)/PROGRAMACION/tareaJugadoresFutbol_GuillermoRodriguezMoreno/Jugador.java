@@ -84,12 +84,15 @@ public class Jugador implements Comparable, Jugar_I{
 
     @Override
     public void hacerGol() {
+
+        this.numeroGoles++;
     }
 
     @Override
     public void cometerFalta() {
-    }
 
+        this.numeroFaltas++;
+    }
 
     // Getters y Setters
 

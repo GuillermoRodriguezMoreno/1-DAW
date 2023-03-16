@@ -26,7 +26,7 @@ public class JugadorComparatorNumeroFaltas implements Comparator{
 
         else {
 
-            resultado = j1.compareTo(j2);
+            resultado = j1.getNombreCompleto().compareTo(j2.getNombreCompleto());
         }
 
         return resultado;
