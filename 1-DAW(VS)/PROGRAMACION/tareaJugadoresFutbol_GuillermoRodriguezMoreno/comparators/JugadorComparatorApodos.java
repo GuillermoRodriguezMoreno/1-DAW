@@ -1,8 +1,8 @@
-package tareaJugadoresFutbol_GuillermoRodriguezMoreno.interfaces;
+package tareaJugadoresFutbol_GuillermoRodriguezMoreno.comparators;
 
 import java.util.Comparator;
 
-import tareaJugadoresFutbol_GuillermoRodriguezMoreno.Jugador;
+import tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases.Jugador;
 
 public class JugadorComparatorApodos implements Comparator{
 

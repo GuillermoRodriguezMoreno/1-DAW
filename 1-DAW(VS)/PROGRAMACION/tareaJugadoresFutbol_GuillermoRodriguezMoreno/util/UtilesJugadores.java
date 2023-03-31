@@ -1,6 +1,6 @@
 package tareaJugadoresFutbol_GuillermoRodriguezMoreno.util;
 
-import tareaJugadoresFutbol_GuillermoRodriguezMoreno.Jugador;
+import tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases.Jugador;
 
 public class UtilesJugadores {
     
@@ -81,27 +81,4 @@ public class UtilesJugadores {
         return masDiez;
     }
 
-    /**
-     * expulsa a un jugador del equipo si tiene 10 o mas faltas
-     * @param equipo
-     * @return
-     */
-
-    
-    /*
-    public static Jugador[] expulsarJugador(Jugador[]equipo){
-
-        int contadorExpulsados = 0;
-
-        for (int i = 0; i < equipo.length; i++) {
-            
-            if(comprobarFaltas(equipo[i])){
-
-            
-            }
-        }
-
-        return nuevoEquipo;
-    }
-     */
 }

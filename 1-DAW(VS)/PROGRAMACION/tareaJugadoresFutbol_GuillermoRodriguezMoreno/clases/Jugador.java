@@ -1,4 +1,4 @@
-package tareaJugadoresFutbol_GuillermoRodriguezMoreno;
+package tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases;
 
 import tareaJugadoresFutbol_GuillermoRodriguezMoreno.interfaces.Jugar_I;
 

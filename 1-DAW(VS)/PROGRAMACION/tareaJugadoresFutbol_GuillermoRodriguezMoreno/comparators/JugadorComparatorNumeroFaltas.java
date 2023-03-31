@@ -1,34 +1,34 @@
-package tareaJugadoresFutbol_GuillermoRodriguezMoreno.interfaces;
+package tareaJugadoresFutbol_GuillermoRodriguezMoreno.comparators;
 
 import java.util.Comparator;
 
-import tareaJugadoresFutbol_GuillermoRodriguezMoreno.Jugador;
+import tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases.Jugador;
 
-public class JugadorComparatorNumeroGoles implements Comparator{
+public class JugadorComparatorNumeroFaltas implements Comparator{
 
     @Override
     public int compare(Object arg0, Object arg1) {
+    
+        int resultado = 0;
 
         Jugador j1 = (Jugador) arg0;
         Jugador j2 = (Jugador) arg1;
 
-        int resultado = 0;
-
-        if(j1.getNumeroGoles() > j2.getNumeroGoles()){
+        if(j1.getNumeroFaltas() > j2.getNumeroFaltas()){
 
             resultado = 1;
         }
 
-        else if(j1.getNumeroGoles() < j2.getNumeroGoles()){
+        else if(j1.getNumeroFaltas() < j2.getNumeroFaltas()){
 
             resultado = -1;
         }
 
-        else{
+        else {
 
             resultado = j1.getNombreCompleto().compareTo(j2.getNombreCompleto());
         }
-        
+
         return resultado;
     }
     
