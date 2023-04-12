@@ -1,6 +1,6 @@
 package matrix_GuillermoRodriguez.personajes;
 
-public class PersonajeGenerico extends Personaje{
+public class PersonajeGenerico extends Personaje implements Comparable<PersonajeGenerico>{
 
    //Atributos
 
@@ -27,6 +27,25 @@ public class PersonajeGenerico extends Personaje{
 
     }
 
+    @Override
+    public int compareTo(PersonajeGenerico o) {
+        
+        int resultado = 0;
+
+        if(this.id > o.id){
+
+            resultado = 1;
+        }
+
+        else if(this.id < o.id){
+
+            resultado = -1;
+        }
+
+        return resultado;
+
+    }
+
     //Getters y Setters
 
     public int getProbabilidadMorir() {
@@ -36,8 +55,5 @@ public class PersonajeGenerico extends Personaje{
     public void setProbabilidadMorir(int probabilidadMorir) {
         this.probabilidadMorir = probabilidadMorir;
     }
-    
-
-
 
 }

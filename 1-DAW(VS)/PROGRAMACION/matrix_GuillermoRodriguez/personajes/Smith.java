@@ -4,7 +4,7 @@ public class Smith extends Personaje{
 
     //Atributos
 
-    private static int capacidadMax;
+    private static final int INFECCION_MAX = 3;
     private static int poderInfeccion;
 
     //Constructores
@@ -33,13 +33,8 @@ public class Smith extends Personaje{
         Smith.poderInfeccion = poderInfeccion;
     }
 
-    public static int getCapacidadMax() {
-        return capacidadMax;
+    public static int getInfeccionMax() {
+        return INFECCION_MAX;
     }
-
-    public static void setCapacidadMax(int capacidadMax) {
-        Smith.capacidadMax = capacidadMax;
-    }
-
 
 }

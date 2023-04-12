@@ -1,11 +1,12 @@
 
-/*
+/* Preguntar porque los personajes static se inicializan en null
+ * Preguntar como funciona lo de la fecha
  * 
- * 1 Iteracion hecha
- * 
- * 
- * 
- * 
+ * - Pensar como sacar el rango de infeccion de smith en iteracion 2
+ * - Pensar como sacar rango de destruccion de neo en iteracion 5
+ * - falta iteracion 10
+ * - falta mostrar cuando mueren
+ * - falta ordenar por fecha los smith
  */
 
 
@@ -20,6 +21,10 @@ public class Matrix {
     // Variables Staticas
     static ArrayList<PersonajeGenerico> factoriaPersonajes = generarFactoria();
     static ArrayList <Personaje> matrix = inicializarMatrix();
+    static ArrayList<Smith> cementerio = new ArrayList<>();
+
+    static Neo neoInicial = new Neo("Neo", "Valhalla");
+    static Smith smithInicial = new Smith("Smith", "Upside Down");
     
     public static void main(String[] args) {
         
@@ -48,11 +53,33 @@ public class Matrix {
             // Evaluo la supervivencia de los personajes en cada iteracion
             evaluarSupervivencia();
 
-            // Si la iteracion es par
-            if(iteraciones%2 == 0){
+            // cada 2 iteraciones
+            if(iteraciones % 2 == 0){
 
                 // Smith actua
-                accionSmith();
+                //accionSmith();
+            }
+
+            // cada 5 iteraciones
+            else if(iteraciones % 5 == 0){
+
+                // Actua Neo
+                //accionNeo();
+
+            }
+
+            // Cada 10 iteraciones
+            else if(iteraciones % 10 == 0){
+
+                aparicionPersonajes();
+
+            }
+
+            // Cada 30 iteraciones
+            else if(iteraciones % 30 == 0){
+
+                crearPersonajeGenerico();
+
             }
 
             // Imprimo Matrix
@@ -144,9 +171,6 @@ public class Matrix {
         ArrayList<Personaje> matrix = new ArrayList<>();
 
         // Añado Neo y Smith iniciales
-        Neo neoInicial = new Neo("Neo", "Valhalla");
-        Smith smithInicial = new Smith("Smith", "Upside Down");
-
         matrix.add(neoInicial);
         matrix.add(smithInicial);
 
@@ -286,14 +310,124 @@ public class Matrix {
         }
     }
 
+    /**
+     * Smith actua e infecta segun su poder
+     */
+
     static void accionSmith(){
 
         // Obtengo el poder de infeccion
-        int poderInfeccion = (int) (Math.random() * Smith.getCapacidadMax() + 1);
+        int poderInfeccion = (int) (Math.random() * Smith.getInfeccionMax() + 1);
 
         // Actualizo atributo de todos los Smith
         Smith.setPoderInfeccion(poderInfeccion);
 
-        
+        // Recorro Matrix
+        for (int i = 0; i < matrix.size(); i++) {
+
+            Personaje personaje = matrix.get(i);
+
+            // Si es un Smith
+            if(personaje.getClass().getSimpleName().equals("Smith")){
+
+                // Obtengo su indice
+                int posicionSmith = matrix.indexOf(personaje);
+
+                // Recorro rango de infeccion
+
+                //Primero el rango anterior
+                //for (int j = posicionSmith - poderInfeccion; j < array.length; j++) {
+                    
+                //}
+
+                // Despues rango posterior
+            }
+        }
+    }
+
+    /**
+     * convierte un Personaje en Smith
+     * @param personaje
+     * @return
+     */
+
+    static Smith infectar(Personaje personaje){
+
+        Smith nuevoSmith = (Smith) personaje;
+
+        return nuevoSmith;
+    }
+
+    /**
+     * Neo actua, segun si es el elegido o no y posteriormente
+     * se mueve a una posicion aleatoria de Matrix
+     */
+
+    static void accionNeo(){
+
+        // Decide si es el elegido al 50% y actua
+        if(((int)(Math.random() * 2)) == 1){
+
+            neoInicial.setElegido(true);
+
+            // Falta matar Smiths
+        }
+
+        // Cambiar posicion de Neo
+        moverNeo();
+
+    }
+
+    /**
+     * Mueve a Neo a una posicion aleatoria de Matrix,
+     * si en la posicion habia un Smith lo mata, sino, 
+     * intercambia posiciones
+     */
+
+    static void moverNeo(){
+
+        // Posicion aleatoria de Matrix
+        int posicionAleatoria = (int) (Math.random() * matrix.size());
+
+        // Obtengo el personaje en esa posicion y su respectiva posicion
+        Personaje personaje = matrix.get(posicionAleatoria);
+        int posicionPersonaje = matrix.indexOf(personaje);
+
+        // Obtengo posicion actual de Neo
+        int posicionInicialNeo = matrix.indexOf(neoInicial);
+
+        // Si la posicion aleatoria es un Smith
+        if(personaje.getClass().getSimpleName().equals("Smith")){            
+
+            // Machaco el Smith por neo
+            matrix.set(posicionPersonaje, neoInicial);
+
+            // Pongo a null la posicion anterior de Neo
+            matrix.set(posicionInicialNeo, null);
+
+        }
+
+        // Si es un PersonajeGenerico
+        else if(personaje.getClass().getSimpleName().equals("PersonajeGenerico")){
+
+            // Intercambio posiciones
+            Collections.swap(matrix, posicionInicialNeo, posicionPersonaje);
+
+        }
+    }
+
+    static void aparicionPersonajes(){
+
+
+    }
+
+    /**
+     * crea un nuevo personajeGenerico y lo añade a la factoria
+     */
+
+    static void crearPersonajeGenerico(){
+
+        factoriaPersonajes.add(generarPersonajeAleatorio());
+
     }
 }
