@@ -4,15 +4,15 @@ import java.util.Comparator;
 
 import tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases.Jugador;
 
-public class JugadorComparatorApodos implements Comparator{
+public class JugadorComparatorApodos implements Comparator<Jugador>{
 
     @Override
-    public int compare(Object arg0, Object arg1) {
+    public int compare(Jugador arg0, Jugador arg1) {
         
         int resultado = 0;
 
-        Jugador j1 = (Jugador) arg0;
-        Jugador j2 = (Jugador) arg1;
+        Jugador j1 =  arg0;
+        Jugador j2 = arg1;
 
         resultado = j1.getApodo().compareTo(j2.getApodo());
 

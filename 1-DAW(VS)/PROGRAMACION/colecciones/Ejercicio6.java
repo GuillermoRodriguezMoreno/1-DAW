@@ -28,9 +28,35 @@ public class Ejercicio6 {
 
             if(claves.containsKey(usuarioIntroducido)){
 
-                
+                if(claves.get(usuarioIntroducido).equals(passIntroducido)){
+
+                    contraseñaCorrecta = true;
+
+                }
+
+                else {
+
+                    intentos ++;
+
+                    System.out.println("incorrecto, te quedan " + (3 - intentos) + " intentos");
+
+                }
+
+            }
+
+            else {
+
+                intentos ++;
+
+                System.out.println("incorrecto, te quedan " + (3 - intentos) + " intentos");
+
             }
 
         }while(!contraseñaCorrecta && intentos < 3);
+
+        if(contraseñaCorrecta){
+
+            System.out.println("estas dentro");
+        }
     }
 }

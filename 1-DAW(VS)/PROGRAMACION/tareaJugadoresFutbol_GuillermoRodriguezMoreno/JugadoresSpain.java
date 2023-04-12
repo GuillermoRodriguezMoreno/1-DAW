@@ -73,6 +73,8 @@ public class JugadoresSpain {
 
         System.out.println(); // salto linea
 
+        Arrays.sort(equipoAleatorio, new JugadorComparatorApodos());
+
         System.out.println(Arrays.toString(equipoAleatorio));
 
 

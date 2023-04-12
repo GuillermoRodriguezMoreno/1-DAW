@@ -2,7 +2,7 @@ package tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases;
 
 import tareaJugadoresFutbol_GuillermoRodriguezMoreno.interfaces.Jugar_I;
 
-public class Jugador implements Comparable, Jugar_I{
+public class Jugador implements Comparable<Jugador>, Jugar_I{
     
     // Atributos
 
@@ -62,11 +62,11 @@ public class Jugador implements Comparable, Jugar_I{
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Jugador o) {
 
         int resultado = 0;
 
-        Jugador j = (Jugador) o;
+        Jugador j =  o;
 
         if(this.numeroLicencia > j.numeroLicencia){
 

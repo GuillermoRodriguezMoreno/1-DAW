@@ -4,15 +4,15 @@ import java.util.Comparator;
 
 import tareaJugadoresFutbol_GuillermoRodriguezMoreno.clases.Jugador;
 
-public class JugadorComparatorNumeroFaltas implements Comparator{
+public class JugadorComparatorNumeroFaltas implements Comparator<Jugador>{
 
     @Override
-    public int compare(Object arg0, Object arg1) {
+    public int compare(Jugador arg0, Jugador arg1) {
     
         int resultado = 0;
 
-        Jugador j1 = (Jugador) arg0;
-        Jugador j2 = (Jugador) arg1;
+        Jugador j1 =  arg0;
+        Jugador j2 =  arg1;
 
         if(j1.getNumeroFaltas() > j2.getNumeroFaltas()){
 
