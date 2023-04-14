@@ -21,7 +21,7 @@ public abstract class Personaje {
         this.nombre = nombre;
         this.ciudad = ciudad;
         this.fechaNacimiento = LocalDateTime.now();
-        this.edad = 0;
+        this.edad = (int)(Math.random() * 120);
 
         Personaje.contadorPersonajes++;
 
@@ -32,7 +32,6 @@ public abstract class Personaje {
     public abstract String mostrarInformacion();
 
     //Getters y Setters
-
 
     public int getId() {
         return id;
