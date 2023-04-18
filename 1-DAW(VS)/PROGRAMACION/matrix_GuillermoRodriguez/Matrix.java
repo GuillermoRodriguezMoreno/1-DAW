@@ -352,24 +352,97 @@ public class Matrix {
                         // Obtengo su indice
                         int posicionSmith = matrix.indexOf(personaje);
 
-                        // Si el poder de infeccion sale de rango por el principio y hay hueco a la derecha
-                        if((poderInfeccion > posicionSmith) && ((posicionSmith + poderInfeccion) < matrix.size())){
+                        // Si tengo hueco a ambos lados
+                        if((poderInfeccion - posicionSmith <= 0) && (poderInfeccion + posicionSmith < matrix.size())){
 
-                            // Recorro hasta su capacidad de infeccion
-                            for (int j = 0; j < poderInfeccion + poderInfeccion; j++) {
-                                
-                                matrix.set(j, infectar(matrix.get(j)));
+                            // Recorro desde posicion - poder hasta posicion + poder
+                            for (int j = posicionSmith - poderInfeccion; j <= posicionSmith + poderInfeccion; j++) {
 
+                                // Si es un personajeGenerico lo infecto
+                                if(matrix.get(j) != null){
+
+                                    if(matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        matrix.set(j, infectar(matrix.get(j)));
+
+                                    }
+
+                                }
+                                    
                             }
 
                         }
 
-                        // Si el poder de infeccion sale de rango por el final
-                        else if((posicionSmith + poderInfeccion) > (matrix.size()-1)){
+                        // Si el poder de infeccion sale de rango por el principio
+                        else if((poderInfeccion - posicionSmith > 0)){
 
-                            for (int j = posicionSmith - poderInfeccion; j < poderInfeccion; j++) {
-                                
-                                matrix.set(j, infectar(matrix.get(j)));
+                            // Si tengo hueco al final
+                            if(posicionSmith + poderInfeccion < matrix.size()){
+
+                                // Recorro desde posicion - poder hasta posicion + poder
+                                for (int j = posicionSmith - poderInfeccion; j <= posicionSmith + poderInfeccion; j++) {
+
+                                    // Si es un personajeGenerico lo infecto
+                                    if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        infectar(matrix.get(j));
+
+                                    }
+
+                                }
+                            }
+
+                            // Si no tengo hueco
+                            else{
+
+                                // Recorro hasta el final
+                                for (int j = posicionSmith; j < matrix.size(); j++) {
+
+                                    // Si es un personajeGenerico lo infecto
+                                    if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        infectar(matrix.get(j));
+
+                                    }
+
+                                }
+
+                            }
+                        
+                        }
+
+                        // Si el poder de infeccion sale de rango por el final
+                        else if((posicionSmith + poderInfeccion) >= (matrix.size())){
+
+                            // Si tengo hueco al principio
+                            if(poderInfeccion - posicionSmith < 0){
+
+                                for (int j = posicionSmith - poderInfeccion; j < matrix.size(); j++) {
+                                    
+                                    // Si es un personajeGenerico lo infecto
+                                    if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        infectar(matrix.get(j));
+
+                                    }
+
+                                }
+
+                            }
+
+                            // Si no tengo hueco
+                            else{
+
+                                for (int j = 0; j < matrix.size(); j++) {
+                                    
+                                    // Si es un personajeGenerico lo infecto
+                                    if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        infectar(matrix.get(j));
+
+                                    }
+
+                                }
 
                             }
 

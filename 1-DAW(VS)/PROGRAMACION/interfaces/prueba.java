@@ -1,5 +1,6 @@
 package interfaces;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -7,40 +8,35 @@ public class prueba {
     
     public static void main(String[] args) {
         
-        imprimirMatrix();
-    }
-
-    public static void imprimirMatrix() {
-
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("El mundo de Matrix ha sido destruido, pulsa enter para ver el resultado");
-        sc.nextLine();
-        System.out.print("\033[H\033[2J");  
-        System.out.flush();
-        Random random = new Random();
-        int intervalo = 75; // Intervalo de tiempo entre cada impresión (en milisegundos)
-    
-        while (true) {
-            for (int i = 0; i < 30; i++) {
-                if (i == 0) {
-                    System.out.print(" ");
-                } else {
-                    System.out.print("\033[1A"); // Mueve el cursor una línea hacia arriba
-                }
-                int caracter = random.nextInt(94) + 33; // Genera un carácter aleatorio entre los códigos ASCII 33 y 126
-                System.out.print((char) caracter); // Imprime el carácter correspondiente al código ASCII generado
-                try {
-                    Thread.sleep(intervalo); // Espera un tiempo antes de imprimir el siguiente carácter
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+    System.out.println("El mundo de Matrix ha sido destruido, pulsa enter para ver el resultado");
+    sc.nextLine();
+    Random random = new Random();
+    int intervalo = 10; // Intervalo de tiempo entre cada impresión (en milisegundos)
+    String greenTextOnBlackBackground = "\033[42;32m%s\033[0m"; // Código de color para texto verde sobre fondo negro
+    String blackBackground = "\u001b[40m"; // Código de color para fondo negro
+    String resetColor = "\033[0m"; // Código de color para resetear los colores
+    while (true) {
+        for (int i = 0; i < 30; i++) {
+            if (i == 0) {
+                System.out.print(" ");
+            } else {
+                System.out.print("\033[1A");
             }
+            int caracter = random.nextInt(94) + 33;
+            String formattedText = String.format(greenTextOnBlackBackground, (char) caracter);
+            System.out.print(blackBackground + formattedText + resetColor); // Agrega el código de fondo negro y el código de reseteo de color
             try {
-                Thread.sleep(2000); // Espera un tiempo antes de volver a imprimir la secuencia de caracteres
+                Thread.sleep(intervalo);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     }
 }

@@ -29,7 +29,10 @@ public class Jugador {
     @Override
     public String toString(){
 
-        return this.getDni() + " " + this.getNombre() + " " + this.getEstatura() + "cm " + this.getPosicion() + "\n";
+        String colorCode = "\u001B[31m"; // Código de escape ANSI para el color rojo
+        String resetCode = "\u001B[0m";
+
+        return colorCode + "(" + this.getDni() + ") " + this.getNombre() + " " + this.getEstatura() + "cm " + this.getPosicion() + resetCode + "\n";
 
     }
 
