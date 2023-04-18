@@ -32,7 +32,8 @@ public class Smith extends Personaje implements Comparable<Smith>{
     @Override
     public String mostrarInformacion() {
         
-        return "";
+        return "Smith (" + this.getId() + ") Fecha Nac: " + this.getFechaNacimiento().getNano() + ", Poder Infeccion " + Smith.getPoderInfeccion();
+        
     }
 
     @Override

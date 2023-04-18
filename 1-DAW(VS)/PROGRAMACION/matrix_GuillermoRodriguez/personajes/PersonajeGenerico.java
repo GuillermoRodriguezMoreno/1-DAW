@@ -20,7 +20,7 @@ public class PersonajeGenerico extends Personaje implements Comparable<Personaje
     @Override
     public String mostrarInformacion() {
         
-        String resultado = this.getId() + " --- " + this.getNombre() + " (" + this.getCiudad() + ")" + " Supervivencia " + this.getProbabilidadMorir()
+        String resultado = this.getId() + " -- " + this.getNombre() + " (" + this.getCiudad() + ")" + " Supervivencia " + this.getProbabilidadMorir()
             + "%";
 
         return resultado;

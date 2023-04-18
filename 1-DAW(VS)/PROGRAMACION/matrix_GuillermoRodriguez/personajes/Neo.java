@@ -1,5 +1,7 @@
 package matrix_GuillermoRodriguez.personajes;
 
+import java.time.LocalDateTime;
+
 public class Neo extends Personaje{
 
     //Atributos
@@ -13,6 +15,7 @@ public class Neo extends Personaje{
         
         super(nombre, ciudad);
         this.elegido = false;
+        this.fechaNacimiento = LocalDateTime.now();
 
     }
 
@@ -22,7 +25,8 @@ public class Neo extends Personaje{
     public String mostrarInformacion() {
         
 
-        return "";
+        return "Neo (" + this.getId() + ") Fecha Nac: " + this.getFechaNacimiento().getNano()  + " Elegido: " + this.isElegido();
+
     }
 
     //Getters y Setters

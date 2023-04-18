@@ -23,6 +23,16 @@ public class Matrix {
     static ArrayList<PersonajeGenerico> factoriaPersonajes = generarFactoria();
     static ArrayList <Personaje> matrix = inicializarMatrix();
     static ArrayList<Smith> cementerio = new ArrayList<>();
+
+    // Formato
+    static String redBg = "\u001B[41m";
+    static String greenBg = "\u001B[42m";
+    static String blueBg = "\u001B[44m";
+    static String yellowBg = "\u001B[43m";
+    static String whiteBg = "\u001B[47m";
+    static String blackBg = "\u001B[440m";
+    static String resetColor = "\u001B[0m";
+
     
     public static void main(String[] args) {
         
@@ -46,7 +56,9 @@ public class Matrix {
             iteraciones++;
 
             // Muestro turno actual
-            System.out.println("\n---------- TURNO " + iteraciones + " -----------\n");
+            System.out.println("\n" + yellowBg + "------------------- TURNO " + iteraciones + " -----------------" + resetColor + "\n");
+
+            System.out.println(imprimirMatrix() + "\n");
 
             // Evaluo la supervivencia de los personajes en cada iteracion
             evaluarSupervivencia();
@@ -84,12 +96,40 @@ public class Matrix {
             }
 
             // Imprimo Matrix
-            System.out.println();
-            System.out.println(imprimirMatrix());
+            System.out.println("\n--------------ESTADO FINAL TURNO MATRIX----------------");
+            System.out.println("\n" + imprimirMatrix() + "\n");
 
             //Compruebo tamaño factoria
-            System.out.println("\nTamaño Factoria: " + factoriaPersonajes.size()); 
+            System.out.println("\nTamaño Factoria: " + factoriaPersonajes.size() + "\n");
+
+            
         }
+
+        // Imprimo factoria
+
+        System.out.println("Factoria:\n");
+
+        System.out.println(imprimirFactoria());
+
+        // Imprimo cementerio
+
+        System.out.println("Cementerio:\n");
+
+        System.out.println(imprimirCementerio());
+
+        System.out.println("\nMATRIX HA TERMINADO, PULSA 1 PARA VER EL MUNDO DESTRUIDO (Cortesia de ChatGPT) O CUALQUIER OTRA COSA PARA TERMINAR\n");
+
+        Scanner sc = new Scanner(System.in);
+
+        if(sc.nextLine().equals("1")){
+
+            System.out.println();
+
+            finMatrix();
+
+        }
+
+        sc.close();
 
     }
 
@@ -142,6 +182,9 @@ public class Matrix {
      */
 
     static String imprimirFactoria(){
+
+        // Ordeno factoria
+        Collections.sort(factoriaPersonajes);
 
         String resultado = "";
 
@@ -218,7 +261,7 @@ public class Matrix {
             // Si es mull
             if(elemento == null){
 
-                resultado = resultado + "[ ]";
+                resultado = resultado + whiteBg + "[ ]" + resetColor;
             }
 
             // Si no es null
@@ -229,21 +272,21 @@ public class Matrix {
                     // Neo
                     case "Neo":
     
-                        resultado = resultado + "[N]";
+                        resultado = resultado + greenBg + "[N]" + resetColor;
     
                         break;
     
                     // Smith
                     case "Smith":
     
-                        resultado = resultado + "[S]";
+                        resultado = resultado + redBg + "[S]" + resetColor;
     
                         break;
     
                     // PersonajeGenerico
                     case "PersonajeGenerico":
     
-                        resultado = resultado + "[P]";
+                        resultado = resultado + blueBg + "[P]" + resetColor;
     
                         break;
     
@@ -279,7 +322,7 @@ public class Matrix {
                         
                         // Imprimo personajeGenerico muerto
                         System.out.print("HA MUERTO --> ");
-                        System.out.println(personaje.mostrarInformacion());
+                        System.out.println(personaje.mostrarInformacion() + " pos" + matrix.indexOf(personaje));
 
                         // Obtengo indice
                         int posicion = matrix.indexOf(personaje);
@@ -317,6 +360,7 @@ public class Matrix {
                 }
             }
         }
+
     }
 
     /**
@@ -327,6 +371,8 @@ public class Matrix {
 
         // Obtengo el poder de infeccion
         int poderInfeccion = (int) (Math.random() * Smith.getInfeccionMax() + 1);
+
+        System.out.println("\nSmith intenta infectar con: " + poderInfeccion);
 
         // Actualizo atributo de todos los Smith
         Smith.setPoderInfeccion(poderInfeccion);
@@ -353,7 +399,7 @@ public class Matrix {
                         int posicionSmith = matrix.indexOf(personaje);
 
                         // Si tengo hueco a ambos lados
-                        if((poderInfeccion - posicionSmith <= 0) && (poderInfeccion + posicionSmith < matrix.size())){
+                        if((posicionSmith - poderInfeccion >= 0) && (posicionSmith + poderInfeccion < matrix.size())){
 
                             // Recorro desde posicion - poder hasta posicion + poder
                             for (int j = posicionSmith - poderInfeccion; j <= posicionSmith + poderInfeccion; j++) {
@@ -362,6 +408,9 @@ public class Matrix {
                                 if(matrix.get(j) != null){
 
                                     if(matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        // Salida por pantalla
+                                        System.out.println("\n" + smith.mostrarInformacion() + " pos" + posicionSmith + " infecta a " + matrix.get(j).mostrarInformacion() + " pos" + j);
 
                                         matrix.set(j, infectar(matrix.get(j)));
 
@@ -374,16 +423,19 @@ public class Matrix {
                         }
 
                         // Si el poder de infeccion sale de rango por el principio
-                        else if((poderInfeccion - posicionSmith > 0)){
+                        else if((posicionSmith - poderInfeccion < 0)){
 
                             // Si tengo hueco al final
                             if(posicionSmith + poderInfeccion < matrix.size()){
 
-                                // Recorro desde posicion - poder hasta posicion + poder
-                                for (int j = posicionSmith - poderInfeccion; j <= posicionSmith + poderInfeccion; j++) {
+                                // Recorro desde el principio hasta posicion + poder
+                                for (int j = 0; j <= posicionSmith + poderInfeccion; j++) {
 
                                     // Si es un personajeGenerico lo infecto
                                     if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        // Salida por pantalla
+                                        System.out.println("\n" + smith.mostrarInformacion() + " pos" + posicionSmith + " infecta a " + matrix.get(j).mostrarInformacion() + " pos" + j);
 
                                         infectar(matrix.get(j));
 
@@ -396,10 +448,13 @@ public class Matrix {
                             else{
 
                                 // Recorro hasta el final
-                                for (int j = posicionSmith; j < matrix.size(); j++) {
+                                for (int j = 0; j < matrix.size(); j++) {
 
                                     // Si es un personajeGenerico lo infecto
                                     if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        // Salida por pantalla
+                                        System.out.println("\n" + smith.mostrarInformacion() + " pos" + posicionSmith + " infecta a " + matrix.get(j).mostrarInformacion() + " pos" + j);
 
                                         infectar(matrix.get(j));
 
@@ -415,12 +470,15 @@ public class Matrix {
                         else if((posicionSmith + poderInfeccion) >= (matrix.size())){
 
                             // Si tengo hueco al principio
-                            if(poderInfeccion - posicionSmith < 0){
+                            if(posicionSmith - poderInfeccion >= 0){
 
                                 for (int j = posicionSmith - poderInfeccion; j < matrix.size(); j++) {
                                     
                                     // Si es un personajeGenerico lo infecto
                                     if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        // Salida por pantalla
+                                        System.out.println("\n" + smith.mostrarInformacion() + " pos" + posicionSmith + " infecta a " + matrix.get(j).mostrarInformacion() + " pos" + j);
 
                                         infectar(matrix.get(j));
 
@@ -437,6 +495,9 @@ public class Matrix {
                                     
                                     // Si es un personajeGenerico lo infecto
                                     if(matrix.get(j) != null && matrix.get(j).getClass().getSimpleName().equals("PersonajeGenerico")){
+
+                                        // Salida por pantalla
+                                        System.out.println("\n" + smith.mostrarInformacion() + " pos" + posicionSmith + " infecta a " + matrix.get(j).mostrarInformacion() + " pos" + j);
 
                                         infectar(matrix.get(j));
 
@@ -458,6 +519,8 @@ public class Matrix {
             }
 
         }
+
+        System.out.println("\n" + imprimirMatrix() + "\n");
 
     }
 
@@ -481,7 +544,7 @@ public class Matrix {
      * @return
      */
 
-    static int poscionNeo(){
+    static int posicionNeo(){
 
         int posicion = -1;
 
@@ -508,7 +571,7 @@ public class Matrix {
 
     static Neo devolverNeo(){
 
-        Neo neo = (Neo)matrix.get(poscionNeo());
+        Neo neo = (Neo)matrix.get(posicionNeo());
 
         return neo;
     }
@@ -525,11 +588,185 @@ public class Matrix {
 
             devolverNeo().setElegido(true);
 
-            // Falta matar Smiths
+            // Matar Smiths
+
+            // Obtengo poder de destruccion
+            int poderDestruccion = (int) ((Math.random() * devolverNeo().getDestruccionMax()) + 1);
+            
+            System.out.println("\nNeo es el elegido y tiene " + poderDestruccion + " de destruccion\n");
+
+            // Controlo rangos igual que con la infeccion de Smith
+
+            // Si tengo hueco a ambos lados
+            if((posicionNeo() - poderDestruccion >= 0) && (poderDestruccion + posicionNeo() < matrix.size())){
+
+                // Recorro desde posicion - poder hasta posicion + poder
+                for (int j = posicionNeo() - poderDestruccion; j <= posicionNeo() + poderDestruccion; j++) {
+
+                    // Si es un Smith lo mato
+                    if(matrix.get(j) != null){
+
+                        if(matrix.get(j).getClass().getSimpleName().equals("Smith")){
+
+                            // Casting
+                            Smith smith = (Smith) matrix.get(j);
+
+                            // Salida Pantalla
+                            System.out.println(devolverNeo().mostrarInformacion() + " pos" + posicionNeo() + " ha matado a " + smith.mostrarInformacion() + " pos" + j +  "\n");
+
+                            // Lo añado al cementerio
+                            cementerio.add(smith); 
+                            matrix.set(j, null);
+
+                        }
+
+                    }
+                        
+                }
+
+            }
+
+            // Si el poder de infeccion sale de rango por el principio
+            else if((posicionNeo() - poderDestruccion < 0)){
+
+                // Si tengo hueco al final
+                if(posicionNeo() + poderDestruccion < matrix.size()){
+
+                    // Recorro desde inicio hasta posicion + poder
+                    for (int j = 0; j <= posicionNeo() + poderDestruccion; j++) {
+
+                        // Si es un Smith lo mato
+                        if(matrix.get(j) != null){
+
+                            if(matrix.get(j).getClass().getSimpleName().equals("Smith")){
+
+                                // Casting
+                                Smith smith = (Smith) matrix.get(j);
+
+                                // Salida Pantalla
+                                System.out.println(devolverNeo().mostrarInformacion() + " pos" + posicionNeo() + " ha matado a " + smith.mostrarInformacion() + " pos" + j +  "\n");
+
+                                // Lo añado al cementerio
+                                cementerio.add(smith);
+                                
+                                // Lo mato
+                                matrix.set(j, null);
+
+                            }
+
+                        }
+
+                    }
+                }
+
+                // Si no tengo hueco
+                else{
+
+                    // Recorro hasta el final
+                    for (int j = 0; j < matrix.size(); j++) {
+
+                        // Si es un Smith lo mato
+                        if(matrix.get(j) != null){
+
+                            if(matrix.get(j).getClass().getSimpleName().equals("Smith")){
+
+                                // Casting
+                                Smith smith = (Smith) matrix.get(j);
+
+                                // Salida Pantalla
+                                System.out.println(devolverNeo().mostrarInformacion() + " pos" + posicionNeo() + " ha matado a " + smith.mostrarInformacion() + " pos" + j +  "\n");
+
+                                // Lo añado al cementerio
+                                cementerio.add(smith);
+                                
+                                // Lo mato
+                                matrix.set(j, null);
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            
+            }
+
+            // Si el poder de infeccion sale de rango por el final
+            else if((posicionNeo() + poderDestruccion) >= (matrix.size())){
+
+                // Si tengo hueco al principio
+                if(posicionNeo() - poderDestruccion >= 0){
+
+                    // Recorro desde posicion - poder hasta el final
+                    for (int j = posicionNeo() - poderDestruccion; j < matrix.size(); j++) {
+                        
+                        // Si es un Smith lo mato
+                        if(matrix.get(j) != null){
+
+                            if(matrix.get(j).getClass().getSimpleName().equals("Smith")){
+
+                                // Casting
+                                Smith smith = (Smith) matrix.get(j);
+
+                                // Salida Pantalla
+                                System.out.println(devolverNeo().mostrarInformacion() + " pos" + posicionNeo() + " ha matado a " + smith.mostrarInformacion() + " pos" + j +  "\n");
+
+                                // Lo añado al cementerio
+                                cementerio.add(smith); 
+                                matrix.set(j, null);
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                // Si no tengo hueco
+                else{
+
+                    for (int j = 0; j < matrix.size(); j++) {
+                        
+                        // Si es un Smith lo mato
+                        if(matrix.get(j) != null){
+
+                            if(matrix.get(j).getClass().getSimpleName().equals("Smith")){
+
+                                // Casting
+                                Smith smith = (Smith) matrix.get(j);
+
+                                // Salida Pantalla
+                                System.out.println(devolverNeo().mostrarInformacion() + " pos" + posicionNeo() + " ha matado a " + smith.mostrarInformacion() + " pos" + j +  "\n");
+
+                                // Lo añado al cementerio
+                                cementerio.add(smith); 
+                                matrix.set(j, null);
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+
         }
+
+        else{
+
+            System.out.println("\nNeo esta cansado\n");
+
+        }
+
 
         // Cambiar posicion de Neo
         moverNeo();
+
+        System.out.println("\n" + imprimirMatrix() + "\n");
+
 
     }
 
@@ -544,15 +781,21 @@ public class Matrix {
         // Posicion aleatoria de Matrix
         int posicionAleatoria = (int) (Math.random() * matrix.size());
 
+        // Salida
+        System.out.println("Neo se mueve a la posicion " + posicionAleatoria);
+
         // Obtengo el personaje en esa posicion y su respectiva posicion
         Personaje personaje = matrix.get(posicionAleatoria);
         int posicionPersonaje = matrix.indexOf(personaje);
 
         // Obtengo posicion actual de Neo
-        int posicionInicialNeo = poscionNeo();
+        int posicionInicialNeo = posicionNeo();
 
         // Si la posicion aleatoria es un Smith
-        if(personaje != null && personaje.getClass().getSimpleName().equals("Smith")){            
+        if(personaje != null && personaje.getClass().getSimpleName().equals("Smith")){    
+            
+            // Salida
+            System.out.println("Neo ha matado a " + personaje.mostrarInformacion());
 
             // Machaco el Smith por neo
             matrix.set(posicionPersonaje, matrix.get(posicionInicialNeo));
@@ -588,13 +831,15 @@ public class Matrix {
         ArrayList<Integer> listaPosicionesNull = new ArrayList<>();
 
         // Recorro Matrix
-        for (Personaje elemento : matrix) {
+        for (int i = 0; i < matrix.size(); i++) {
             
             // Si es null añado su posicion
-            if(elemento == null){
+            if(matrix.get(i) == null){
 
-                listaPosicionesNull.add(matrix.indexOf(elemento));
+                listaPosicionesNull.add(i);
+
             }
+
         }
 
         return listaPosicionesNull;
@@ -608,44 +853,47 @@ public class Matrix {
 
     static void aparicionPersonajes(){
 
-        // Si hay personajes en la factoria
-        if(!factoriaPersonajes.isEmpty()){
+        System.out.println("Aparecen personajes si hay hueco!\n");
 
-            // Obtengo lista de posiciones null
-            ArrayList<Integer> listaPosicionesNull = posicionesNull();
+        // Obtengo lista de posiciones null
+        ArrayList<Integer> listaPosicionesNull = posicionesNull();
 
-            // Desordeno factoria
-            Collections.shuffle(factoriaPersonajes);
+        // Desordeno lista
+        Collections.shuffle(listaPosicionesNull);
 
-            // Si hay 5 o menos posiciones null y la factoria tiene al menos 5 personajes
-            if(listaPosicionesNull.size() <= 5 && factoriaPersonajes.size() >= 5){
+        //Desordeno factoria
+        Collections.shuffle(factoriaPersonajes);
 
-                // Recorro posiciones null
-                for (int i = 0; i < listaPosicionesNull.size(); i++) {
+        // Si la factoria tiene 5 o mas
+        if(factoriaPersonajes.size() >= 5){
+
+            // Si la lista de null es 5 o mas
+            if(listaPosicionesNull.size() >= 5){
+
+                // Hago un bucle de 5
+                for (int i = 0; i < 5; i++) {
+
+                    // Salida por pantalla
+                    System.out.println("Aparece un personaje en la posicion " + listaPosicionesNull.get(i));
                     
-                    // Añado Personaje de la factoria
-                    matrix.add(i, factoriaPersonajes.get(i));
+                    // Sustituyo en Matrix
+                    matrix.set(listaPosicionesNull.get(i), factoriaPersonajes.get(i));
 
                 }
 
             }
 
-            // Sino
+            // si la lista es menor de 5
             else{
 
-                // Desordeno lista de null
-                Collections.shuffle(listaPosicionesNull);
+                // Recorro hasta tamaño lista
+                for (int i = 0; i < listaPosicionesNull.size(); i++) {
 
-                // Recorro factoria ya que su tamaño es menor que las posiciones libres
-                for (int i = 0; i < factoriaPersonajes.size(); i++) {
-
-                    // Obtengo posicion
-                    int poscionNull = listaPosicionesNull.get(i);
-
-                    // Obtengo Personaje de factoria
-                    PersonajeGenerico personaje = factoriaPersonajes.get(i);
+                    // Salida por pantalla
+                    System.out.println("Aparece un personaje en la posicion " + listaPosicionesNull.get(i));
                     
-                    matrix.add(poscionNull, personaje);
+                    // Sustituyo en Matrix
+                    matrix.set(listaPosicionesNull.get(i), factoriaPersonajes.get(i));
 
                 }
 
@@ -653,12 +901,29 @@ public class Matrix {
 
         }
 
-        else{
+        // Si la factoria tiene menos de 5
+        if(factoriaPersonajes.size() < 5){
 
-            System.out.println("No quedan Personajes en la factoria");
+            // Recorro hasta tamaño factoria
+            for (int i = 0; i < factoriaPersonajes.size(); i++) {
+
+                // Salida por pantalla
+                System.out.println("Aparece un personaje en la posicion " + listaPosicionesNull.get(i));
+                
+                // Sustituyo en Matrix
+                matrix.set(listaPosicionesNull.get(i), factoriaPersonajes.get(i));
+
+            }
 
         }
-        
+
+        // Si la factoria esta vacia
+        else if (factoriaPersonajes.isEmpty()){
+
+            System.out.println("No quedan personajes en la factoria");
+
+        }
+
     }
 
     /**
@@ -678,6 +943,7 @@ public class Matrix {
 
     static boolean comprobarMundo(){
 
+        boolean mundoExiste = false;
         boolean hayPersonajes = false;
 
         // Recorro Matrix
@@ -687,14 +953,108 @@ public class Matrix {
             if(elemento != null && elemento.getClass().getSimpleName().equals("PersonajeGenerico")){
 
                 hayPersonajes = true;
-                return hayPersonajes;
 
             }
 
         }
 
-        return hayPersonajes;
+        if(hayPersonajes || !factoriaPersonajes.isEmpty()){
 
+            mundoExiste = true;
+
+        }
+
+        return mundoExiste;
+
+    }
+
+    static String imprimirCementerio(){
+
+        // Ordeno Cementerio (Mas antiguo primero)
+        Collections.sort(cementerio);
+
+        // Invierto
+        Collections.reverse(cementerio);
+
+        String resultado = "";
+
+        // Creo iterador para recorrer lista
+        Iterator<Smith> it = cementerio.iterator();
+        
+        // Mientras haya siguiente
+        while(it.hasNext()){
+
+            // Acumulo en el String
+            resultado = resultado + it.next().mostrarInformacion() + "\n";
+
+        }
+
+        return resultado;
+    }
+
+    /**
+     * imprime numeros binarios aleatorios durante 3 segundos (cortesia de ChatGPT)
+     */
+
+    static void finMatrix(){
+
+        // Crear un objeto Random para generar números aleatorios
+        Random random = new Random();
+
+        // Definir la cantidad de columnas y filas que deseas mostrar
+        int columnas = 100;
+        int filas = 40;
+
+        // Crear una matriz que represente las líneas binarias
+        int[][] lines = new int[columnas][filas];
+        for (int i = 0; i < columnas; i++) {
+            // Generar una longitud aleatoria para la línea actual
+            int length = random.nextInt(filas);
+            // Llenar la línea actual con números binarios aleatorios
+            for (int j = 0; j < length; j++) {
+                lines[i][j] = random.nextInt(2);
+            }
+        }
+
+        // Obtener la marca de tiempo actual en milisegundos
+        long startTime = System.currentTimeMillis();
+
+        // Crear un bucle infinito para mostrar la animación continuamente
+        while (true) {
+            // Borrar la consola para que la animación parezca continua
+            System.out.print("\033[H\033[2J");
+
+            // Crear un bucle para mostrar cada fila
+            for (int i = 0; i < filas; i++) {
+                // Crear un bucle para mostrar cada columna de la fila actual
+                for (int j = 0; j < columnas; j++) {
+                    // Establecer el fondo en negro o verde dependiendo del número binario
+                    if (lines[j][i] == 0) {
+                        System.out.print("\u001B[40m");
+                    } else {
+                        System.out.print("\u001B[42m");
+                    }
+                    // Mostrar el número binario en la posición actual
+                    System.out.print(lines[j][i]);
+                }
+                // Restablecer el fondo en negro después de imprimir la línea actual
+                System.out.print("\u001B[40m");
+                // Agregar una pausa para controlar la velocidad de la animación
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+                // Agregar un salto de línea para pasar a la siguiente fila
+                System.out.println();
+            }
+
+            // Comprobar si han pasado 3 segundos y salir del bucle si es así
+            if (System.currentTimeMillis() - startTime >= 3000) {
+                break;
+            }
+        }
     }
 
 }
