@@ -64,7 +64,7 @@ public class PartidoBaloncesto {
 
         //salto Inicial
 
-        String turno  = salto();
+        //String turno  = salto();
 
         System.out.println("Ataca el equipo: " + turno);
 
@@ -285,26 +285,26 @@ public class PartidoBaloncesto {
 
         // Hecho XxX
 
-        static String salto(){   
+        // static String salto(){   
 
-            String resultado = "E1";
+        //     String resultado = "E1";
 
-            int probE1 = aleatorio(100);
+        //     int probE1 = aleatorio(100);
             
-            int probE2 = aleatorio(100);
+        //     int probE2 = aleatorio(100);
 
-            if (probE1 > probE2){
+        //     if (probE1 > probE2){
 
-                resultado = "E1";
-            }
+        //         resultado = "E1";
+        //     }
 
-            else (probE2 >= probE1){
+        //     //else (probE2 >= probE1){
 
-                resultado = "E2";
-            }
+        //         resultado = "E2";
+        //     }
 
-            return resultado;
-        }
+        //     return resultado;
+        // }
 
         /**
          * Devuelve un mumero entero aleatorio entre 0 y maximo

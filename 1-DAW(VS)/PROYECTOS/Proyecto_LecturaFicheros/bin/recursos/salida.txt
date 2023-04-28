@@ -1,0 +1,7 @@
+Suma linea 1: 101
+Suma linea 2: 124
+Suma linea 3: 0
+Suma linea 4: 0
+Suma linea 5: 192
+Suma linea 6: 998
+Esto es un fichero de salida
