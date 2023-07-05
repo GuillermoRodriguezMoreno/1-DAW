@@ -1,0 +1,19 @@
+======= Productos Vendidos =========
+(204) Cuerda, descripcion:  precio: 7.99 , Stock: 20 Unidades totales vendidas: 0
+(1) Martillo, descripcion:  precio: 15.99 , Stock: 50 Unidades totales vendidas: 2
+(12) Llave inglesa, descripcion: Llave inglesa ajustable de 8 pulgadas precio: 12.99 , Stock: 18 Unidades totales vendidas: 1
+(7) Lijadora, descripcion: Lijadora orbital con sistema de aspiración precio: 89.99 , Stock: 8 Unidades totales vendidas: 2
+(11) Serrucho, descripcion: Serrucho de carpintero con mango ergonómico precio: 14.99 , Stock: 12 Unidades totales vendidas: 2
+(202) Broca del 15, descripcion:  precio: 5.99 , Stock: 100 Unidades totales vendidas: 0
+(203) Sierra manual, descripcion:  precio: 9.99 , Stock: 10 Unidades totales vendidas: 0
+(10) Clavo, descripcion: Clavo para madera de 3 pulgadas precio: 0.25 , Stock: 200 Unidades totales vendidas: 4
+(205) Caja de herramientas, descripcion:  precio: 29.99 , Stock: 30 Unidades totales vendidas: 0
+(233) Mesa trabajo, descripcion: Mesa de trabajo para madera precio: 150.0 , Stock: 0 Unidades totales vendidas: 0
+(2) Destornillador, descripcion: Juego de 6 destornilladores de distintas medidas precio: 9.99 , Stock: 20 Unidades totales vendidas: 2
+(13) Cinta métrica, descripcion: Cinta métrica de 3 metros precio: 5.99 , Stock: 35 Unidades totales vendidas: 1
+(9) Tornillo, descripcion: Tornillo de acero inoxidable de 10 mm precio: 0.99 , Stock: 100 Unidades totales vendidas: 10
+(8) Herramienta multiusos, descripcion: Herramienta multiusos con 12 funciones precio: 24.99 , Stock: 25 Unidades totales vendidas: 3
+(3) Taladro, descripcion: Taladro eléctrico con velocidad variable precio: 69.99 , Stock: 10 Unidades totales vendidas: 1
+(5) Pintura, descripcion: Pintura acrílica de alta calidad precio: 29.99 , Stock: 30 Unidades totales vendidas: 1
+(6) Cepillo eléctrico, descripcion: Cepillo eléctrico para carpintería precio: 59.99 , Stock: 15 Unidades totales vendidas: 1
+(4) Sierra circular, descripcion: Sierra circular para corte de madera precio: 119.99 , Stock: 5 Unidades totales vendidas: 1

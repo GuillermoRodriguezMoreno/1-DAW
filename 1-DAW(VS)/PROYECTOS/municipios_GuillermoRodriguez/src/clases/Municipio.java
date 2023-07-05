@@ -7,11 +7,11 @@ public class Municipio implements Comparable<Municipio>{
     private String codigoPostal;
     private String nombre;
     private int año;
-    private long poblacion;
+    private int poblacion;
 
     // Constructores
 
-    public Municipio(String cp, String nombre, int año, long poblacion){
+    public Municipio(String cp, String nombre, int año, int poblacion){
 
         this.codigoPostal = cp;
         this.nombre = nombre;
@@ -49,8 +49,15 @@ public class Municipio implements Comparable<Municipio>{
     @Override
     public int compareTo(Municipio o) {
 
-        return this.nombre.compareTo(o.getNombre());
+        int resultado = (this.nombre.compareTo(o.getNombre()));
 
+        if(resultado == 0){
+
+            resultado =  (this.año - o.getAño());
+
+        }
+
+        return resultado;
     }
 
     // Getters y Setters
@@ -79,7 +86,7 @@ public class Municipio implements Comparable<Municipio>{
         this.año = año;
     }
 
-    public long getPoblacion() {
+    public int getPoblacion() {
         return poblacion;
     }
 

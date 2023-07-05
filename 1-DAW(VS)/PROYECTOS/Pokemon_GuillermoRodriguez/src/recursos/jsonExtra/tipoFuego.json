@@ -1,0 +1,160 @@
+[ {
+  "id" : 4,
+  "num" : "004",
+  "name" : "Charmander",
+  "type" : [ "Fire" ],
+  "height" : "0.61 m",
+  "weight" : "8.5 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "005",
+    "name" : "Charmeleon"
+  }, {
+    "num" : "006",
+    "name" : "Charizard"
+  } ]
+}, {
+  "id" : 5,
+  "num" : "005",
+  "name" : "Charmeleon",
+  "type" : [ "Fire" ],
+  "height" : "1.09 m",
+  "weight" : "19.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "004",
+    "name" : "Charmander"
+  } ],
+  "next_evolution" : [ {
+    "num" : "006",
+    "name" : "Charizard"
+  } ]
+}, {
+  "id" : 6,
+  "num" : "006",
+  "name" : "Charizard",
+  "type" : [ "Fire", "Flying" ],
+  "height" : "1.70 m",
+  "weight" : "90.5 kg",
+  "weaknesses" : [ "Water", "Electric", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "004",
+    "name" : "Charmander"
+  }, {
+    "num" : "005",
+    "name" : "Charmeleon"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 37,
+  "num" : "037",
+  "name" : "Vulpix",
+  "type" : [ "Fire" ],
+  "height" : "0.61 m",
+  "weight" : "9.9 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "038",
+    "name" : "Ninetales"
+  } ]
+}, {
+  "id" : 38,
+  "num" : "038",
+  "name" : "Ninetales",
+  "type" : [ "Fire" ],
+  "height" : "1.09 m",
+  "weight" : "19.9 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "037",
+    "name" : "Vulpix"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 58,
+  "num" : "058",
+  "name" : "Growlithe",
+  "type" : [ "Fire" ],
+  "height" : "0.71 m",
+  "weight" : "19.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "059",
+    "name" : "Arcanine"
+  } ]
+}, {
+  "id" : 59,
+  "num" : "059",
+  "name" : "Arcanine",
+  "type" : [ "Fire" ],
+  "height" : "1.91 m",
+  "weight" : "155.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "058",
+    "name" : "Growlithe"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 77,
+  "num" : "077",
+  "name" : "Ponyta",
+  "type" : [ "Fire" ],
+  "height" : "0.99 m",
+  "weight" : "30.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "078",
+    "name" : "Rapidash"
+  } ]
+}, {
+  "id" : 78,
+  "num" : "078",
+  "name" : "Rapidash",
+  "type" : [ "Fire" ],
+  "height" : "1.70 m",
+  "weight" : "95.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "077",
+    "name" : "Ponyta"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 126,
+  "num" : "126",
+  "name" : "Magmar",
+  "type" : [ "Fire" ],
+  "height" : "1.30 m",
+  "weight" : "44.5 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : null
+}, {
+  "id" : 136,
+  "num" : "136",
+  "name" : "Flareon",
+  "type" : [ "Fire" ],
+  "height" : "0.89 m",
+  "weight" : "25.0 kg",
+  "weaknesses" : [ "Water", "Ground", "Rock" ],
+  "prev_evolution" : [ {
+    "num" : "133",
+    "name" : "Eevee"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 146,
+  "num" : "146",
+  "name" : "Moltres",
+  "type" : [ "Fire", "Flying" ],
+  "height" : "2.01 m",
+  "weight" : "60.0 kg",
+  "weaknesses" : [ "Water", "Electric", "Rock" ],
+  "prev_evolution" : null,
+  "next_evolution" : null
+} ]

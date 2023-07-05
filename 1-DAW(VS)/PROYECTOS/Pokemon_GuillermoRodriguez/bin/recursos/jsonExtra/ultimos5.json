@@ -1,0 +1,69 @@
+[ {
+  "id" : 147,
+  "num" : "147",
+  "name" : "Dratini",
+  "type" : [ "Dragon" ],
+  "height" : "1.80 m",
+  "weight" : "3.3 kg",
+  "weaknesses" : [ "Ice", "Dragon", "Fairy" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "148",
+    "name" : "Dragonair"
+  }, {
+    "num" : "149",
+    "name" : "Dragonite"
+  } ]
+}, {
+  "id" : 148,
+  "num" : "148",
+  "name" : "Dragonair",
+  "type" : [ "Dragon" ],
+  "height" : "3.99 m",
+  "weight" : "16.5 kg",
+  "weaknesses" : [ "Ice", "Dragon", "Fairy" ],
+  "prev_evolution" : [ {
+    "num" : "147",
+    "name" : "Dratini"
+  } ],
+  "next_evolution" : [ {
+    "num" : "149",
+    "name" : "Dragonite"
+  } ]
+}, {
+  "id" : 149,
+  "num" : "149",
+  "name" : "Dragonite",
+  "type" : [ "Dragon", "Flying" ],
+  "height" : "2.21 m",
+  "weight" : "210.0 kg",
+  "weaknesses" : [ "Ice", "Rock", "Dragon", "Fairy" ],
+  "prev_evolution" : [ {
+    "num" : "147",
+    "name" : "Dratini"
+  }, {
+    "num" : "148",
+    "name" : "Dragonair"
+  } ],
+  "next_evolution" : null
+}, {
+  "id" : 150,
+  "num" : "150",
+  "name" : "Mewtwo",
+  "type" : [ "Psychic" ],
+  "height" : "2.01 m",
+  "weight" : "122.0 kg",
+  "weaknesses" : [ "Bug", "Ghost", "Dark" ],
+  "prev_evolution" : null,
+  "next_evolution" : null
+}, {
+  "id" : 151,
+  "num" : "151",
+  "name" : "Mew",
+  "type" : [ "Psychic" ],
+  "height" : "0.41 m",
+  "weight" : "4.0 kg",
+  "weaknesses" : [ "Bug", "Ghost", "Dark" ],
+  "prev_evolution" : null,
+  "next_evolution" : null
+} ]

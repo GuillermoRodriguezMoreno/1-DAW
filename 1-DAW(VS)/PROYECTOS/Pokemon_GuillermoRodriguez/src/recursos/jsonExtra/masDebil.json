@@ -1,0 +1,14 @@
+{
+  "id" : 102,
+  "num" : "102",
+  "name" : "Exeggcute",
+  "type" : [ "Grass", "Psychic" ],
+  "height" : "0.41 m",
+  "weight" : "2.5 kg",
+  "weaknesses" : [ "Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "103",
+    "name" : "Exeggutor"
+  } ]
+}

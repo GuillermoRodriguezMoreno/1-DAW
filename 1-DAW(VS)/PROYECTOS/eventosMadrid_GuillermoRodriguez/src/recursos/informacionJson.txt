@@ -1,0 +1,905 @@
+=X=X=X=X=X=X=X=X=X=X= FICHERO JSON =X=X=X=X=X=X=X=X=X=
+
+============ LISTA EVENTOS GRATIS ===========
+
+ Total: 805
+
+(11966931) Titulo: 13 Actos mágicos (2+11), Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11951201) Titulo: 20 a tocar, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE CERECINOS 1
+(11942368) Titulo: 3 cromosomas de Janira León, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11958859) Titulo: 4 patas tiene un cuento, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11932870) Titulo: 5 Historias, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11948971) Titulo: 58 Premio Reina Sofía., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11942319) Titulo: 8M en red: quién es quién en los Espacios de Igualdad, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE ANDRES MELLADO 44
+(11913908) Titulo: Abriendo el corazón: amor, compasión, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11956706) Titulo: África y España II: de la Edad Media al siglo XIX, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11951858) Titulo: Aires del Ayer, Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11946443) Titulo: Airu - Vicalvaro, Precio: 0, Gratis: true, Direccion: CP: 28032, PASEO POLIDEPORTIVO 142
+(11944531) Titulo: Al encuentro de Rafael de León, Precio: 0, Gratis: true, Direccion: CP: 28035, CALLE ISLA DE ONS 14
+(11665687) Titulo: Aladino y la Lámpara Maravillosa, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11964436) Titulo: Alas al viento, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11880251) Titulo: Alcoba Nupcial, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(11914604) Titulo: Alfabetización digital, Precio: 0, Gratis: true, Direccion: CP: 28007, CALLE ARREGUI Y ARUEJ 31
+(11965950) Titulo: Alfabetización digital, Precio: 0, Gratis: true, Direccion: CP: 28007, CALLE ARREGUI Y ARUEJ 31
+(11939059) Titulo: Alicia, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE EUGENIA DE MONTIJO 105
+(11937221) Titulo: Alicia, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE MARIA DEL CARMEN 65
+(11957573) Titulo: Alicia, Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE SANTA FELICIDAD 39
+(11964818) Titulo: Alicia en el país de las maravillas, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11937608) Titulo: Alzheimer precoz:  importancia del diagnóstico precoz en la enfermedad y terapias evolutivas, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11965440) Titulo: Amanece que no es mucho, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11776601) Titulo: Amar la existencia, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTAÑA 23
+(11941348) Titulo: Amigos del barrio, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CASTROSERNA 4
+(11957453) Titulo: Amor y locura, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11940786) Titulo: Ana María Puente 'La Pelirroja', Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE FUENTE DEL TIRO 72
+(11900323) Titulo: Análisis de aguas (dentro del Programa de Intervención por la Biodiversidad), Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11958157) Titulo: Andrés Cañadas, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11938932) Titulo: Animales, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE SOLDADO JOSE MARIA REY 44
+(11906762) Titulo: Antón Cortés Trío. Soniquete (San Blas - Canillejas), Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11965041) Titulo: Antonio Lo Riso, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11780613) Titulo: Aprende a bailar Marinera, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11961462) Titulo: Aprende a identificar las mariposas de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11961459) Titulo: Aprende a identificar las mariposas de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11961461) Titulo: Aprende a identificar las mariposas de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11900355) Titulo: Aprende a identificar las mariposas de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11904088) Titulo: Árboles notables del Vivero, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11921888) Titulo: Arte y vida, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 41
+(11768845) Titulo: Artrics - Laboratorio de Creación, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11934004) Titulo: Asamblea PIPO, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11948235) Titulo: Asumir el fracaso y convertirlo en risa, soltar el freno, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11890189) Titulo: Aula de Salud Bodyfulness y Mindfulness, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE ISAAC ALBENIZ 1
+(11921873) Titulo: Ausencias, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 49
+(11120589) Titulo: Australia, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11932246) Titulo: Aves en familia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11946208) Titulo: Baile de Coplas, Precio: 0, Gratis: true, Direccion: CP: 28023, TRAVESIA CA&amp;Ntilde;O 5
+(10633173) Titulo: Baile de Mayores en Centros Culturales Distrito Latina, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE FUENTE DEL TIRO 72
+(10634056) Titulo: Baile de Mayores en Centros Culturales Distrito Latina, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE EL GRECO 29
+(11951875) Titulo: Ballet Ara de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CASTROSERNA 4
+(11831855) Titulo: Baloncesto, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11951189) Titulo: Banda Escuela de Música Maestro Barbieri, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11964409) Titulo: Banda Lavanda, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11896733) Titulo: Benín, la antigua Dahomey y la ruta de esclavos, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11912381) Titulo: Bernarda Alba de Lorca, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11952563) Titulo: Bibliodebate: 'Eutanasia como derecho', Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11887286) Titulo: Biblioteca: una habitación propia, Precio: 0, Gratis: true, Direccion: CP: 28034, CALLE MANRESA 1
+(11960229) Titulo: Bicicletada Intercentros 2023, Precio: 0, Gratis: true, Direccion: Sin datos
+(11907309) Titulo: Blanca Paloma (San Blas - Canillejas), Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11961228) Titulo: Blas de Lezo y la Guerra del Asiento, Precio: 0, Gratis: true, Direccion: CP: 28001, CALLE GOYA 1
+(11913903) Titulo: Bondad innata, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11957930) Titulo: Bravo Nino, por siempre libre, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE SAN NEMESIO 4
+(11946620) Titulo: Brigitte., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11934570) Titulo: Café y conversación sobre juegos de azar., Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11956631) Titulo: Calle abierta infantil, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE PEÑA GORBEA 17
+(11940874) Titulo: Cámara en Mano/Realidades. Fotografía., Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11693997) Titulo: Camerino, Precio: Entrada libre, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 14
+(11951881) Titulo: Caminos que versan danza, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE MARIA DEL CARMEN 65
+(11949115) Titulo: Campamento Urbano de Semana Santa 2023, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE JUAN JOSE MARTINEZ SECO 77
+(11961077) Titulo: Canción española: `Tributo a Rocío Jurado´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11964763) Titulo: Canciones para educar en valores, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11957546) Titulo: Canciones para el futuro, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11965669) Titulo: Cantando bajo la lluvia, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11827088) Titulo: Cantando y contando a Lecuona, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11906576) Titulo: Caos en la taberna (Puente de Vallecas), Precio: 0, Gratis: true, Direccion: CP: 28053, AVENIDA DE LAS GLORIETAS 19
+(11957569) Titulo: Carlos Adriano, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11945835) Titulo: Carmen Xía - Vicalvaro, Precio: 0, Gratis: true, Direccion: CP: 28032, PASEO POLIDEPORTIVO 142
+(11937089) Titulo: Casi protagonista, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CAMARENA 10
+(11900578) Titulo: Celebrando a Shostakovich. Cuarteto Bauhaus, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11938342) Titulo: Celeste, Precio: 0, Gratis: true, Direccion: CP: 28053, AVENIDA DE LAS GLORIETAS 19
+(11967237) Titulo: Centro de insectos, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11940867) Titulo: Centro Musical 'Grappelli'., Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11953573) Titulo: Cerdita, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11949088) Titulo: Certamen Coreográfico Distrito Latina, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11934704) Titulo: Cesión de espacios, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11961864) Titulo: Charla del CMS - Villaverde: `Antes de Morir Quiero...´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11956779) Titulo: Chup, chup, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11961738) Titulo: Ciclo de Cine Clásico Español: `El Mundo Sigue´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11961768) Titulo: Ciclo de Cine Clásico Español: `El Viaje a Ninguna Parte´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11961644) Titulo: Ciclo de Cine Clásico Español: `Historias de la Radio´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11802180) Titulo: Ciclo 'El traductor, primer lector', Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11802179) Titulo: Ciclo 'El traductor, primer lector', Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11851662) Titulo: Ciencia en Casa de Fieras, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11944869) Titulo: Cinco lobitos, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE HERMANOS GARCIA NOBLEJAS 14
+(11962246) Titulo: Cine Infantil en la Biblioteca María Lejárraga: Carlitos &amp; Snoopy : La película de Peanuts, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11962268) Titulo: Cine Infantil en la Biblioteca María Lejárraga: Río, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11965117) Titulo: Cine infantil: 'Astro Boy', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11932656) Titulo: Cinefórum en la Biblioteca Benito Pérez Galdós: 'Harriet: en busca de la libertad', Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE CONDE DUQUE 9
+(11929060) Titulo: Cine: `El Buen Patrón´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11961448) Titulo: Cine: `Quien a Hierro Mata´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11939921) Titulo: Circo Infantil: `Máximo´, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11941856) Titulo: Circo: II Ciclo de Circo Contemporáneo: Midnight Company - 'US'., Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11945032) Titulo: Clase abierta Max y Mía, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11896784) Titulo: Clausura, entrega de premios y representación de la obra  ganadora del Certamen, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11923714) Titulo: Clownti, Precio: 0, Gratis: true, Direccion: CP: 28009, AVENIDA MÉXICO 4
+(11761948) Titulo: Club de Ajedrez, Precio: 0, Gratis: true, Direccion: CP: 28041, PLAZA PUEBLO 2
+(11781885) Titulo: Club de lectura fácil para mayores de 65 años, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11897795) Titulo: Club de lectura infantil BPM Mario Vargas Llosa, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11961836) Titulo: Club de lectura por la tarde, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11766997) Titulo: Club de lectura temática 'Amores Contados 2', Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11766777) Titulo: Club de lectura temática 'Las Mejores Historias Jamás Contadas' 4ª Serie, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11889791) Titulo: Club de lectura 'Soledad no deseada', Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11889789) Titulo: Club de lectura 'Soledad no deseada', Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11889790) Titulo: Club de lectura 'Soledad no deseada', Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11962144) Titulo: Club de lectura (infantil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11767096) Titulo: Club de Lectura-Taller Iconografía occidental: santos, demonios y ángeles 2ª serie, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11952164) Titulo: Club de lectura: Bucarest en cuatro libros, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11891830) Titulo: Club de novela romántica., Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11965023) Titulo: Como niños en fiesta de fin de curso, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11951909) Titulo: Compréndeme. Un análisis múltiple  de cómics testimoniales feministas, Precio: Entrada libre hasta completar aforo, Gratis: true, Direccion: CP: 28014, PLAZA CIBELES 1
+(11939892) Titulo: Con aroma de Mujer, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11612483) Titulo: Concierto a cargo de la Big Band de la Facultad de Música y Artes Escénicas de la Universidad Alfonso X el Sabio (UAX), Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11944936) Titulo: Concierto a cargo de los alumnos de la Escuela Municipal de Música María Rodrigo, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11945044) Titulo: Concierto Agrupación de guitarra española dirigido por Juan Ángel Giménez Cabo, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11964752) Titulo: Concierto caprichoso, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11952298) Titulo: Concierto de la Banda Sinfónica Municipal, Precio: 0, Gratis: true, Direccion: CP: 28013, CALLE BAILEN 10
+(11897452) Titulo: Concierto de la Banda Sinfónica Municipal. Tradición, Precio: 0, Gratis: true, Direccion: CP: 28012, CALLE ATOCHA 65
+(11897473) Titulo: Concierto de la Banda Sinfónica Municipal. Versus, Precio: 0, Gratis: true, Direccion: CP: 28012, CALLE ATOCHA 65
+(11966615) Titulo: Concierto de música clásica y Muestra de danza. Música para bailar, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11945049) Titulo: Concierto de San Juan escuela de música Soto Mesa, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11958138) Titulo: Concierto en fresa mayor, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11940762) Titulo: Concierto extraordinario '30 aniversario' del Conservatorio Teresa Berganza, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11967053) Titulo: Concierto familiar 'Yo Soy Ratón', Precio: 0, Gratis: true, Direccion: Sin Datos
+(11955363) Titulo: Concierto flauta travesera, Precio: 0, Gratis: true, Direccion: CP: 28053, AVENIDA DE LAS GLORIETAS 19
+(11965585) Titulo: Concierto sinfónico: 'Requiem Op. 48, de Fauré'., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE AZUCENAS 34
+(11966614) Titulo: Concierto XX aniversario del coro Hora Ludens, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11955900) Titulo: Concierto 'Veinte poemas prehistóricos y una canción desesperada' por Mario Otero y Ana Santos, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11327553) Titulo: Concierto: Ciclo jóvenes talentos del conservatorio profesional de música Teresa Berganza, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11944194) Titulo: Concierto: Somos compositoras, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11940036) Titulo: Concierto: 'Música de Superhéroes', Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11965631) Titulo: Concurso 'Fotografías lectoras', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE ASCAO 4
+(11964736) Titulo: Conectando en verde: ruta en bici desde la Dehesa al Centro de Interpretación de la Naturaleza de Montecarmelo, Precio: 0, Gratis: true, Direccion: Sin datos
+(10590577) Titulo: Conferencia Historia de Madrid: Justicia Civil e Inquisición en el Madrid de los Austrias, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(10878694) Titulo: Conferencia Historia de Madrid: Los albardanes de la corte barroca de los Austrias, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11232151) Titulo: Conferencia musical: El cuarteto de cuerda: una forma musical, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11232160) Titulo: Conferencia musical: Gustav Mahler, compositor y director de la Ópera de Viena, del éxito al fracaso, de la fama al olvido…, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11957365) Titulo: Conferencia sobre motivación, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTAÑA 23
+(11965644) Titulo: Conferencia 'Parque del Campo del Moro', Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11961789) Titulo: Conferencias de Arte e Historia, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11947088) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947071) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947057) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947086) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947065) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947072) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947059) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11947092) Titulo: Conferencias. Retiro, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11964298) Titulo: Conferencia-concierto La música sacra desde el gregoriano hasta Jesucristo Superstar’, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11232158) Titulo: Conferencia: Picasso, 50 años después, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11876301) Titulo: Conferencia: 'Bienvenidos al (bárbaro) norte: la visión de los tracios en el mundo griego', Precio: 0, Gratis: true, Direccion: CP: 28005, PLAZA SAN ANDRES 1
+(11878254) Titulo: Conferencia: 'La liberación de Andrómeda en el arte', Precio: 0, Gratis: true, Direccion: CP: 28005, PLAZA SAN ANDRES 1
+(11878525) Titulo: Conferencia: 'Malvadas y desgraciadas mujeres en Tácito', Precio: 0, Gratis: true, Direccion: CP: 28005, PLAZA SAN ANDRES 1
+(11878269) Titulo: Conferencia: 'Música, letras y gimnasia en la Grecia antigua: el nacimiento de la escuela en Occidente', Precio: 0, Gratis: true, Direccion: CP: 28005, PLAZA SAN ANDRES 1
+(11878805) Titulo: Conferencia: 'Pandora y el origen de hombres y mujeres', Precio: 0, Gratis: true, Direccion: CP: 28005, PLAZA SAN ANDRES 1
+(11939934) Titulo: Conferencia: `Conectando desde el Autocuidado´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11940485) Titulo: Conferencia: 'Parque de La Quinta del Berro'. A cargo de Belén Naharro., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11698141) Titulo: Confluencias: intersecciones entre palabra e imagen, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE CONDE DUQUE 9
+(11948231) Titulo: Contar cuando hay varios personajes, energía, el ritmo, la intención, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11954938) Titulo: Conversaciones viajeras, Precio: 0, Gratis: true, Direccion: CP: 28012, CALLE OLIVAR 46
+(11931846) Titulo: Coro Aires de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11943096) Titulo: Coro Juvenil y Orquesta de Cuerda de la Escuela Municipal de Música Almudena Cano, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 6
+(11944266) Titulo: Coro y Combo de Música Moderna, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE CANARIAS 17
+(11896731) Titulo: Costa de Marfil y Ghana: viaje por África Centro-Occidental, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11934695) Titulo: Crea tu atrapasueños, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11934696) Titulo: Crea tu propio juego de mesa, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11964840) Titulo: Cronos y la marciana Macarena, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11919120) Titulo: Cruce de miradas, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11965710) Titulo: Cuando calle el silencio, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11957610) Titulo: Cuarteto de cuerdas Omnia, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11965721) Titulo: Cuentacuentos para adultos: 'Cuentos de amor y mal amor'. A cargo de Nelson Calderón., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(10585492) Titulo: Cuentacuentos: Está bien ser diferente, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11910490) Titulo: Cuentos con tigo, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11966078) Titulo: Cuentos de inventos, encuentros y cerezos, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11944860) Titulo: Cuentos pequeños como una hormiga, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11598731) Titulo: Curso de formación a familias de Primaria, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11919008) Titulo: Curso de formación a familias de Secundaria, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11941694) Titulo: Cursos y talleres, Precio: 0, Gratis: true, Direccion: CP: 28001, CALLE NUÑEZ DE BALBOA 40
+(11965210) Titulo: Dale tu vuelo. Viaje de ida y vuelta, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11742826) Titulo: Dalí y el Modernismo, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11951845) Titulo: Dancing Schubert, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11934703) Titulo: Danza, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11964782) Titulo: Danza Emoción, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11951330) Titulo: Danza Esporádica, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11966612) Titulo: Danza: La bella durmiente, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11965793) Titulo: Danza: 'Alma flamenca'., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11940483) Titulo: Danza: 'Ilusión'., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11881562) Titulo: De Dehesa de la Villa a Casa de Campo, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11788734) Titulo: De la Biblioteca Muncipal matritense a la Biblioteca Histórica. Directores y colecciones, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE CONDE DUQUE 9
+(11601773) Titulo: De la plaza del Dos de Mayo al Museo de Historia, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11965336) Titulo: Descubre el Parque de Pradolongo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11769477) Titulo: Descubre el Vivero de Estufas del Retiro, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NUÑEZ 2
+(11887871) Titulo: Descubre las aves del Parque de Pradolongo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11949583) Titulo: Desenterrando a las olvidadas, Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11939857) Titulo: Desiré Paredes, Precio: 0, Gratis: true, Direccion: CP: 28053, AVENIDA DE LAS GLORIETAS 19
+(11964123) Titulo: Detectives de El Pardo, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11958122) Titulo: Detectives Salvajes: conoce los rastros y las huellas, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11948349) Titulo: Día Internacional de la Mujer en Distrito Retiro., Precio: 0, Gratis: true, Direccion: Sin Datos
+(11027070) Titulo: Día Internacional de los Bosque, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11932186) Titulo: Día Mundial de la Poesía. Recital y taller poético, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11932159) Titulo: Día Mundial del Gorrión. Senda ornitológica por el Parque de Pradolongo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11965904) Titulo: Día Nacional de Apreciación de los Murciélagos ¡Charla y taller de reutilizando materiales para aprender sobre los amigos nocturno!, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11292731) Titulo: Diálogos: aspectos prácticos, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11906752) Titulo: Dimensión Vocal. Distrito de Hortaleza, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11957155) Titulo: Distintos pero iguales, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11958635) Titulo: Dos reinas británicas II, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11967051) Titulo: Edu el Mago, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11965169) Titulo: El amor es lo que tiene, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11930749) Titulo: El amor tiene su aquel, de Carlos Llopis, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11959954) Titulo: El canto de la Sibila, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11952039) Titulo: El cartel en la Semana Santa de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11964551) Titulo: El cartero del rey, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11967143) Titulo: El cartero real, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11827177) Titulo: El cartero siempre llama dos veces, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(10595800) Titulo: El castillo de las personas perdidas, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(10876077) Titulo: El castillo de las personas perdidas, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11124724) Titulo: El castillo de las personas perdidas, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(10595786) Titulo: El castillo de las personas perdidas, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11946821) Titulo: El castillo embrujado, Precio: 0, Gratis: true, Direccion: CP: 28007, CALLE LUIS PEIDRO 2
+(11327770) Titulo: El club de los gatos, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11956652) Titulo: El Club de Teatro 'Vargas Llosa' presenta:  Instantes de vida. Historia de mujeres, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11944364) Titulo: El Color de la Palabra, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11914472) Titulo: El Combo Batanga - Villa de Vallecas, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MONTE DE MONTJUICH 7
+(11959821) Titulo: El Director de David Jiménez, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11944081) Titulo: El Embrujo de España: La Cultura Norteamericana y el mundo hispánico, 1779-1939, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11958673) Titulo: El enigma del amor, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11253371) Titulo: El ingenioso Ulises, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11967459) Titulo: El Jardín del Reservado del Buen Retiro, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11957702) Titulo: El Lazarillo de Tormes, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11921814) Titulo: El mágico desván de los sueños, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE ESTAFETA 33
+(11911332) Titulo: El mago Wicky Tricky, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MONTE DE MONTJUICH 7
+(11939711) Titulo: El mezquino del 5.º, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(11854288) Titulo: El monte a través de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11092978) Titulo: El monte a través de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11945064) Titulo: El orden divino. Club de cine 'Las chicas del celuloide', Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE MARIA MARTINEZ OVIOL 12
+(11875100) Titulo: El Pacto de Milán, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11785996) Titulo: El Paisaje de la Luz en el museo, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE FUENCARRAL 78
+(11949299) Titulo: El pensamiento positivo y las afirmaciones, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11949296) Titulo: El perdón y la autoestima, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11907480) Titulo: El principiante, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(10926474) Titulo: El Puente de la Marmota, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11946141) Titulo: El reencuentro, Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11777704) Titulo: El Reservado, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11921843) Titulo: El secreto de las ninfas, Precio: 0, Gratis: true, Direccion: CP: 28041, PLAZA ASOCIACION 1
+(11966752) Titulo: El triángulo de la tristeza, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11939591) Titulo: El Veneno del Teatro, Precio: 0, Gratis: true, Direccion: CP: 28038, CALLE RISCO DE PELOCHE 14
+(11957898) Titulo: Elegir centro educativo en Tetuán, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11957962) Titulo: Elegir centro educativo en Tetuán, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE FRANCOS RODRIGUEZ 67
+(11940713) Titulo: Ellas crean: femenino plural, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE MARIA DEL CARMEN 65
+(11946467) Titulo: Eme Eme Project, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11957948) Titulo: En clave de Mozart, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11881517) Titulo: Encinar de San Pedro, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11964637) Titulo: Ensalada de la Villa: etnobotánica, biodiversidad y saberes tradicionales., Precio: 0, Gratis: true, Direccion: Sin datos
+(11931806) Titulo: Entre la pintura social y virtual, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11965026) Titulo: Entrega de premios del XXXVIII Concurso de Cuento y Poesía de Vicálvaro, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11939908) Titulo: Entrega de trofeos y clausura, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(11913914) Titulo: Entrelazamientos vitales: independencia, conexión, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11913906) Titulo: Equilibrio emocional. Armonía existencial, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11940760) Titulo: Érase una vez… danzas de libertad, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11951333) Titulo: ERAT misterio y poder del tiempo, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11944421) Titulo: Escape Room, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE CANARIAS 17
+(11738884) Titulo: Estudio de grabación, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE FUENTE DEL TIRO 72
+(11940528) Titulo: Eternas, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE SERRADILLA 13
+(11925464) Titulo: Exposición  de Collage Digital `EscritorAS´, Precio: 0, Gratis: true, Direccion: CP: 28021, ACCESO COLONIA MARCONI 4
+(11966729) Titulo: Exposición de acuarelas, dibujos e ilustraciones, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11962181) Titulo: Exposición de Artículos de Encuadernación, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11967784) Titulo: Exposición de Bisutería, Precio: 0, Gratis: true, Direccion: CP: 28021, ACCESO COLONIA MARCONI 4
+(11944811) Titulo: Exposición de fotografía: Bosques y Espacios Naturales en España, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11961062) Titulo: Exposición de Manualidades, Precio: 0, Gratis: true, Direccion: CP: 28021, PLAZA PINAZO 9
+(11921902) Titulo: Exposición de obras (2010 - 2023), Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE JULIO AGUIRRE 10
+(11937618) Titulo: Exposición de pintura Ana del Alto, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11945023) Titulo: Exposición de Pintura `Entre Tuercas y Pinceles´, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11944372) Titulo: Exposición de pintura, mosaico y grabado. Teselas en armonía, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11941190) Titulo: Exposición de pintura: MISCELÁNEA, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(11880471) Titulo: Exposición de pintura: Una luz para cada uno, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11967089) Titulo: Exposición de pintura: Vivencias A cargo de Ángel Lage Lucendo, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11962194) Titulo: Exposición de Pintura: `Dos Visiones - Varios Mundos´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11951168) Titulo: Exposición de Pintura: `Lugares y Rarezas´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11947252) Titulo: Exposición Disney, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE MARIA MARTINEZ OVIOL 12
+(11967520) Titulo: Exposición obras pictóricas de Ciuco Gutierrez: 'El Viaje Soñado'., Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11630658) Titulo: Exposición permanente de las obras del escultor Andrés Lasanta, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11947592) Titulo: Exposición Pinceladas, Precio: 0, Gratis: true, Direccion: CP: 28023, TRAVESIA CA&amp;Ntilde;O 5
+(11948463) Titulo: Exposición PrisiONERAS  Fundación ACOPE, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE HERMANOS GARCIA NOBLEJAS 14
+(11752002) Titulo: Exposición 'El enigma Laforet', Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11855005) Titulo: Exposición 'Francisco Pradilla Ortiz (1848-1921), más que un pintor de historia'., Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE FUENCARRAL 78
+(11912169) Titulo: Exposición 'Miradas de Tanzania', Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11912131) Titulo: Exposición 'Miradas de Tanzania', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11912113) Titulo: Exposición 'Miradas de Tanzania', Precio: 0, Gratis: true, Direccion: CP: 28025, CALLE GENERAL RICARDOS 252
+(11912116) Titulo: Exposición 'Miradas de Tanzania', Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11950067) Titulo: Exposición 'La Máquina del Tiempo. Un viaje ilustrado por la historia de Madrid', Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11827109) Titulo: Exposición 'Paisajes Humanos'. A cargo de Enrique Polo Delgado, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11944462) Titulo: Exposición. Doña Emilia ilustrada, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE AMANIEL 29
+(11944719) Titulo: Exposición: Introspectivas, de Silvia Barrios, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11962176) Titulo: Exposición: La Pintura Como Terapia, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11959737) Titulo: Feria de la Cerveza de Primavera, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE PEÑA GORBEA 17
+(11945789) Titulo: Feria de Productores, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NUÑEZ 2
+(11967435) Titulo: Fernando VII y Madrid, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11947263) Titulo: Festival Primavera Literaria, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11958535) Titulo: Field Notes, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11958654) Titulo: Filosofía y edición., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11951879) Titulo: Flamencas y olé, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE SERRADILLA 13
+(11957914) Titulo: Flamenco en vivo, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11664757) Titulo: Flamenco, Hablando con los poetas, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11937334) Titulo: Flow Violeta, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11951872) Titulo: Folclore de Madrid. Danzas castellanas y goyescas, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CAMARENA 10
+(11966739) Titulo: Formas con arte y naturaleza, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11958186) Titulo: Francisco Rivero 'Las canciones de tu vida', Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE HERMANOS GARCIA NOBLEJAS 14
+(11957977) Titulo: Fusión y cuenta nueva, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE SAN NEMESIO 4
+(11964788) Titulo: Gala del día mundial de la danza, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11937370) Titulo: Ganadores del VIII Certamen de piano EPTA España, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11953768) Titulo: Girasoles silvestres, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11199377) Titulo: Goethe, Victor Hugo, Pushkin en la música, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11964414) Titulo: Goutas Teatro, presenta Paseando a Buster, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11944226) Titulo: Green White Fading por Música Futura, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE CANARIAS 17
+(11964770) Titulo: Grupo Zambra, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11682700) Titulo: Guardabosques, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11932582) Titulo: Guerreras de la  música española, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11966054) Titulo: Guerreras de la música española, Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11933287) Titulo: Habilidades sociales y Resolución de Conflictos, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11937783) Titulo: Hakuna Ma Samba - Arganzuela, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE MENESES 4
+(11941411) Titulo: Hellen Constante. Pintura., Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE RODRIGO DE ARANA 50
+(11938454) Titulo: Hilma af Klint y la abstracción, Precio: 0, Gratis: true, Direccion: CP: 28038, CALLE RISCO DE PELOCHE 14
+(11859330) Titulo: Historia y misterio de una colección, Precio: 0, Gratis: true, Direccion: CP: 28014, CALLE ALAMEDA 15
+(11940221) Titulo: Hombres por la igualdad. Espacio de Igualdad Juana Doña, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 10
+(11911558) Titulo: Homenaje a Miguel Hernández, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11938065) Titulo: Homenaje al sainete, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE PASO DE VILLAMANRIQUE 3
+(11099658) Titulo: Homenaje al Sainete, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11966046) Titulo: Hoy puede ser ese día. A cargo de EGAN Teatro., Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11834958) Titulo: I encuentro de médicos escritores, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11834975) Titulo: I encuentro de médicos escritores, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11938576) Titulo: Ignífugas, Precio: 0, Gratis: true, Direccion: CP: 28038, CALLE RISCO DE PELOCHE 14
+(11939901) Titulo: II Olimpiadas urbanas vallecanas, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(10862450) Titulo: II. Portafotos con tapones de corcho, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10656708) Titulo: II. Tiburones, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11937588) Titulo: Inclusión social y atención centrada en la persona. Un reto de futuro, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11958187) Titulo: Instrumental Jazz Band, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE Cerro Almodóvar 1
+(11933384) Titulo: Introducción a la LSE, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11933664) Titulo: Introducción al yoga, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11964281) Titulo: IV Encuentro Coros Femeninos de la Comunidad de Madrid, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(10656681) Titulo: I. Master Chef El Pardo, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10581943) Titulo: I. Portafotos con tapones de corcho, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11967204) Titulo: Jardín de la Biodiversidad, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11967437) Titulo: Jazz for kids., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11911017) Titulo: Jazz &amp; Soul- Raquel García e Iván Sangüesa, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE Cerro Almodóvar 1
+(11931920) Titulo: Jornada cultural Bulgaria, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11945813) Titulo: Jornada de intercambio de semillas, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NUÑEZ 2
+(11958065) Titulo: Jornada informativa sobre delitos y estafas en bancos y viajes, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MONTE AYA 12
+(11779943) Titulo: Jornadas gratuitas de filosofía, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11780290) Titulo: Jornadas gratuitas de ritmos latinos y bailes americanos (nivel medio), Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11963744) Titulo: Juan Groch, Precio: 0, Gratis: true, Direccion: CP: 28028, CALLE ENRIQUE D'ALMONTE 1
+(11942101) Titulo: Judíos, cristianos y musulmanes en la edad media peninsular, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11912868) Titulo: Judit Neddermann - Retiro, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11912840) Titulo: KHALO Quartet - Chamartin, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11922862) Titulo: Kukuryku, Precio: 0, Gratis: true, Direccion: CP: 28009, AVENIDA MÉXICO 4
+(11953604) Titulo: La amiga de mi amiga, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11292797) Titulo: La atmósfera, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11827166) Titulo: La Batalla de los Molinos, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11951863) Titulo: La Bella Durmiente, Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11902467) Titulo: La Bella Durmiente, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11967456) Titulo: La Calle Bailen, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11955035) Titulo: La casa encantada en el cabo, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11938980) Titulo: La Casa Quirós, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE EUGENIA DE MONTIJO 105
+(11967430) Titulo: La ciudad de José I Bonaparte, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11944300) Titulo: La clase de piano, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE CANARIAS 17
+(11932905) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932901) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932902) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932900) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932903) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932904) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 52
+(11932899) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11932897) Titulo: La Comunidad Efímera - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11966887) Titulo: La despoblación rural en España: ¿es reversible?, Precio: 0, Gratis: true, Direccion: CP: 28036, CALLE MANUEL FERRERO 1
+(11292804) Titulo: La escritura ensayística, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11292803) Titulo: La escritura periodística, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11966906) Titulo: La foto de la nube blanca, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11956054) Titulo: La Ganga Calé - Hortaleza, Precio: 0, Gratis: true, Direccion: CP: 28043, CARRETERA CANILLAS 1
+(11949293) Titulo: La gestión de la tristeza, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11959058) Titulo: La granja de los kids, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11926005) Titulo: La hora del cuento, Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11785047) Titulo: La hora del cuento en  Mario Vargas LLosa, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11937152) Titulo: La increíble historia de Elzéar Duquette, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE SERRADILLA 13
+(11958618) Titulo: La lengua madre, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11944337) Titulo: La leyenda del chocolate y el origen del fuego, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11292800) Titulo: La literatura infantil, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11910202) Titulo: La magia de Dream, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11253342) Titulo: La magia de los cuentos, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11896579) Titulo: La maleta de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(10595799) Titulo: La maleta de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28035, CALLE ISLA DE ONS 14
+(11896578) Titulo: La maleta de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11932584) Titulo: La Maraña, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11910468) Titulo: La maternal, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11964301) Titulo: La Música de la Pasión, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11967462) Titulo: La música en Don Quijote, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11943305) Titulo: La música en los salones parisinos, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 6
+(11964573) Titulo: La niña que se comía todos los cuentos, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11966781) Titulo: La novelista y su película, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11966990) Titulo: La petición de mano y otras divertidas farsas de Chéjov, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11965086) Titulo: La pimienta trío, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11966061) Titulo: La pintura, una realidad., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11881529) Titulo: La Tapia I: cerca histórica, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11938964) Titulo: La venganza de Don Mendo, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE VERDAD 29
+(11913919) Titulo: La verdadera sabiduría: iluminar instantes, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11958717) Titulo: La vida no es así, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11090196) Titulo: Laberinto en caja de CD I, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10656818) Titulo: Laberinto en caja de CD II, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11914469) Titulo: LaboratoriA - Arganzuela, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 10
+(11959117) Titulo: Las artes circenses en España, Precio: 0, Gratis: true, Direccion: CP: 28012, RONDA ATOCHA 35
+(11964592) Titulo: Las aventuras del Pollo Pepe, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11936940) Titulo: Las canciones de la abuela, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE MARIA MARTINEZ OVIOL 12
+(11932873) Titulo: Las canciones de tu vida. Un recital  lírico teatral, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11663132) Titulo: Las compositoras detrás del jazz, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11965024) Titulo: Las desventuras de D. Quijote, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11940819) Titulo: Las Emociones Jugando Al Escondite, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE EL GRECO 29
+(11964122) Titulo: Las mujeres de San Fermín cuentan su historia, Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11944488) Titulo: Las Sinsombrero en el Retiro, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11945658) Titulo: Las tres naranjas mágicas, Precio: 0, Gratis: true, Direccion: CP: 28028, CALLE ENRIQUE D'ALMONTE 1
+(11954905) Titulo: Las vacaciones de Yoko, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11964411) Titulo: Las voces de Rafael Cadenas, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11912865) Titulo: Le Fumiste - Villa de Vallecas, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11958737) Titulo: Leo y los colores, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11678622) Titulo: Let's practice english!, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11933168) Titulo: Let´s talk in English (Taller de conversacion en Inglés)., Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11966483) Titulo: Libera 1m² por la naturaleza, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11743939) Titulo: Libérate, Precio: 0, Gratis: true, Direccion: CP: 28001, PLAZA COLON 4
+(11962652) Titulo: Libérate. Mayores LGTBI+  de Javier Vaquero Ollero y Christian Fernández Mirón, Precio: 0, Gratis: true, Direccion: CP: 28001, PLAZA COLON 4
+(11957606) Titulo: Liuba María Hevia, Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE SANTA FELICIDAD 39
+(11957206) Titulo: Llévame a Benidorm, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(10631940) Titulo: Lo previsible, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11945347) Titulo: Loco montaje de un clasico, Precio: 0, Gratis: true, Direccion: CP: 28008, CALLE SANTA POLA 22
+(11959083) Titulo: Los bucaneros, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE Cerro Almodóvar 1
+(11965628) Titulo: Los cuadros de mi vejez, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(10631962) Titulo: Los desenlaces, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11958908) Titulo: Los girasoles silvestres, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11965082) Titulo: Los Players -  Latina, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE ILLESCAS 149
+(11931821) Titulo: Los rostros del 11M, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11945196) Titulo: Los toros, un arte vivo, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 10
+(11965232) Titulo: Luces de Bohemia, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11955318) Titulo: Ludoteca de Chamartín en Semana Santa, Precio: 0, Gratis: true, Direccion: CP: 28016, CALLE ENRIQUE JARDIEL PONCELA 8
+(11944191) Titulo: Ludoteca en Hortaleza. Semana Santa 2023, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11854074) Titulo: Ludoteca en la Biblioteca Ángel González, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11577565) Titulo: Ludoteca infantil, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(11577566) Titulo: Ludoteca infantil, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11942494) Titulo: Lugares, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 6
+(11932380) Titulo: Madrid, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11958846) Titulo: Madrid, Madrid, Madrid, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11912871) Titulo: Maestro de barra - Chamberi, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE GALILEO 39
+(11965106) Titulo: Magia Inés...plicable, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11967277) Titulo: Magiaman, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11939875) Titulo: Magic Salso, Precio: 0, Gratis: true, Direccion: CP: 28053, AVENIDA DE LAS GLORIETAS 19
+(11932472) Titulo: Maravillas mi paisaje urbano de Tribunal a Conde Duque, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE CONDE DUQUE 9
+(11932065) Titulo: Marcapáginas, etiquetas y tags, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11966051) Titulo: Marcha en bici por Madrid con todos los Centros de Educación Ambiental, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11967465) Titulo: Marcos Molnar, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11944730) Titulo: María Gracia: Españolear, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE BOTICA 7
+(11944717) Titulo: María Rubí: La Flor de los cantes, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE BOTICA 7
+(11940807) Titulo: Marketing, Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11959031) Titulo: Más chulo que un 8, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MONTE DE MONTJUICH 7
+(11944518) Titulo: Mata Hari, Precio: 0, Gratis: true, Direccion: CP: 28035, CALLE ISLA DE ONS 14
+(11932712) Titulo: Medicina tradicional china: reino de la madera, Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11965785) Titulo: Melodías de Broadway, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11932690) Titulo: Memorias de mujeres. Futuros feministas, Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11933319) Titulo: Meren-dola, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11896876) Titulo: Mi ciudad, Precio: 0, Gratis: true, Direccion: CP: 28035, CALLE ISLA DE ONS 14
+(11956821) Titulo: Mi pequeño samurái, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11923745) Titulo: Micelio, Precio: 0, Gratis: true, Direccion: CP: 28014, PLAZA CIBELES 1
+(11944347) Titulo: Mikroconcierto, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11933832) Titulo: Mindfulness, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11966698) Titulo: Mira2, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11946829) Titulo: Mis compañeros, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11093012) Titulo: Misterios de La Quinta, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11854292) Titulo: Misterios de La Quinta:, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11471522) Titulo: Mofli el koala, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11344616) Titulo: Monólogo interior, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11964739) Titulo: Mujeres a la ópera, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11700097) Titulo: Mujeres Árbol. Exposición, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE PLAYA DE SAN JUAN 6
+(11893500) Titulo: Mujeres Compartiendo Sabiduría: Tinta violeta. Escritura creativa, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE ANDRES MELLADO 44
+(11962061) Titulo: Mujeres empoderadas que empoderan, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11938328) Titulo: Mujeres que inspiraron a Picasso, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE VERDAD 29
+(11903349) Titulo: Mundos. Goya y Fabelo, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11946462) Titulo: Música en la corte, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11944193) Titulo: Música: Concierto a cargo de Acción Social por la Música, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11965990) Titulo: Música: 'Concierto coral'. A cargo del Coro Virgen de la Paloma., Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11965997) Titulo: Música: 'Encuentros con el tango'. A cargo de Mariel Martínez y Fabián Carbone., Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11940843) Titulo: Música: 'Fideo y Cata', Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11957616) Titulo: Natalia Baeza &amp; Jesús Parra, Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE SANTA FELICIDAD 39
+(11090201) Titulo: Nautilus, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11090202) Titulo: Nautilus, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11964417) Titulo: Nicolas Ospina presenta 'Piano solo'., Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11937164) Titulo: No es lugar para rencores, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE SERRADILLA 13
+(11941316) Titulo: No es para tanto, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CAMARENA 10
+(11887721) Titulo: Nosotras: las artistas que llevamos dentro, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE MARCELINO CASTILLO 29
+(11912837) Titulo: Nostalgia cubana - Hortaleza, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11962060) Titulo: Novecento, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11963039) Titulo: Novo teatro presenta: Sainetes de nuestra sociedad, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11937121) Titulo: Oasis, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CASTROSERNA 4
+(10857153) Titulo: Oficina de Información Juvenil Zona 3, Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE RODRIGO DE ARANA 50
+(11965129) Titulo: Olvidos, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11965151) Titulo: Ooh!, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11965719) Titulo: Optimización de facturas, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11946920) Titulo: Organismos imaginados, Precio: 0, Gratis: true, Direccion: CP: 28008, PLAZA MONCLOA 1
+(11937786) Titulo: Orquesta Espontánea - Ensemble Orbis - Arganzuela, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE MENESES 4
+(11946817) Titulo: Orquesta Sinfónica de la UAX, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11946809) Titulo: Orquestas y Banda de Enseñanzas Profesionales, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11292799) Titulo: Otras ciudades invisibles, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11951229) Titulo: Pajarico pintado, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11945522) Titulo: Pandora, Precio: 0, Gratis: true, Direccion: CP: 28028, CALLE ENRIQUE D'ALMONTE 1
+(11958196) Titulo: Paseando a Buster  Cía. Goutas Teatro, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE HERMANOS GARCIA NOBLEJAS 14
+(11777688) Titulo: Paseo ornitológico, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11965786) Titulo: Paseo ornitológico, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11962937) Titulo: Paseo urbano por el barrio de El Pilar, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11940768) Titulo: Pasión, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11952034) Titulo: Pasión, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11955417) Titulo: Pasión fracasada, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11922900) Titulo: Pasitos - Okarino Trapisonda (Madrid), Precio: 0, Gratis: true, Direccion: CP: 28009, AVENIDA MÉXICO 4
+(11965350) Titulo: Pastores por un día, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11965354) Titulo: Pastores por un día, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11965376) Titulo: Pastores por un día, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11933819) Titulo: Personajes Siniestros de la Historia: Leopoldo II de Bélgica y Stalin, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE ISAAC ALBENIZ 1
+(11933864) Titulo: Personajes Siniestros de la Historia: Pol Pot Idi Amin y resumen final, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE ISAAC ALBENIZ 1
+(11933791) Titulo: Personajes Siniestros de la Historia: Rasputín y la caída de los zares de Rusia, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE ISAAC ALBENIZ 1
+(11933853) Titulo: Personajes Siniestros de la Historia; Hitler, Goebles, Goering y Himmler, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE ISAAC ALBENIZ 1
+(11965475) Titulo: Pescando ando, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11934700) Titulo: Pictionary, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11944305) Titulo: Pintando en la cocina, Precio: 0, Gratis: true, Direccion: CP: 28012, CALLE OLIVAR 46
+(11919142) Titulo: Pintura realista - César González, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11934118) Titulo: Pipoesía, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11964887) Titulo: Pisando fuerte: charla de crecimiento personal II, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11912365) Titulo: Pizza Alla Mozarella, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11932982) Titulo: Play-Pipo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11957533) Titulo: Poesía y primavera en Canillejas, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTAÑA 23
+(11922500) Titulo: Polichinela. El Retablo (Madrid), Precio: 0, Gratis: true, Direccion: CP: 28009, AVENIDA MÉXICO 4
+(11966011) Titulo: Ponte a prueba, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11933500) Titulo: Práctica de ajedrez, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11933255) Titulo: Práctica futbolín, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11934706) Titulo: Pregunta a la OIJ, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11966813) Titulo: Presentación del libro Señorpájaro de Enrique J. de Lara, Precio: 0, Gratis: true, Direccion: CP: 28012, CALLE CONCEPCION JERONIMA 15
+(11956321) Titulo: Presentación y cuentacuentos del libro infantil  'La vida secreta de los planetas', Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11952415) Titulo: Primavera en Chamartín 2023, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11951864) Titulo: Pristina, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE EL GRECO 29
+(11920609) Titulo: Probando, probando…Improvisando teatro, Precio: 0, Gratis: true, Direccion: CP: 28027, AVENIDA BADAJOZ 60
+(11934701) Titulo: Producción artística, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11944676) Titulo: Programa de actividades en el Centro Cultural Miguel Hernández (Latina), Precio: 0, Gratis: true, Direccion: CP: 28044, CALLE SERRADILLA 13
+(11909518) Titulo: Programa Juvenil de Villaverde - Invierno 2023, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11932129) Titulo: Proyección de cortos, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11949940) Titulo: Proyecto Fahrenheit 451 Personas-libro, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11948222) Titulo: Puesta en escena. Herramientas humorísticas. Lenguaje corporal, gesto, voz, ritmo, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11937079) Titulo: Pura habladuría, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE EL GRECO 29
+(11940811) Titulo: Raíces de Chile, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE EL GRECO 29
+(11905927) Titulo: Raquel Lúa dúo - Chamberi, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE GALILEO 39
+(11941402) Titulo: Raúl Santana &amp; María Barrios, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE MARIA DEL CARMEN 65
+(11833849) Titulo: Reading Club: Club de lectura en inglés, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11761088) Titulo: Reading Club: Club de lectura en inglés, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE FRANCOS RODRIGUEZ 67
+(11760908) Titulo: Reading Club: Club de lectura en inglés, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11793731) Titulo: Reading Club: Club de lectura en inglés, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11940213) Titulo: Rebanda de Vallecas, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(11955875) Titulo: Recital de poesía ucraniana por José Andrés Álvaro Ocáriz, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11955950) Titulo: Recital poético de Eva López del Pino, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11964282) Titulo: Recital poético y charla: 'Autistas al poder', Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11957677) Titulo: Recitando desde el Siglo de Oro, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11965534) Titulo: Recordando a Gabriela Mistral, Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11958977) Titulo: Recreación histórica  2 de mayo Madrid, Precio: 0, Gratis: true, Direccion: CP: 28051, AVENIDA LA GAVIA 13
+(11938998) Titulo: Redes, Precio: 0, Gratis: true, Direccion: CP: 28019, AVENIDA OPORTO 78
+(11937049) Titulo: Redes, Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11777700) Titulo: Refugios de fauna, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11956862) Titulo: Relación abierta, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE ALIAGA 5
+(11966060) Titulo: Relación abierta, Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11957946) Titulo: Relaciones, cuentos y relatos, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE SAN NEMESIO 4
+(11815459) Titulo: Remedial English, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE FRANCOS RODRIGUEZ 67
+(11759300) Titulo: Remedial English Stage 1, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11792672) Titulo: Remedial English Stage 1, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11764235) Titulo: Remedial English Stage 1, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11833673) Titulo: Remedial English Stage 2, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11814410) Titulo: Remedial English Stage 2, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11814760) Titulo: Remedial English Stage 2, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11813700) Titulo: Remedial English Stage 2, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11945820) Titulo: Reparto de árboles ornamentales, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NUÑEZ 2
+(11933445) Titulo: Reto deportivo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11964251) Titulo: Reutilizando materiales, Zoolápices, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11827513) Titulo: Revolutionary Road, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11958700) Titulo: Re-conexión, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11967052) Titulo: Ridi Pagliaccio' - Cia Asaco Producciones (Clown), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11958988) Titulo: Romería a la Virgen de la Torre 2023, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11944918) Titulo: Rompiendo cadenas. Teatro, Precio: 0, Gratis: true, Direccion: CP: 28034, CALLE MANRESA 1
+(11965031) Titulo: Rondalla, Precio: 0, Gratis: true, Direccion: CP: 28032, CALLE VILLARDONDIEGO 36
+(11965547) Titulo: Rum Rum Trasto Cars, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11966790) Titulo: R.M.N, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11900113) Titulo: Sacos aromáticas, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11958879) Titulo: San Isidro, la cocina de hoy y del ayer, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11965501) Titulo: Sanando cuentos de princesas, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11934569) Titulo: Scape room, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11907590) Titulo: Semifinal y final del I Torneo de Catán, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11902887) Titulo: Senda de Peñarrubia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11902964) Titulo: Senda de Peñarrubia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11601947) Titulo: Senda 'Descubriendo los árboles del Retiro' y taller de semilleros., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NU&amp;Ntilde;EZ 10
+(11940544) Titulo: Senda 'Los árboles autóctonos en el parque del Retiro', Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NU&amp;Ntilde;EZ 10
+(11941352) Titulo: Sensaciones, Precio: 0, Gratis: true, Direccion: CP: 28047, CALLE CASTROSERNA 4
+(11912827) Titulo: Serrana - Latina, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11934568) Titulo: Sesión de disco: Equinoccio de primavera, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11803947) Titulo: Sesión de Mindfulness  (ON LINE) del Centro de Apoyo a las Familias 6, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11882130) Titulo: Shiatsu y emociones, Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11957876) Titulo: Shiatsu, para tu salud, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11965459) Titulo: Si la abuela fuera piloto, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11940791) Titulo: Si se calla el cantor, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE FUENTE DEL TIRO 72
+(11957744) Titulo: Siempre en camino, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11903521) Titulo: Siete autores, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(10343747) Titulo: Sistema creado probando, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(10343762) Titulo: Sistema propio probando, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11912860) Titulo: Solo - CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11958686) Titulo: Sorolla y la luz, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11962632) Titulo: Spes Esperanza., Precio: 0, Gratis: true, Direccion: Sin Datos
+(11958553) Titulo: Sr. Nadie, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11934571) Titulo: Story Cubes, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11944333) Titulo: Storytime: A world of magic, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11947244) Titulo: Sufragistas, Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11748047) Titulo: Taller de ajedrez, Precio: 0, Gratis: true, Direccion: CP: 28001, CALLE NUÑEZ DE BALBOA 40
+(11961277) Titulo: Taller de ajedrez (infantil-juvenil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11497744) Titulo: Taller de alemán, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11966932) Titulo: Taller de Alfabetización Informacional, Precio: 0, Gratis: true, Direccion: CP: 28042, AVENIDA LOGROÑO 179
+(11933202) Titulo: Taller de cómic, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11933039) Titulo: Taller de creación colectiva, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11961291) Titulo: Taller de creación de cómic (infantil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11961297) Titulo: Taller de creación de cómic (juvenil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11961309) Titulo: Taller de creación literaria, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11966497) Titulo: Taller de creación literaria por la tarde, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11965572) Titulo: Taller de danza africana, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11965573) Titulo: Taller de danza africana, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11933580) Titulo: Taller de dibujo e ilustración., Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11756649) Titulo: Taller de español para extranjeros, Precio: 0, Gratis: true, Direccion: CP: 28042, AVENIDA LOGROÑO 179
+(11919371) Titulo: Taller de gestión de ansiedad y estrés, Precio: 0, Gratis: true, Direccion: CP: 28033, CALLE SANTA VIRGILIA 15
+(11939978) Titulo: Taller de Habilidades Sociales: Aprender a Debatir, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11932200) Titulo: Taller de huerta ecológica en la temporada de primavera, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11964601) Titulo: Taller de iniciación al Mindfulness, Precio: 0, Gratis: true, Direccion: CP: 28036, CALLE MANUEL FERRERO 1
+(11933618) Titulo: Taller de inteligencia emocional, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11961466) Titulo: Taller de juegos (infantil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11946730) Titulo: Taller de lectura y escritura, Precio: 0, Gratis: true, Direccion: CP: 28033, CALLE SANTA VIRGILIA 15
+(11961477) Titulo: Taller de manualidades (infantil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11965357) Titulo: Taller de Musicoterapia, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11962171) Titulo: Taller de Risoterapia, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11965587) Titulo: Taller detective botánico, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11965403) Titulo: Taller detective botánico, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(10861785) Titulo: Taller infantil: Puro teatro, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11933407) Titulo: Taller Medioambiente, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11932121) Titulo: Taller reutilizando materiales para celebrar el Día Mundial del agua, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11782633) Titulo: Taller Técnicas de Estudio y Clases de Apoyo, Precio: 0, Gratis: true, Direccion: CP: 28021, ACCESO COLONIA MARCONI 4
+(11939884) Titulo: Taller 'El mundo de los árboles': Identificación de árboles y elaboración de bombas de semillas, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NU&amp;Ntilde;EZ 10
+(11933050) Titulo: Talleres de cocina, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11945810) Titulo: Talleres familiares, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NUÑEZ 2
+(11933030) Titulo: Taller: El libro de Pipo, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11934295) Titulo: Tarde de ajedrez, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11919393) Titulo: Tarde de luces y algo mas, Precio: 0, Gratis: true, Direccion: CP: 28033, CALLE SANTA VIRGILIA 15
+(11804402) Titulo: Tardes de juego en la Biblioteca, Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE GRANJA DE TORREHERMOSA 1
+(11911454) Titulo: Teatralizadas. Taller de teatro, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE GRAN AVENIDA 14
+(11693867) Titulo: Teatro del privado horror, Precio: Entrada gratuita , Gratis: true, Direccion: CP: 28012, CALLE PRINCIPE 25
+(11965320) Titulo: Teatro Infantil: `Ding - Dong´, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11948722) Titulo: Teatro Infantil: `La Vuelta al Mundo en un Cocodrilo´, Precio: 0, Gratis: true, Direccion: CP: 28021, AVENIDA LOS ROSALES 133
+(11936754) Titulo: Teatro Musical Infantil: `Coser y Cantar´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11961066) Titulo: Teatro Musical Infantil: `La Cocina de los Libros´, Precio: 0, Gratis: true, Direccion: CP: 28041, CALLE LOS BOHEMIOS 1
+(11966613) Titulo: Teatro: La casa de Quiros, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11946119) Titulo: Teatro: Relación abierta, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE MANTUANO 51
+(11948116) Titulo: Teatro: `No hay ladrón que por bien no venga´, Precio: 0, Gratis: true, Direccion: CP: 28021, AVENIDA LOS ROSALES 133
+(11966000) Titulo: Teatro: 'LOS HABITOS DE UNA MUJER REBELDE'. A cargo de la compañía Azares Teatros., Precio: 0, Gratis: true, Direccion: CP: 28020, CALLE BRAVO MURILLO 251
+(11941052) Titulo: Teatro: 'Un paseo por tu vida'., Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11933549) Titulo: Técnicas de estudio, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11887903) Titulo: Tertulia Literaria Hispanoamericana Rafael Montesinos, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11887905) Titulo: Tertulia Literaria Hispanoamericana Rafael Montesinos, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11887901) Titulo: Tertulia Literaria Hispanoamericana Rafael Montesinos, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11961554) Titulo: Tertulias en Inglés (infantil), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11883622) Titulo: Tertulias en latín, Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11965636) Titulo: The Ambassador, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11939905) Titulo: The blind side, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(11896779) Titulo: Tilindula, memorias de una mujer invisible, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11965992) Titulo: Tina Calcetina, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11965520) Titulo: Titirilandia se congela, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11943034) Titulo: Toda una vida, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 6
+(11827079) Titulo: Toda una vida, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11896732) Titulo: Togo: una ruta etnográfica diferente, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11934692) Titulo: Torneillo de NBA 2K23, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11934022) Titulo: Torneillo Fifa, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11907587) Titulo: Torneo de Catán en la Biblioteca Eugenio Trías, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11965525) Titulo: Transformación de una caja de zapatos, Precio: 0, Gratis: true, Direccion: CP: 28022, AVENIDA SÉPTIMA 11
+(11913917) Titulo: Transformar las emociones; transformar el sufrimiento, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11932893) Titulo: Trapos - Barajas, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE BOTICA 7
+(11965529) Titulo: Trashumancia, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11964427) Titulo: Trashumancia y cías pecuarias: corredores vivos que conectan territorio., Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11957802) Titulo: Trazos con alma 11, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11940871) Titulo: Tributo a Barbara Streisand, Precio: 0, Gratis: true, Direccion: CP: 28024, CARRETERA BOADILLA DEL MONTE 40
+(11273588) Titulo: Tributo a Joaquín Sabina, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11936844) Titulo: Trío de cuatro, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE MARIA MARTINEZ OVIOL 12
+(11958099) Titulo: Tropicalios Band, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MONTE DE MONTJUICH 7
+(11937230) Titulo: Trovadores Urbanos, Precio: 0, Gratis: true, Direccion: CP: 28011, CALLE MARIA DEL CARMEN 65
+(11932994) Titulo: Tu compi de juegos, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11913910) Titulo: Tu paz: silencio y quietud, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11958252) Titulo: Un paseo por el pasado, presente y futuro del Canalillo, Precio: 0, Gratis: true, Direccion: Sin datos
+(11964943) Titulo: Una aproximación al autismo, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11945041) Titulo: Una tarde de violonchelo Suzuki, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11944351) Titulo: Vamos al circo, Precio: 0, Gratis: true, Direccion: CP: 28035, CALLE ANTONIO MACHADO 20
+(11965788) Titulo: Vanidades de la vida, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE FEBRERO 4
+(11962301) Titulo: Vaya Movida de Musical, Precio: 0, Gratis: true, Direccion: CP: 28044, AVENIDA LAS AGUILAS 2
+(11964627) Titulo: Veinticinco años menos un día, Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11806152) Titulo: Ven a jugar a la biblioteca, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11933137) Titulo: Ven a moverte, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE AVENA 5
+(11945838) Titulo: Vermú - Vicalvaro, Precio: 0, Gratis: true, Direccion: CP: 28032, PASEO POLIDEPORTIVO 142
+(11940792) Titulo: Versados Colección. Ilustraciones de Silvia Bleu., Precio: 0, Gratis: true, Direccion: CP: 28024, CALLE FUENTE DEL TIRO 72
+(11148281) Titulo: Versos de mujer, Precio: 0, Gratis: true, Direccion: CP: 28029, CALLE ARZOBISPO MORCILLO 7
+(11912808) Titulo: Versos que anidan - Chamartin, Precio: 0, Gratis: true, Direccion: CP: 28016, AVENIDA RAMON Y CAJAL 2
+(11932890) Titulo: Vestigio, Precio: 0, Gratis: true, Direccion: CP: 28030, AVENIDA MORATALAZ 130
+(11923117) Titulo: Vida y obra de Emilia Pardo Bazán, Precio: 0, Gratis: true, Direccion: CP: 28001, CALLE GOYA 1
+(11963165) Titulo: Vídeoforum 'Narraciones para un despertar en salud mental', Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE MARIA SEVILLA DIAGO 15
+(11966890) Titulo: Viejas Melodías .Coro y rondalla Castillo de Uclés, Precio: 0, Gratis: true, Direccion: CP: 28022, CALLE BOLTA&amp;Ntilde;A 27
+(11957730) Titulo: Vino y queso, nuestra cultura, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11964434) Titulo: Virtudes Moreno, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11941683) Titulo: Visita a la exposición Voces de mujeres. Museo del Romanticismo, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE MATAPOZUELOS 2
+(11941762) Titulo: Visita a la exposición 'Leonora Carrington. Revelación'. Fundación Mapfre, Precio: 0, Gratis: true, Direccion: CP: 28016, CALLE ENRIQUE JARDIEL PONCELA 8
+(11941902) Titulo: Visita a la exposición 'Perdona, estoy hablando'. CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE COMANDANTE FONTANES 8
+(11941892) Titulo: Visita a la exposición 'Perdona, estoy hablando'. CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE PLAYA DE SAN JUAN 6
+(11941915) Titulo: Visita a la exposición 'Perdona, estoy hablando'. CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE ANDRES MELLADO 44
+(11941911) Titulo: Visita a la exposición 'Perdona, estoy hablando'. CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28022, PLAZA EURIPIDES 1
+(11964485) Titulo: Visita a la exposición 'Perdona, estoy hablando'. CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28007, CALLE ARREGUI Y ARUEJ 31
+(11964582) Titulo: Visita a las galerías de agua de Amaniel, Precio: 0, Gratis: true, Direccion: Sin datos
+(11964597) Titulo: Visita a las galerías de agua de Amaniel, Precio: 0, Gratis: true, Direccion: Sin datos
+(11964595) Titulo: Visita a las galerías de agua de Amaniel, Precio: 0, Gratis: true, Direccion: Sin datos
+(11964593) Titulo: Visita a las galerías de agua de Amaniel, Precio: 0, Gratis: true, Direccion: Sin datos
+(11964594) Titulo: Visita a las galerías de agua de Amaniel, Precio: 0, Gratis: true, Direccion: Sin datos
+(11940582) Titulo: Visita a los Jardines de los Palacios de la Finca de Vista Alegre, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNAN NU&amp;Ntilde;EZ 10
+(11967777) Titulo: Visita Guiada a la Biblioteca Nacional, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11947391) Titulo: Visita Guiada a la Sala de Arte del Banco Santander, Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE DOCTOR MARTIN AREVALO 2
+(11958530) Titulo: Visita guiada al Museo de Bomberos, Precio: 0, Gratis: true, Direccion: CP: 28032, BULEVAR INDALECIO PRIETO 21
+(11965633) Titulo: Visita guiada al Parque de la Quinta del Berro., Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11965766) Titulo: Visita guiada al Parque del Campo del Moro, Precio: 0, Gratis: true, Direccion: CP: 28039, CALLE ALMANSA 9
+(11939019) Titulo: Visita guiada por Madrid, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11955776) Titulo: Visita guiada por Madrid, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11955793) Titulo: Visita guiada por Madrid: El salón del Prado, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11918983) Titulo: Visita guiada: 'El Real Sitio del Retiro', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11920191) Titulo: Visita guiada: 'El Real Sitio del Retiro', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11959555) Titulo: Visita guiada: 'La inquisición en Madrid', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11959552) Titulo: Visita guiada: 'Las rutas del agua: El viaje de agua de Amaniel o de Palacio', Precio: 0, Gratis: true, Direccion: CP: 28017, CALLE NUESTRA SEÑORA DEL VILLAR 6
+(11899470) Titulo: Visitas guiadas a CentroCentro, Precio: 0, Gratis: true, Direccion: CP: 28014, PLAZA CIBELES 1
+(11921959) Titulo: Viva la comedia, Precio: 0, Gratis: true, Direccion: CP: 28041, PLAZA PUEBLO 2
+(11958608) Titulo: Viva San Isidro, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11944771) Titulo: Vive Iberia, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE BOTICA 7
+(11848923) Titulo: Vivero: el viaje de la planta, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11895543) Titulo: Vivero: el viaje de la planta, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11946826) Titulo: Vivir sin miedo, vivir con memoria, Precio: 0, Gratis: true, Direccion: CP: 28050, CALLE PRINCESA DE EBOLI 29
+(11895662) Titulo: Webinario: Avances en investigación ligados a los artrópodos, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11964744) Titulo: Webinario: Cangrejos e invertebrados invasores, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11964740) Titulo: Webinario: El libro de las abejas, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11963197) Titulo: Webinario: Entomología forense, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11928863) Titulo: Webinario: Iniciación al uso de la bicicleta, Precio: 0, Gratis: true, Direccion: Sin Datos
+(11963174) Titulo: Webinario: Miriápodos, Precio: 0, Gratis: true, Direccion: CP: 28011, PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) 
+(11956968) Titulo: WikInvisibles, Precio: Gratuito, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 14
+(11966629) Titulo: X Certamen Coreográfico de Tetuán, Precio: 0, Gratis: true, Direccion: CP: 28029, PLAZA DONOSO 5
+(11633128) Titulo: XV Premio de Microrrelatos 'Microhistorias en el ascensor', Precio: 0, Gratis: true, Direccion: Sin Datos
+(11938028) Titulo: XXII Exposición colectiva de pintura, Precio: 0, Gratis: true, Direccion: CP: 28053, CALLE CONCEJO DE TEVERGA 1
+(11896780) Titulo: Yerma, Precio: 0, Gratis: true, Direccion: CP: 28043, CALLE CARRIL DEL CONDE 57
+(11942841) Titulo: Yo me bajo en la próxima ¿y usted?, Precio: 0, Gratis: true, Direccion: CP: 28045, PASEO CHOPERA 6
+(11940470) Titulo: Yo no tengo Miedo, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(11944297) Titulo: Yo también, Precio: 0, Gratis: true, Direccion: CP: 28045, CALLE CANARIAS 17
+(11958800) Titulo: '120 años moviendo Madrid', Precio: 0, Gratis: true, Direccion: Sin Datos
+(11938315) Titulo: 'Efímero mosaico' de Antonio Portillo, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11967065) Titulo: 'Homónimo' - Cía. Jesús Fornies (Circo), Precio: 0, Gratis: true, Direccion: Sin Datos
+(11717863) Titulo: 'Nuestra tertulia', Precio: 0, Gratis: true, Direccion: CP: 28007, PLAZA DAOIZ Y VELARDE 2
+(11948122) Titulo: 'Ocho episodios. Relatos extraños del Metro de Caracas' de Gladys del Rosario, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11912801) Titulo: 'Amores en Quenquén' - Carabanchel, Precio: 0, Gratis: true, Direccion: CP: 28019, CALLE VERDAD 29
+(11964730) Titulo: 'Crisis y Castigo'; 'La Consulta del Doctor Melquiades', Precio: 0, Gratis: true, Direccion: CP: 28037, CALLE SAN ROMÁN DEL VALLE 8
+(11938034) Titulo: 'Delfos, el lugar sagrado de Apolo y Dionisos: oráculos, sibilas, ménades y héroes', Precio: 0, Gratis: true, Direccion: CP: 28005, CALLE SAN JUSTO 5
+(11938865) Titulo: 'El enigma del llanto' de Mª Pilar Gándara, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11956824) Titulo: 'La curva', de Miguel Velayos y Javier Cristóbal, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11958551) Titulo: 'La magia de lo efímero' y saga 'El Prisma', Precio: 0, Gratis: true, Direccion: CP: 28015, CALLE CONDE DUQUE 9
+(11959914) Titulo: 'La noche más larga' de Carlos Gibaja Freixo, Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11965085) Titulo: 'La pianista roja' - Usera, Precio: 0, Gratis: true, Direccion: CP: 28026, AVENIDA RAFAELA YBARRA 85
+(11952723) Titulo: 'Las cuestiones personales' de Pablo Iglesia Gutiérrez, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11897803) Titulo: 'Las Horas' de Stephen Daldry (2002), Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11964975) Titulo: 'Leer y ver Lisboa', Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11967759) Titulo: 'Leonora Carrington. Revelación', Precio: 0, Gratis: true, Direccion: CP: 28021, CALLE MARIA MARTINEZ OVIOL 12
+(11961966) Titulo: 'Letras contra la soledad', Precio: 0, Gratis: true, Direccion: CP: 28041, AVENIDA SAN FERMIN 10
+(11897797) Titulo: 'Pequeña Miss Sunshine' de Johathan Dayton y Valerie Faris (2006), Precio: 0, Gratis: true, Direccion: CP: 28004, CALLE BARCELO 4
+(11912811) Titulo: 'Só' - Barajas, Precio: 0, Gratis: true, Direccion: CP: 28042, CALLE BOTICA 7
+(11912812) Titulo: 'Só' - Barajas, Precio: 0, Gratis: true, Direccion: CP: 28002, CALLE SAN ERNESTO 10
+(11912815) Titulo: 'Wake up, woman' - Fuencarral, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11912853) Titulo: '¿Qué hace el mando de la tele en el frigo?' - Villa de Vallecas, Precio: 0, Gratis: true, Direccion: CP: 28048, CALLE MIRA EL RIO 4
+(11932143) Titulo: ¡Día Mundial del Gorrión, aprendemos de nuestros vecinos los gorriones!, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11965312) Titulo: ¡Jugamos con las cariocas! Crea tus propios juguetes, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11965295) Titulo: ¡Las Sevillanas son mucho más que un baile!, Precio: 0, Gratis: true, Direccion: CP: 28026, CALLE DOCTOR TOLOSA LATOUR 16
+(11953385) Titulo: ¡Qué viva la estulticia!, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO COLOMBIA 1
+(11908599) Titulo: ¡Uh! ¿Qué le cuento?, Precio: 0, Gratis: true, Direccion: CP: 28009, AVENIDA MÉXICO 4
+(11938208) Titulo: ¿Cómo puede cambiar nuestra vida los vertiginosos avances en inteligencia artificial?, Precio: 0, Gratis: true, Direccion: CP: 28009, PASEO FERNÁN NÚÑEZ 24
+(11938757) Titulo: ¿Qué hace el mando de la tele en el frigo? (Villa de Vallecas), Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE ZAZUAR 4
+(11663150) Titulo: ¿Qué te pasa Nicolasa?, Precio: 0, Gratis: true, Direccion: CP: 28034, PLAZA ISLAS AZORES 1
+(11902646) Titulo: ¿Qué te pasa Nicolasa?, Precio: 0, Gratis: true, Direccion: CP: 28035, GLORIETA PRADERA DE VAQUERIZAS 9
+(11400136) Titulo: ¿Qué te pasa Nicolasa?, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11912304) Titulo: ¿Que te pasa Nicolasa?, Precio: 0, Gratis: true, Direccion: CP: 28029, AVENIDA MONFORTE DE LEMOS 38
+(11958033) Titulo: ¿Qué tiene la zarzamora?, Precio: 0, Gratis: true, Direccion: CP: 28031, CALLE MANUEL VELEZ 10
+(11854287) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11964076) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11964067) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+
+============= EVENTOS GRATIS CP 28049 ===============
+
+ Total: 37
+
+(11665687) Titulo: Aladino y la Lámpara Maravillosa, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11948235) Titulo: Asumir el fracaso y convertirlo en risa, soltar el freno, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11120589) Titulo: Australia, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11932246) Titulo: Aves en familia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11948231) Titulo: Contar cuando hay varios personajes, energía, el ritmo, la intención, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11964123) Titulo: Detectives de El Pardo, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11027070) Titulo: Día Internacional de los Bosque, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10876077) Titulo: El castillo de las personas perdidas, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11944364) Titulo: El Color de la Palabra, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11253371) Titulo: El ingenioso Ulises, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11854288) Titulo: El monte a través de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11092978) Titulo: El monte a través de los sentidos, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10926474) Titulo: El Puente de la Marmota, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11944372) Titulo: Exposición de pintura, mosaico y grabado. Teselas en armonía, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11682700) Titulo: Guardabosques, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10862450) Titulo: II. Portafotos con tapones de corcho, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10656708) Titulo: II. Tiburones, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10656681) Titulo: I. Master Chef El Pardo, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10581943) Titulo: I. Portafotos con tapones de corcho, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11944337) Titulo: La leyenda del chocolate y el origen del fuego, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11253342) Titulo: La magia de los cuentos, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11090196) Titulo: Laberinto en caja de CD I, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(10656818) Titulo: Laberinto en caja de CD II, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11944347) Titulo: Mikroconcierto, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11093012) Titulo: Misterios de La Quinta, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11854292) Titulo: Misterios de La Quinta:, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11471522) Titulo: Mofli el koala, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11090201) Titulo: Nautilus, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11090202) Titulo: Nautilus, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11948222) Titulo: Puesta en escena. Herramientas humorísticas. Lenguaje corporal, gesto, voz, ritmo, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11902887) Titulo: Senda de Peñarrubia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11902964) Titulo: Senda de Peñarrubia, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11944333) Titulo: Storytime: A world of magic, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11400136) Titulo: ¿Qué te pasa Nicolasa?, Precio: 0, Gratis: true, Direccion: CP: 28049, Avenida Santuario de Valverde 114
+(11854287) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11964076) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+(11964067) Titulo: ¿Quién vive en este bosque?, Precio: 0, Gratis: true, Direccion: CP: 28049, AVENIDA SANTUARIO DE VALVERDE 77
+
+============ LISTA EVENTOS TOTALES ===========
+
+ Total: 1081
+
+CP: 28019 - Eventos: 11
+CP: 28017 - Eventos: 12
+CP: 28039 - Eventos: 15
+CP: 28011 - Eventos: 41
+CP: 28033 - Eventos: 3
+CP: 28034 - Eventos: 8
+CP: 28012 - Eventos: 41
+CP: 28031 - Eventos: 37
+CP: 28053 - Eventos: 14
+CP: 28032 - Eventos: 22
+CP: 28015 - Eventos: 59
+CP: 28037 - Eventos: 27
+CP: 28038 - Eventos: 3
+CP: 28016 - Eventos: 3
+CP: 28035 - Eventos: 24
+CP: Sin Código Postal - Eventos: 58
+CP: 28013 - Eventos: 1
+CP: 28014 - Eventos: 31
+CP: 28036 - Eventos: 2
+CP: 28051 - Eventos: 1
+CP: 28030 - Eventos: 1
+CP: 28050 - Eventos: 8
+CP: 28008 - Eventos: 2
+CP: 28009 - Eventos: 59
+CP: 28028 - Eventos: 3
+CP: 28029 - Eventos: 57
+CP: 28007 - Eventos: 20
+CP: 28022 - Eventos: 51
+CP: 28044 - Eventos: 22
+CP: 28045 - Eventos: 119
+CP: 28001 - Eventos: 34
+CP: 28023 - Eventos: 2
+CP: 28020 - Eventos: 9
+CP: 28042 - Eventos: 10
+CP: 28043 - Eventos: 15
+CP: 28021 - Eventos: 20
+CP: 28026 - Eventos: 66
+CP: 28004 - Eventos: 20
+CP: 28048 - Eventos: 7
+CP: 28049 - Eventos: 37
+CP: 28027 - Eventos: 13
+CP: 28005 - Eventos: 18
+CP: 28024 - Eventos: 18
+CP: 28002 - Eventos: 17
+CP: 28047 - Eventos: 9
+CP: 28025 - Eventos: 1
+CP: 28041 - Eventos: 30

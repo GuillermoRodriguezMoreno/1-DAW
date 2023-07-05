@@ -2,8 +2,8 @@ package clases;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
+
 
 public class LeerInformacion {
     
@@ -50,6 +50,8 @@ public class LeerInformacion {
 
                     }
 
+                    // Informo de que el campo esta vacio
+
                 }
 
                 linea = bReader.readLine();
@@ -85,7 +87,7 @@ public class LeerInformacion {
             String cp = nuevo[0];
             String nombre = nuevo[1];
             int año = Integer.valueOf(trozos[2]);
-            long poblacion = Long.valueOf(trozos[3]);
+            int poblacion = Integer.valueOf(trozos[3]);
 
             municipio = new Municipio(cp, nombre, año, poblacion);
 
@@ -99,14 +101,126 @@ public class LeerInformacion {
 
     }
 
+    /**
+     * Devuelve una lista con los municipios de un año dado, si dicho año es null
+     * devuelve la lista de todos los años. Si para el año dado no hay datos,
+     * devuelve una lista vacia
+     * @param año
+     * @return
+     */
     public static ArrayList<Municipio> leerFicheroMunicipio(Integer año){
 
-        if(año == null){
+        // Lista completa
+        ArrayList<Municipio> listaCompleta = leerFicheroMunicipio();
+        ArrayList<Municipio> listaPorAño = new ArrayList<>();
 
+        // Si no es null
+        if(año != null){
+
+            // Busco la lista de ese año
+            for (Municipio element : listaCompleta) {
+                
+                // Selecciono municipios que coincidan con el año
+                if(element.getAño() == año){
+
+                    // Añado los municipios
+                    listaPorAño.add(element);
+
+                }
+            }
+
+            // Si no existe datos de dicho año
+            if(listaPorAño.size() < 1){
+
+                System.out.println("No hay datos de poblacion en ese año");
+            }
+
+            // Devuelvo la lista vacia
+            return listaPorAño;
 
         }
 
-        return null;
+        // Si es null devuelvo la lista completa
+        return listaCompleta;
+    }
+
+    /**
+     * Busca en la lista un municipio por año y nombre, si no se encuentra devuelve null
+     * @param lista
+     * @param nombre
+     * @param año
+     * @return
+     */
+    public static Municipio buscarMunicipio(ArrayList<Municipio> lista, String nombre, Integer año){
+
+        // Ordeno lista
+        Collections.sort(lista);
+
+        // Busco
+        int posicion = Collections.binarySearch(lista, new Municipio("", nombre, año, 0));
+
+        // Si no se encuentra
+        if(posicion < 0){
+
+            System.out.println("El municipio no se encuentra en la lista");
+            return null;
+        }
+
+        // Si se encuentra
+        return lista.get(posicion);
+
+    }
+
+    /**
+     * Devuelve un mapa con los nombres de los municipios y su respectivo incremento
+     * de poblacion entre dos años dados
+     * @param lista
+     * @param año1
+     * @param año2
+     * @return
+     */
+
+    public static HashMap<String, Integer> incrementoPoblacion(ArrayList<Municipio> lista, int año1, int año2){
+
+        HashMap<String, Integer> mapa = new HashMap<>();
+
+        ArrayList<Municipio> listaAño1 = leerFicheroMunicipio(año1);
+        ArrayList<Municipio> listaAño2 = leerFicheroMunicipio(año2);
+
+        for (int i = 0; i < listaAño1.size(); i++) {
+        
+            mapa.put(listaAño1.get(i).getNombre(), (listaAño2.get(i).getPoblacion() - listaAño1.get(i).getPoblacion()));
+
+        }
+
+        return mapa;
+        
+    }
+
+    /**
+     * Devuelve el municipio menos poblado de una lista de municipios
+     * @param lista
+     * @return
+     */
+
+    public static Municipio obtenerMenosPoblado(ArrayList<Municipio> lista){
+
+        Municipio menosPoblado = null;
+        int min = Integer.MAX_VALUE;
+
+        for (Municipio elemento : lista) {
+            
+            if(elemento.getPoblacion() < min){
+
+                min = elemento.getPoblacion();
+                menosPoblado = elemento;
+
+            }
+
+        }
+
+        return menosPoblado;
+
     }
 
 }

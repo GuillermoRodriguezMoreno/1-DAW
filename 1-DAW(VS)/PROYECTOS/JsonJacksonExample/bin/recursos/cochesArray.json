@@ -1,0 +1,23 @@
+[
+    {
+        "marca":"Peugeot",
+        "modelo":"207",
+        "anioFabricacion":2019,
+        "precio":14000.0
+    },
+
+    {
+        "marca":"Seat",
+        "modelo":"Ibiza",
+        "anioFabricacion":2017,
+        "precio":11000.0
+    },
+
+    {
+        "marca":"Volkswagen",
+        "modelo":"Polo",
+        "anioFabricacion":2003,
+        "precio":3000.0
+    }
+
+]

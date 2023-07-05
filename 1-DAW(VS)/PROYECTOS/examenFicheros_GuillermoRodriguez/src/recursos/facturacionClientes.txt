@@ -1,0 +1,21 @@
+====== Informe Clientes =====
+(1)Juan Pérez
+ Importe total = 69,87
+(2)María García
+ Importe total = 0,00
+(3)Pedro López
+ Importe total = 0,00
+(4)Ana Martínez
+ Importe total = 0,00
+(5)Javier Fernández
+ Importe total = 0,00
+(123)Juan Perez
+ Importe total = 152,97
+(456)Maria Rodriguez
+ Importe total = 294,94
+(789)Ana Martinez
+ Importe total = 85,96
+(321)Pablo Gomez
+ Importe total = 87,96
+(654)Sofia Fernandez
+ Importe total = 69,87

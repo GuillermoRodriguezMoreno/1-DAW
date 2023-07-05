@@ -1,0 +1,99 @@
+====== Nombre Carrera =======
+Vuelta a Málaga
+======= Ciclistas Participantes ========
+Chris Froome(TEIN) 69.0 Gbr
+Egan Bernal(TEIN) 60.0 Col
+Geraint Thomas(TEIN) 71.0 Gbr
+Richard Carapaz(TEIN) 62.0 Ecu
+Michal Kwiatkowski(TEIN) 73.0 Pol
+Gianni Moscon(TEIN) 68.0 Ita
+Luke Rowe(TEIN) 73.0 Gbr
+Tao Geoghegan Hart(TEIN) 63.0 Gbr
+Julian Alaphilippe(DEQU) 61.0 Fra
+Mark Cavendish(DEQU) 70.0 Gbr
+Remco Evenepoel(DEQU) 64.0 Bel
+Zdenek Stybar(DEQU) 75.0 Cze
+Kasper Asgreen(DEQU) 76.0 Dnk
+Fabio Jakobsen(DEQU) 68.0 Nld
+Yves Lampaert(DEQU) 72.0 Bel
+Bob Jungels(DEQU) 70.0 Lux
+Peter Sagan(BOHA) 73.0 Svk
+Emmanuel Buchmann(BOHA) 63.0 Ger
+Lennard Kämna(BOHA) 69.0 Ger
+Emanuel Buchmann(BOHA) 67.0 Ger
+Felix Großschartner(BOHA) 65.0 Aut
+Wilco Kelderman(BOHA) 70.0 Ned
+Giovanni Aleotti(BOHA) 65.0 Ita
+Maximilian Schachmann(BOHA) 68.0 Ger
+Ben O'Connor(AGLA) 64.0 Aus
+Aurélien Paret-Peintre(AGLA) 62.0 Fra
+Bob Jungels(AGLA) 70.0 Lux
+Clement Champoussin(AGLA) 63.0 Fra
+Stan Dewulf(AGLA) 68.0 Bel
+Caleb Ewan(LOSO) 65.0 Aus
+John Degenkolb(LOSO) 78.0 Ger
+Philippe Gilbert(LOSO) 70.0 Bel
+Thomas De Gendt(LOSO) 67.0 Bel
+Tim Wellens(LOSO) 64.0 Bel
+Rigoberto Uran(EFED) 62.0 Col
+Michael Woods(EFED) 60.0 Can
+Magnus Cort(EFED) 69.0 Den
+Sergio Higuita(EFED) 59.0 Col
+Lachlan Morton(EFED) 66.0 Aus
+
+====== Clasificacion Final =======
+1º - 1 - Chris Froome (TEIN): 50
+2º - 10 - Mark Cavendish (DEQU): 51
+3º - 35 - Rigoberto Uran (EFED): 53
+4º - 7 - Luke Rowe (TEIN): 57
+5º - 16 - Bob Jungels (DEQU): 60
+6º - 21 - Felix Großschartner (BOHA): 60
+7º - 28 - Clement Champoussin (AGLA): 62
+8º - 3 - Geraint Thomas (TEIN): 63
+9º - 29 - Stan Dewulf (AGLA): 63
+10º - 9 - Julian Alaphilippe (DEQU): 65
+11º - 18 - Emmanuel Buchmann (BOHA): 65
+12º - 12 - Zdenek Stybar (DEQU): 66
+13º - 23 - Giovanni Aleotti (BOHA): 66
+14º - 5 - Michal Kwiatkowski (TEIN): 67
+15º - 19 - Lennard Kämna (BOHA): 67
+16º - 33 - Thomas De Gendt (LOSO): 68
+17º - 34 - Tim Wellens (LOSO): 68
+18º - 15 - Yves Lampaert (DEQU): 69
+19º - 17 - Peter Sagan (BOHA): 69
+20º - 38 - Sergio Higuita (EFED): 69
+21º - 11 - Remco Evenepoel (DEQU): 71
+22º - 4 - Richard Carapaz (TEIN): 72
+23º - 20 - Emanuel Buchmann (BOHA): 74
+24º - 22 - Wilco Kelderman (BOHA): 74
+25º - 13 - Kasper Asgreen (DEQU): 76
+26º - 2 - Egan Bernal (TEIN): 77
+27º - 6 - Gianni Moscon (TEIN): 77
+28º - 8 - Tao Geoghegan Hart (TEIN): 77
+29º - 14 - Fabio Jakobsen (DEQU): 77
+30º - 24 - Maximilian Schachmann (BOHA): 77
+31º - 25 - Ben O'Connor (AGLA): 77
+32º - 26 - Aurélien Paret-Peintre (AGLA): 77
+33º - 27 - Bob Jungels (AGLA): 77
+34º - 30 - Caleb Ewan (LOSO): 77
+35º - 31 - John Degenkolb (LOSO): 77
+36º - 32 - Philippe Gilbert (LOSO): 77
+37º - 36 - Michael Woods (EFED): 77
+38º - 37 - Magnus Cort (EFED): 77
+39º - 39 - Lachlan Morton (EFED): 77
+
+======= Podium =======
+Chris Froome(TEIN) 69.0 Gbr
+Mark Cavendish(DEQU) 70.0 Gbr
+Rigoberto Uran(EFED) 62.0 Col
+
+========= Clasificacion por equipos =========
+(TEIN)Team Ineos --> tiempo equipo: 170
+(DEQU)Deceuninck - Quick-Step --> tiempo equipo: 176
+(BOHA)Bora - Hansgrohe --> tiempo equipo: 191
+(EFED)EF Education First --> tiempo equipo: 199
+(AGLA)AG2R La Mondiale --> tiempo equipo: 202
+(LOSO)Lotto Soudal --> tiempo equipo: 213
+
+======= Posicion Wilco Kerderman (BOHA) =========
+24

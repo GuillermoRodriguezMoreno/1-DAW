@@ -1,0 +1,14 @@
+{
+  "id" : 25,
+  "num" : "025",
+  "name" : "Pikachu",
+  "type" : [ "Electric" ],
+  "height" : "0.41 m",
+  "weight" : "6.0 kg",
+  "weaknesses" : [ "Ground" ],
+  "prev_evolution" : null,
+  "next_evolution" : [ {
+    "num" : "026",
+    "name" : "Raichu"
+  } ]
+}
